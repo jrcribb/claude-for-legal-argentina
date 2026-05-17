@@ -1,8 +1,9 @@
 # claude-for-legal · Adaptación Argentina
 
-Fork de [anthropics/claude-for-legal](https://github.com/anthropics/claude-for-legal) configurado para práctica legal argentina.
-
-El repositorio original cubre 12 plugins y más de 80 agentes. Está construido íntegramente sobre derecho norteamericano: Delaware, Nueva York, common law, at-will employment, GDPR. Este fork agrega una capa de configuración argentina sin modificar los plugins originales.
+Configuración de Claude para práctica legal argentina. El material está construido
+sobre derecho argentino: CCCN, LCT, LDC, LGS, CPCCN/CPCCBA, y normas especiales.
+No requiere ningún repositorio externo para funcionar; puede usarse de forma
+autónoma desde Claude.ai Projects o Claude Code.
 
 ---
 
@@ -10,31 +11,34 @@ El repositorio original cubre 12 plugins y más de 80 agentes. Está construido 
 
 ```
 argentina/
-  CLAUDE.md                          # Perfil de práctica general (reemplaza al original)
-  administrativo-CLAUDE.md           # Perfil para derecho administrativo
-  civil-CLAUDE.md                    # Perfil para derecho civil (CCCN)
-  concursos-CLAUDE.md                # Perfil para concursos y quiebras (LCQ)
-  familia-CLAUDE.md                  # Perfil para derecho de familia
-  laboral-CLAUDE.md                  # Perfil para derecho del trabajo (LCT)
-  penal-CLAUDE.md                    # Perfil para derecho penal
-  societario-CLAUDE.md               # Perfil para derecho societario (LGS)
-  tributario-CLAUDE.md               # Perfil para derecho tributario
-  ejemplos-laboral.md                # Casos de liquidación resueltos con checklist de rubros
-  ejemplos-civil.md                  # Casos de responsabilidad civil y daños con checklist
-  ejemplos-societario.md             # Due diligence, pactos de accionistas y constitución
-  red-flags-contratos.md             # Lista de alertas para revisión de contratos
-  fuentes.md                         # Conectores a bases de datos normativas locales
-  diagnostico-SKILL.md               # Skill reutilizable de diagnóstico previo de escritos
-  setup-interview.md                 # Entrevista de configuración inicial del perfil
+  CLAUDE.md                         # Perfil general - cargar en todo Project
+  CHANGELOG.md                      # Historial de cambios normativos y del sistema
+  marcadores-GLOSARIO.md            # Glosario canónico de marcadores (fuente de verdad)
+  setup-interview.md                # Entrevista de configuración inicial
+  setup-output-TEMPLATE.md          # Template de output de la entrevista
+  diagnostico-SKILL.md              # Skill de diagnóstico previo (transversal)
+  diagnostico-casos-prueba.md       # Casos de prueba para verificar el skill
+  red-flags-contratos.md            # Alertas para revisión de contratos (activ. automática)
+  contratos-CLAUDE.md               # Perfil unificado para revisión y redacción de contratos
+  administrativo-CLAUDE.md          # Perfil derecho administrativo
+  civil-CLAUDE.md                   # Perfil derecho civil (CCCN)
+  concursos-CLAUDE.md               # Perfil concursos y quiebras (LCQ)
+  familia-CLAUDE.md                 # Perfil derecho de familia
+  laboral-CLAUDE.md                 # Perfil derecho del trabajo (LCT)
+  penal-CLAUDE.md                   # Perfil derecho penal
+  societario-CLAUDE.md              # Perfil derecho societario (LGS)
+  tributario-CLAUDE.md              # Perfil derecho tributario
+  ejemplos-civil.md                 # Casos de daños y responsabilidad civil
+  ejemplos-laboral.md               # Casos de liquidación con checklist de rubros
+  ejemplos-societario.md            # Due diligence y pactos de accionistas
+  fuentes.md                        # Conectores MCP y fuentes primarias
 ```
-
-Los plugins originales quedan intactos. Todo el material argentino vive en la carpeta `argentina/`.
 
 ---
 
-## Qué hace este fork
+## Qué hace este sistema
 
-**Configura el sistema para operar bajo:**
+**Opera bajo:**
 - CCCN (Ley 26.994) para contratos y obligaciones
 - LCT (Ley 20.744) y modificatorias para materia laboral
 - Ley 25.326 y disposiciones AAIP para privacidad y datos personales
@@ -42,27 +46,30 @@ Los plugins originales quedan intactos. Todo el material argentino vive en la ca
 - LDC (Ley 24.240) para contratos de consumo
 - LGS para societario
 
-**Reemplaza la lógica de common law en tres plugins críticos:**
-- `commercial-legal` - análisis de contratos bajo CCCN, no bajo consideration/indemnification caps
-- `employment-legal` - modelo de despido con indemnización obligatoria (art. 245 LCT), no at-will
-- `privacy-legal` - habeas data bajo Ley 25.326, no GDPR/DSAR
+**Reemplaza la lógica de common law en tres áreas críticas:**
+- Contratos: análisis bajo CCCN (no bajo consideration ni indemnification caps)
+- Laboral: modelo de despido con indemnización obligatoria art. 245 LCT (no at-will)
+- Privacidad: habeas data bajo Ley 25.326 (no GDPR/DSAR)
 
-**Agrega red flags específicas del derecho argentino** para revisión automática de contratos.
-
-**Incluye alertas de normas inestables integradas en cada perfil de área**, que marcan
-automáticamente las zonas con mayor riesgo de cambio normativo posterior al entrenamiento
-del modelo. Las alertas son nativas a cada perfil: no requieren paso de instalación separado.
+**Agrega:**
+- Red flags específicas del derecho argentino para revisión automática de contratos
+- Glosario canónico de marcadores estandarizados para señalar vacíos e inconsistencias
+- Protocolo de alucinación normativa: el sistema detiene la redacción si detecta que citó una norma sin respaldo
+- Routing automático hacia perfiles de área según la rama del derecho de la consulta
+- Alertas de normas inestables integradas en cada perfil con fecha de última verificación
+- Casos de prueba para verificar que el skill de diagnóstico funciona correctamente
 
 ---
 
 ## Antes de empezar
 
 Necesitás:
-- Cuenta de Claude.ai con plan Pro
-- Claude Cowork (aplicación de escritorio, descargable desde claude.ai)
-- Cuenta de GitHub gratuita
+- Cuenta de Claude.ai con plan Pro o Team
+- Opcionalmente: Claude Code (terminal) o Claude Cowork (escritorio) para flujos más automatizados
 
-No necesitás saber programar para la configuración base. Para conectar fuentes normativas locales (fase 2), vas a necesitar ayuda técnica.
+No necesitás saber programar para la configuración base en Claude.ai Projects.
+Para conectar fuentes normativas locales (fase 2, ver `fuentes.md`), vas a necesitar
+acceso a Claude Code o ayuda técnica para instalar los conectores MCP.
 
 ---
 
@@ -74,30 +81,50 @@ Hacé click en "Fork" arriba a la derecha. Eso crea una copia en tu cuenta. No d
 
 ### Paso 2: Perfil de práctica general
 
-Abrí `argentina/CLAUDE.md` y cargá su contenido en las instrucciones del Project de Claude que vas a usar para práctica general. Completá la sección "Documentos semilla de la firma" con tus propios documentos de referencia: contratos tipo, escritos representativos, modelos internos. Es la sección de mayor impacto práctico en la calidad del output.
+Abrí `argentina/CLAUDE.md` y cargá su contenido en las instrucciones del Project
+de Claude que vas a usar para práctica general.
+
+**Para configuración personalizada:** corrí la entrevista de `setup-interview.md`
+antes de cargar el CLAUDE.md. La entrevista genera un CLAUDE.md personalizado
+con tu jurisdicción, áreas de práctica, CCT habitual y preferencias de formato.
+El template de output está en `setup-output-TEMPLATE.md`.
+
+Sin configuración personalizada: el CLAUDE.md genérico funciona pero opera con
+supuestos genéricos de jurisdicción y área.
 
 ### Paso 3: Perfiles por área
 
-Para cada área de práctica que uses, abrí el archivo correspondiente y completá las variables de la sección "Configuración inicial" al inicio del archivo. Cada variable tiene un ejemplo concreto. Las variables mínimas son fuero habitual y rol predominante; sin ellas el sistema opera con supuestos genéricos.
+Para cada área de práctica que uses, cargá el perfil correspondiente junto con
+el CLAUDE.md general en las instrucciones del Project. Cada perfil incluye
+instrucciones para activar sus archivos complementarios (ejemplos, red-flags).
 
 Los perfiles disponibles:
 
-| Archivo | Área | Variable crítica | Alertas |
+| Archivo | Área | Complementos | Alertas |
 |---|---|---|---|
-| `laboral-CLAUDE.md` + `ejemplos-laboral.md` | Derecho del trabajo (LCT) | CCT_HABITUAL para el tope art. 245 | DNU 70/2023, topes art. 245, tasas CNAT |
-| `administrativo-CLAUDE.md` | Derecho administrativo | FUERO_HABITUAL para los plazos procesales | Plazos de caducidad, contratación pública |
-| `civil-CLAUDE.md` + `ejemplos-civil.md` | Derecho civil (CCCN) | AREAS_PRACTICA | Tasas de interés, fórmulas de daños |
-| `penal-CLAUDE.md` | Derecho penal | ESPECIALIDADES | Umbrales penales, código procesal vigente |
-| `familia-CLAUDE.md` | Derecho de familia | AREAS_PRACTICA | Cuotas alimentarias, régimen de alquileres |
-| `societario-CLAUDE.md` + `ejemplos-societario.md` | Societario y M&A | JURISDICCION_INSCRIPCION (IGJ / DPPJ) | Resoluciones IGJ/DPPJ, capital mínimo |
-| `tributario-CLAUDE.md` | Derecho tributario | TRIBUTOS_FRECUENTES | Alícuotas, MNI, umbrales de punibilidad |
-| `concursos-CLAUDE.md` | Concursos y quiebras (LCQ) | ROL_PREDOMINANTE | Tasas post-concursales, reformas LCQ |
+| `laboral-CLAUDE.md` | Derecho del trabajo (LCT) | `ejemplos-laboral.md` | DNU 70/2023, topes art. 245, tasas CNAT |
+| `administrativo-CLAUDE.md` | Derecho administrativo | - | Plazos de caducidad, contratación pública |
+| `civil-CLAUDE.md` | Derecho civil (CCCN) | `ejemplos-civil.md` | Tasas de interés, fórmulas de daños por fuero |
+| `penal-CLAUDE.md` | Derecho penal | - | Umbrales penales, código procesal vigente |
+| `familia-CLAUDE.md` | Derecho de familia | - | Cuotas alimentarias, régimen de alquileres |
+| `societario-CLAUDE.md` | Societario y M&A | `ejemplos-societario.md` | Resoluciones IGJ/DPPJ, capital mínimo |
+| `tributario-CLAUDE.md` | Derecho tributario | - | Alícuotas, MNI, umbrales de punibilidad |
+| `concursos-CLAUDE.md` | Concursos y quiebras (LCQ) | - | Tasas post-concursales, reformas LCQ |
+| `contratos-CLAUDE.md` | Revisión y redacción de contratos | `red-flags-contratos.md` | Régimen cambiario, locaciones, intertemporalidad |
 
-Cargá el perfil del área junto con el `CLAUDE.md` general en las instrucciones del Project correspondiente. Las alertas de normas inestables ya están incluidas en cada perfil: no se requiere ningún paso adicional de instalación.
+`red-flags-contratos.md` se activa automáticamente desde el CLAUDE.md general
+ante cualquier contrato aportado en sesión; no requiere cargarlo por separado
+salvo que se use el perfil de contratos dedicado.
 
-### Paso 4: Plugins críticos
+### Paso 4: Configuración del skill de diagnóstico
 
-Para los tres plugins del repo original que requieren reescritura completa de lógica, el `CLAUDE.md` argentino incluye instrucciones específicas por sección. Ver el archivo para el detalle.
+Cargá `diagnostico-SKILL.md` en cualquier Project donde quieras que el sistema
+diagnostique escritos antes de modificarlos. Puede cargarse solo o junto con
+cualquier perfil de área.
+
+Para verificar que el skill funciona correctamente, usá `diagnostico-casos-prueba.md`:
+pegá uno de los tres escritos de prueba y comparás el output del sistema con
+el diagnóstico esperado documentado en el archivo.
 
 ---
 
@@ -133,7 +160,10 @@ Conectores de la comunidad que apuntan directamente a las fuentes oficiales arge
 | [guidobonomini/argentina-law-mcp-server](https://github.com/guidobonomini/argentina-law-mcp-server) | Praxis local | Análisis semántico, glosario judicial |
 | [datos-justicia-argentina/Tesauro-Saij](https://github.com/datos-justicia-argentina/Tesauro-Saij-de-Derecho-Argentino) | SAIJ | Vocabulario controlado para búsqueda jurídica |
 
-No son necesarios para empezar. Los plugins funcionan con el perfil de práctica como única configuración. Los conectores son la segunda capa: permiten que el sistema consulte InfoLEG automáticamente antes de analizar una norma.
+No son necesarios para empezar. Los perfiles funcionan solos como única configuración.
+Los conectores son la segunda capa: permiten que el sistema consulte InfoLEG automáticamente
+antes de analizar una norma. Ver `fuentes.md` para instrucciones de verificación de estado
+y fallback de cada conector.
 
 ---
 
@@ -188,14 +218,18 @@ Todo output del sistema es un borrador. No sabe qué pasó en la negociación, n
 
 El sistema tiene dos ciclos de actualización con distinta frecuencia:
 
-**Perfiles de área (`*-CLAUDE.md`):** actualizar cuando cambia un instituto central del área
-(nueva ley, reforma procesal, cambio de criterio CSJN en un tema estructural) o cuando
-cambia una norma listada en la sección `## Alerta normativa` de ese perfil.
+**Perfiles de área (`*-CLAUDE.md`):** actualizar cuando cambia un instituto central
+del área (nueva ley, reforma procesal, cambio de criterio CSJN en un tema estructural)
+o cuando cambia una norma listada en la sección `## Alerta normativa` de ese perfil.
 Frecuencia orientativa: continua para alertas normativas; semestral para el resto.
 
-Para actualizaciones urgentes (reforma procesal, cambio de régimen tributario, nuevo tope
-indemnizatorio): modificar directamente la sección `## Alerta normativa` del perfil afectado.
-Esa sección tiene el impacto más inmediato en los marcadores que el sistema emite.
+Para actualizaciones urgentes (nueva tasa CNAT, cambio de tope art. 245, reforma
+procesal): modificar directamente la sección `## Alerta normativa` del perfil
+afectado y registrar el cambio en `CHANGELOG.md`. Esa sección tiene el impacto
+más inmediato en los marcadores que el sistema emite.
+
+La tabla de normas de alta volatilidad del `CHANGELOG.md` lista los datos con
+mayor frecuencia de cambio y la fecha de última verificación de cada uno.
 
 
 
