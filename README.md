@@ -5,6 +5,8 @@ sobre derecho argentino: CCCN, LCT, LDC, LGS, CPCCN/CPCCBA, y normas especiales.
 No requiere ningún repositorio externo para funcionar; puede usarse de forma
 autónoma desde Claude.ai Projects o Claude Code.
 
+Cada perfil codifica las reglas que cambian el resultado: plazos diferenciados entre días hábiles administrativos y judiciales, alertas automáticas de caducidad con la norma y el artículo exacto, marcadores obligatorios cuando falta el acto notificado o el expediente, lógica de agotamiento de vía antes de analizar cualquier acción judicial, distinción entre regímenes que se confunden habitualmente (Dec 1510/97 vs. Ley 189 CCAyT, LCT vs. estatutos sectoriales, régimen federal pre y post-reforma Ley 27.742). El sistema no inventa fallos, no completa vigencia normativa cuando no tiene fuente verificable, no asume el contenido de actos o expedientes que el abogado no aportó. Cada gap tiene un marcador explícito con lo que falta para resolverlo.
+
 ---
 
 ## Estructura
