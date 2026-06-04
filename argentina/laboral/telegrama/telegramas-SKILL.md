@@ -209,5 +209,5 @@ Antes de entregar el borrador final:
 ---
 
 *Ultima actualizacion: junio 2026*  
-*Normativa base: LCT (Ley 20.744 reformada por DNU 70/2023 + Ley 27.742 + Ley 27.802 + Decreto 407/2026), Ley 24.013, Ley 25.323, Ley 25.345*
+*Normativa base: LCT (Ley 20.744 reformada por DNU 70/2023 + Ley 27.742 + Ley 27.802 + Decreto 407/2026 + Decreto 408/2026 + Decreto 409/2026 + RG ARCA 5848/2026 + Decreto 315/2026), Ley 24.013, Ley 25.323, Ley 25.345*
 *Ley 27.802 vigente en forma plena desde 23/4/2026 (Sala VIII CNAT, efecto suspensivo apelación Estado). Acción de fondo CGT ante fuero contencioso administrativo federal sin cautelar activa (Juzgado CAF N°12, 8/5/2026).*
