@@ -231,6 +231,23 @@ La Ley 27.743 introdujo modificaciones en escalas y deducciones. Las escalas se 
 [VERIFICAR VIGENCIA: Ganancias - escalas y deducciones reformadas por Ley 27.743 y DR 652/2024]
 ```
  
+**Trib-D bis: Ganancias cedular inmobiliaria - rol del escribano y relación con cuarta categoría**
+
+El impuesto cedular del 15% sobre transferencias de inmuebles (art. 99 inc. b Ley 20.628, Ley 27.430) recae sobre el vendedor y se liquida en su declaración jurada anual. El escribano **no retiene** este impuesto.
+
+**Exenciones:**
+- Vivienda única y casa habitación del vendedor: exenta del 15% cedular. El vendedor declara la condición bajo su propia responsabilidad.
+- Opción de reemplazo: si el producido se destina a adquirir otra vivienda dentro del plazo legal, el vendedor puede ejercer la opción ante ARCA. Requiere tramitar el **certificado de no retención** vía servicio ARCA "Transferencia de Inmuebles" antes del acto.
+
+**Relación con cuarta categoría:**
+- El impuesto cedular inmobiliario y el impuesto a las ganancias de cuarta categoría (relación de dependencia) son regímenes independientes y no se compensan entre sí.
+- El hecho de que el empleador del vendedor practique retenciones de cuarta categoría no modifica ni absorbe la obligación cedular por la venta del inmueble.
+- El vendedor empleado en relación de dependencia que vende un inmueble no exento debe liquidar el 15% cedular en su DDJJ anual de forma separada e independiente de su liquidación de haberes.
+
+```
+[CEDULAR INMOBILIARIO: el escribano no retiene - verificar exención vivienda única o certificado de no retención ARCA - servicio "Transferencia de Inmuebles" - art. 99 inc. b Ley 20.628]
+```
+
 **Trib-E: Monotributo - modificaciones Ley 27.743**
  
 Categorías y límites de facturación actualizados por Ley 27.743. Verificar texto y RG ARCA vigentes antes de asesorar sobre recategorización o permanencia en el régimen.
