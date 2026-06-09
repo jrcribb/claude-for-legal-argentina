@@ -209,7 +209,15 @@ Secuencia obligatoria antes de autorizar:
 7. Verificar asentimiento convivencial si el inmueble integra la vivienda familiar de una unión convivencial inscripta (art. 522 CCCN).
 8. Verificar afectación a vivienda (ex bien de familia) - requiere desafectación previa o simultánea.
 9. Control UIF: origen de fondos, segmentación de cliente (bajo / medio / alto riesgo), verificación PEP, Res. UIF 242/2023. Si el cliente es de riesgo bajo, no se requiere documentación respaldatoria independientemente del monto.
-10. Calcular retención de Ganancias cedular (Ley 27.430) - verificar exención por vivienda única. El ITI está derogado y no aplica a ninguna operación vigente.
+10. Ganancias cedular (Ley 27.430 - art. 99 inc. b Ley 20.628): el escribano NO retiene ni calcula este impuesto. El vendedor lo liquida en su declaración jurada anual al 15% sobre el resultado de la venta. Rol del escribano: verificar si aplica exención o la opción de reemplazo.
+    - **Exención vivienda única / casa habitación:** si el inmueble vendido es la única vivienda del vendedor y su único inmueble, está exento del 15% cedular. El vendedor declara esa condición bajo su propia responsabilidad.
+    - **Opción de reemplazo:** si el vendedor destinará los fondos a adquirir una nueva vivienda dentro del plazo legal, puede ejercer la opción. En ese caso debe obtener previamente el **certificado de no retención** a través del servicio ARCA "Transferencia de Inmuebles". Sin ese certificado no hay constancia de la opción ejercida.
+    - El ITI (Ley 23.905) está derogado desde el 8/7/2024 (art. 67 Ley 27.743). No aplica a ninguna operación vigente.
+    - La retención de cuarta categoría que practica el empleador del vendedor (si es empleado en relación de dependencia) corresponde a un régimen distinto y no se compensa ni interactúa con el cedular inmobiliario.
+
+```
+[CEDULAR INMOBILIARIO: el escribano no retiene - verificar exención vivienda única o certificado de no retención ARCA - servicio "Transferencia de Inmuebles" - Ley 27.430 art. 99 inc. b Ley 20.628]
+```
 11. Calcular Impuesto de Sellos según jurisdicción `[VERIFICAR JURISDICCIÓN]`
 12. Verificar deudas de expensas (PH), ABL, ARBA o rentas locales.
 
@@ -386,7 +394,7 @@ Secuencia obligatoria antes de autorizar:
 
 1. No completar datos registrales (folio, matrícula, tomo, nomenclatura catastral, partida inmobiliaria) sin el certificado aportado. Si falta el dato: `[CERTIFICADO REGISTRAL PENDIENTE: tipo de certificado requerido]`
 2. No asumir que un inmueble no tiene afectación a vivienda sin el certificado del RPI.
-3. No calcular retenciones impositivas sin verificar régimen aplicable. El ITI está derogado: la retención corresponde siempre a Ganancias cedular salvo exención acreditada.
+3. No asumir que el escribano retiene el impuesto cedular inmobiliario: el escribano NO practica retención del 15% cedular (Ley 27.430 - art. 99 inc. b Ley 20.628). Ese impuesto lo liquida el vendedor en su DDJJ anual. El rol del escribano es verificar si aplica exención (vivienda única / casa habitación) o si el vendedor debe obtener el certificado de no retención ARCA (opción de reemplazo) antes del acto. El ITI (Ley 23.905) está derogado desde el 8/7/2024 y no aplica a ninguna operación vigente.
 4. No afirmar capacidad de obrar sin los elementos que la acreditan. Para personas jurídicas: estatuto, acta de designación de autoridades, vigencia del mandato.
 5. No citar jurisprudencia registral sin material aportado: `[INSERTAR FALLO VERIFICADO: doctrina requerida]`
 6. No asumir régimen patrimonial matrimonial. Ante vendedor casado: verificar si existe convención matrimonial de separación de bienes inscripta (art. 463 CCCN) antes de aplicar los artículos de asentimiento ganancial. No asumir comunidad por defecto.
@@ -435,7 +443,7 @@ Las reglas generales del CLAUDE.md argentino aplican íntegramente. Específicas
 - No completar datos registrales sin certificado aportado. No asumir que el inmueble no tiene cargas, inhibiciones ni cautelares sin el certificado vigente.
 - En poderes irrevocables: verificar que existe interés legítimo del mandatario o tercero (art. 380 inc. b CCCN). Sin ese elemento, el poder es revocable por definición.
 - En tracto abreviado: no estructurar el acápite "Corresponde" sin los datos completos del auto judicial (juez, secretaría, carátula, número de expediente, fecha, RPI de inscripción).
-- No cuantificar impuestos ni retenciones sin verificar el régimen aplicable y la jurisdicción. El ITI está derogado. Ganancias cedular aplica salvo exención acreditada.
+- No asumir que el escribano retiene el impuesto cedular inmobiliario. El cedular (15%) es obligación del vendedor en su DDJJ anual; el escribano verifica exención o gestión del certificado de no retención ARCA. El ITI está derogado desde el 8/7/2024. Para Sellos: verificar jurisdicción y ley impositiva vigente.
 - Todo escrito o escritura cierra con "Estado del escrito" estándar más los campos específicos notariales:
   - Certificados registrales pendientes (con tipo y vencimiento)
   - Normas con `[VERIFICAR JURISDICCIÓN]` o `[VERIFICAR VIGENCIA]` pendientes
@@ -451,7 +459,7 @@ Usar los marcadores canónicos del sistema (ver `marcadores-GLOSARIO.md`) más e
 - `[CERTIFICADO REGISTRAL PENDIENTE: tipo de certificado requerido]`
 - `[VERIFICAR ASENTIMIENTO: identificar cónyuge/conviviente y régimen patrimonial]`
 - `[CONTROL UIF PENDIENTE: dato faltante]`
-- `[RETENCIÓN FISCAL: calcular según régimen aplicable al vendedor]`
+- `[CEDULAR INMOBILIARIO: el escribano no retiene - verificar exención vivienda única o certificado de no retención ARCA - servicio "Transferencia de Inmuebles"]`
 - `[DESAFECTACIÓN VIVIENDA REQUERIDA]`
 - `[REPRESENTACIÓN: verificar vigencia y facultades]`
 - `[ADECUACIÓN PH/CI REQUERIDA: arts. 2038 / 2073 CCCN]`
