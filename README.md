@@ -109,12 +109,16 @@ argentina/
       modelos/                      # Excarcelación, probation, hábeas corpus, nulidad de allanamiento, casación
   societario-CLAUDE.md              # Perfil derecho societario (LGS)
   tributario-CLAUDE.md              # Perfil derecho tributario
+  transito-CLAUDE.md                # Perfil infracciones y multas de tránsito
+  transito/
+    descargos/
+      descargos-SKILL.md            # Skill de descargos y recursos de tránsito
+      modelos/                      # 7 modelos por causal (nulidad, urgencia, denuncia de venta, art. 71, recurso)
   ejemplos-civil.md                 # Casos de daños y responsabilidad civil
   ejemplos-laboral.md               # Casos laborales
   ejemplos-societario.md            # Due diligence y pactos de accionistas
   ejemplos-penal.md                 # Escenarios de práctica penal anotados
   fuentes.md                        # Conectores MCP y fuentes primarias
-  macos-automation.md               # Módulo opcional - automatización de escritorio macOS (Claude Code)
   legal.local.md.template           # Template de configuración local del estudio (por rama del derecho)
   evals/                            # Casos de control para verificar perfiles de área
     evals-README.md                 # Formato estándar y áreas prioritarias
@@ -362,6 +366,7 @@ Los plugins disponibles corresponden a las áreas de práctica cubiertas por est
 | `societario-CLAUDE.md` | Societario y M&A | `ejemplos-societario.md` | Resoluciones IGJ/DPPJ, capital mínimo |
 | `tributario-CLAUDE.md` | Derecho tributario | - | Alícuotas, MNI, umbrales de punibilidad |
 | `concursos-CLAUDE.md` | Concursos y quiebras (LCQ) | - | Tasas post-concursales, reformas LCQ |
+| `transito-CLAUDE.md` | Infracciones y multas de tránsito (Nacional/ANSV-SINAI, CABA, PBA y 22 provincias) | `transito/descargos/` (skill + 7 modelos por causal) | Valor de la UF, % de pago voluntario, plazos por jurisdicción, art. 71 (defensa a distancia) |
 | `contratos/CLAUDE.md` | Revisión y redacción de contratos | `contratos/red-flags.md` | Régimen cambiario, locaciones, intertemporalidad |
 | `especialidades/medicina-legal-CLAUDE.md` | Pericia médica forense (penal / civil / seguridad social) | - | CPPF implementación por distrito, baremos por tribunal |
 | `especialidades/notarial/notarial-CLAUDE.md` + `especialidades/notarial/notarial-clausulas.md` | Derecho notarial (escrituras traslativas, donaciones, poderes, actas, sucesiones extrajudiciales, compliance UIF) | - | Res. UIF 242/2023 (umbrales SMVM indexados), Impuesto de Sellos (anual por jurisdicción), prehorizontalidad art. 2071 (reglamentación provincial), régimen de sinceramiento fiscal vigente |
@@ -439,7 +444,6 @@ Requieren instalación por comando o manual. Los conectores con `uvx` requieren 
 | juscaba-mcp | JUSCABA | Jurisprudencia fueros nacionales con sede en CABA | `claude mcp add juscaba-mcp -- uvx juscaba-mcp` · [GitHub](https://github.com/hernan-cc/juscaba-mcp) |
 | saij-mcp (Escalante) | SAIJ | Investigación profunda: grafo legal, OCR para PDFs históricos | [GitHub](https://github.com/joaquinescalante23/saij-mcp) |
 | guidobonomini | Local | Análisis semántico y terminológico de textos jurídicos | [GitHub](https://github.com/guidobonomini/argentina-law-mcp-server) |
-| macos-use | Desktop | Automatización de portales sin API (PJN, SCBA, IGJ) - solo Mac, solo Claude Code | [GitHub](https://github.com/mediar-ai/mcp-server-macos-use) |
 
 **Ecosistema Hernán Caravario (hernan-cc):** saij-mcp, csjn-mcp y juscaba-mcp son parte del mismo ecosistema. Podés instalar los tres en simultáneo; Claude elige cuál usar según la consulta. Ver todos en [github.com/hernan-cc](https://github.com/hernan-cc).
 
@@ -555,6 +559,13 @@ Accedé directamente y pegá el texto en la sesión. Son la fuente de verdad ant
 - Aplicar compliance UIF 242/2023 con segmentación de clientes por nivel de riesgo y umbrales indexados por SMVM
 - Generar cláusulas tipo para los actos más frecuentes del protocolo: asentimiento conyugal, entrega de posesión, origen de fondos, tracto abreviado, usufructo vitalicio con derecho de acrecer, dispensa de colación, poder irrevocable, constatación de entorno digital
 - Verificar cadena dominial, certificados registrales y plazos de vigencia según jurisdicción del RPI
+
+**Tránsito:**
+- Redactar descargos y recursos contra multas e infracciones de tránsito en cualquier jurisdicción (Nacional/ANSV-SINAI, CABA, PBA y las 22 provincias, con la norma de adhesión a la Ley 24.449 verificada por jurisdicción)
+- Identificar la autoridad de juzgamiento competente y la vía recursiva según el organismo que labró el acta, sin transpolar plazos ni institutos entre jurisdicciones
+- Aplicar el art. 71 de la Ley 24.449 (defensa por escrito a distancia a más de 60 km), distinguiéndolo de la prórroga de jurisdicción que exige convenio de reciprocidad, y advertir el bloqueo del art. 72 por retención de licencia
+- Impugnar fotomultas por falta de homologación del cinemómetro, denuncia de venta anterior al hecho, error de identificación, falta de notificación en término o prescripción de la acción de falta
+- Advertir el efecto registral del CENAT: la ANSV no puede trabar la renovación de la licencia mientras el descargo esté pendiente o la multa no esté firme y consentida
 
 ---
 

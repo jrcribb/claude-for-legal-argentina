@@ -722,29 +722,6 @@ sobre HTTP/SSE o stdio.
 
 ---
 
-## Módulo de automatización de escritorio (macOS)
-
-`macos-use` no es un conector a fuentes jurídicas sino una capa de automatización
-de apps macOS. Se documenta aquí porque se instala como servidor MCP junto con
-los conectores de fuentes.
-
-**Solo aplica a:** Claude Code en Mac con macOS 13+. No aplica a Claude.ai web
-ni a entornos Windows/Linux.
-
-**Instalación en Claude Code:**
-```bash
-claude mcp add macos-use -- npx -y mcp-server-macos-use
-```
-
-Requiere permiso de Accesibilidad en el terminal. Ver instrucciones completas
-en `argentina/macos-automation.md`.
-
-**Casos de uso jurídicos:** portales judiciales sin API (PJN, MEJ, SCBA),
-carga de escritos en sistemas de gestión, formularios de organismos administrativos
-(IGJ, AFIP desktop, ANSES), adjuntar y enviar documentos generados por el sistema.
-
----
-
 ## Contribuciones
 
 Si desarrollás un conector para una fuente listada en "Integraciones en seguimiento"

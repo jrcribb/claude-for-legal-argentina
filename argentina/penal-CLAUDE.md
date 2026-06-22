@@ -168,6 +168,16 @@ Las reglas generales del CLAUDE.md argentino aplican íntegramente. Se agregan e
 
 ---
 
+## Metodología de trabajo del caso
+
+Pasos previos al análisis de fondo, aplicables a cualquier fuero:
+
+- Diagnóstico provisorio y definitivo: el primer diagnóstico se arma con lo que aporta el cliente; el definitivo, recién después de compulsar el expediente. No fijar estrategia sobre la versión del cliente sin contrastarla con las constancias.
+- Determinación de objetivos: separar los objetivos de fondo (absolución, cambio de calificación, nulidad, extinción de la acción) de los objetivos de libertad (eximición, excarcelación, cese de prisión preventiva, morigeración). Pueden perseguirse en paralelo y por vías distintas.
+- Regla de incorporación al debate: lo actuado en la investigación no rige por sí en el juicio; lo que no se incorpora al debate -por producción oral o por lectura cuando la ley lo admite- no puede fundar la sentencia. El ofrecimiento de prueba para el juicio es definitorio: planificarlo desde el diagnóstico definitivo.
+
+---
+
 ## Lógica de análisis por etapa procesal
 
 ### Etapa de investigación / instrucción
@@ -210,6 +220,21 @@ Marco de análisis (aplicar según fuero):
 **Jurisprudencia cargada (ver penal-DOCTRINA.md; verificar texto íntegro antes de transcribir):**
 - CSJN: "Nápoli" (Fallos 321:3633), "Nánez" (Fallos 327:2403), "Véliz" (causa 5640, 15/6/2010) y el plenario "Díaz Bessone" (C.N.C.P.) - inconstitucionalidad del automatismo por la sola gravedad del delito; la libertad es la regla; el peligro procesal debe fundarse en datos objetivos.
 - Corte IDH: "Suárez Rosero", "Bayarri vs. Argentina", "Jenkins vs. Argentina", "Tzompaxtle Tecpile vs. México", "García Rodríguez vs. México" - prisión preventiva como medida cautelar excepcional; no es pena anticipada; la carga de probar el peligro procesal recae en la acusación.
+
+### Eximición de prisión y excarcelación
+
+Institutos diferenciados de las alternativas a la prisión preventiva: operan como remedios para obtener o conservar la libertad durante el proceso. La denominación y los presupuestos varían por fuero; lo que sigue toma como referencia el CPPBA y no se transpola sin verificación a CPPN, CPPF ni CPPCABA.
+
+- Eximición de prisión: se pide para evitar que se haga efectiva una orden de detención antes de la privación de libertad. Procede cuando, por la escala penal o por la ausencia de peligros procesales, correspondería que el imputado transite el proceso en libertad.
+- Excarcelación: procede cuando el imputado ya está detenido.
+  - Ordinaria: fundada en las escalas penales y pautas legales (art. 169 CPPBA [VERIFICAR VIGENCIA]).
+  - Extraordinaria: fundada en la valoración objetiva de ausencia de peligro procesal o en circunstancias particulares -por ejemplo, enfermedad grave-, aun cuando la escala penal no habilite la vía ordinaria.
+
+La denegatoria de la excarcelación es impugnable; verificar recurso y plazo en el código aplicable al fuero.
+
+```
+[VERIFICAR CRITERIO DEL FUERO: nomenclatura y presupuestos de eximición de prisión y excarcelación - el CPPBA los regula como institutos autónomos (art. 169 y concordantes); otros códigos canalizan la cuestión por la vía de la prisión preventiva y sus alternativas]
+```
 
 ### Declaración del imputado
 
@@ -381,6 +406,21 @@ La improcedencia de la probation en causas de violencia de género tiene anclaje
 
 ---
 
+### Etapa intermedia y control de la acusación
+
+Fase de control de la acusación entre el cierre de la investigación y el juicio. El fiscal requiere la elevación a juicio; la defensa puede oponerse, deducir excepciones o nulidades, o pedir el sobreseimiento.
+
+Requisito central de la requisitoria fiscal: la imputación debe contener una narración clara, precisa y circunstanciada del hecho. La vaguedad o la ambigüedad en la descripción del hecho afecta el derecho de defensa y puede fundar nulidad o sobreseimiento.
+
+Vías según el fuero:
+- CPPBA: si queda prueba pendiente, la defensa puede recurrir ante el Fiscal General (art. 334 CPPBA [VERIFICAR VIGENCIA]). La apelabilidad de la resolución de elevación a juicio depende del código procesal.
+- En sistemas acusatorios (CPPF, CPPCABA): el control de la acusación se canaliza en audiencia; verificar el mecanismo específico del fuero.
+
+Preguntas de diagnóstico:
+- ¿La requisitoria describe el hecho con precisión o adolece de vaguedad?
+- ¿Hay prueba pendiente de producción que justifique la oposición?
+- ¿Procede excepción, nulidad o pedido de sobreseimiento en esta etapa?
+
 ### Juicio oral
 
 Estructura del análisis pre-juicio:
@@ -457,7 +497,7 @@ Normativa por fuero (verificar artículo específico):
 - CPPN: arts. 166 y ss.
 - CPPF: arts. 114 y ss.
 - CPPCABA: arts. 71 y ss.
-- CPPBA: arts. 201 y ss.
+- CPPBA: arts. 201 (especificidad y trascendencia), 202 (nulidades generales), 203 (declaración de oficio), 205 (oportunidad de articulación bajo sanción de caducidad), 206 (saneamiento) y 207 (efectos) [VERIFICAR VIGENCIA]
 
 Marco de análisis:
 
@@ -465,9 +505,15 @@ Marco de análisis:
 
 **Nulidades relativas:** vicios que no afectan garantías constitucionales. Deben ser planteadas por la parte interesada en la oportunidad procesal correspondiente; si no se plantean en tiempo, se sanean.
 
+**Principio de especificidad o taxatividad:** rige el sistema legalista - un acto es nulo solo en los supuestos expresamente previstos por la ley (art. 201 CPPBA). No hay nulidad por analogía.
+
 **Principio de trascendencia:** no hay nulidad sin perjuicio. El planteo debe demostrar el perjuicio concreto que el vicio causó al derecho de defensa; la nulidad no procede si el acto cumplió su finalidad.
 
-**Principio de convalidación:** quien consintió expresa o tácitamente el acto viciado no puede luego impugnarlo por nulidad.
+**Principio de instrumentalidad de las formas:** las formas no son un fin en sí mismas. Si el acto defectuoso alcanzó su finalidad sin lesionar garantías, conserva validez.
+
+**Principio de convalidación:** quien consintió expresa o tácitamente el acto viciado no puede luego impugnarlo por nulidad. Las nulidades relativas se sanean si no se plantean en la primera oportunidad posterior al conocimiento del vicio.
+
+**Principio de conservación y economía procesal:** se prioriza la validez de lo actuado y se evitan retrocesos innecesarios cuando el vicio es subsanable o no causó perjuicio.
 
 Oportunidades para plantear:
 - Durante la instrucción/investigación: en el acto o inmediatamente después de conocido el vicio
@@ -486,6 +532,43 @@ Alertas específicas:
 - La nulidad de un acto puede arrastrar la de los actos que de él dependan (nulidad derivada - teoría del fruto del árbol envenenado)
 - En sistemas acusatorios (CPPF, CPPCABA, CPPBA): las nulidades se canalizan principalmente como excepciones o planteos en audiencia; verificar el mecanismo específico del fuero
 - Nulidad de la detención: impacta directamente sobre la validez de los actos posteriores (declaración, allanamiento, secuestro)
+
+Jurisprudencia sobre interpretación restrictiva de las nulidades (leads a verificar - sin cita completa):
+```
+[INSERTAR FALLO VERIFICADO: CSJN - "Bianchi" (2002), interpretación restrictiva de las nulidades / no hay nulidad sin perjuicio irreparable]
+[INSERTAR FALLO VERIFICADO: sala/fuero - "G. Domingo Fernando" (2019), nulidad relativa por falta de testigos del acta cuando no se demuestra falsedad ni perjuicio concreto]
+```
+
+---
+
+## Prueba: libertad probatoria, valoración y regla de exclusión
+
+**Libertad probatoria:** puede producirse cualquier medio de prueba que no afecte garantías constitucionales. El límite es la regla de exclusión: la prueba obtenida con violación de garantías es inválida.
+
+**Medios de prueba (notas operativas):**
+- Testimonial: rigen la capacidad para atestiguar, las prohibiciones y el deber de abstención (secreto profesional, vínculo familiar). Verificar en el código del fuero quién está exento o prohibido de declarar.
+- Pericial: peritos oficiales y de parte; el dictamen no obliga al juez, que lo valora de modo fundado.
+- Documental: instrumentos públicos (hacen fe por sí) y privados (pueden requerir reconocimiento de firma o pericia caligráfica). En juicio, la incorporación suele ser por lectura.
+
+**Valoración - sana crítica y psicología del testimonio:**
+La valoración se vuelca en sentencia motivada bajo sana crítica racional. En materia testimonial conviene distinguir:
+- Sinceridad: el testigo cree decir la verdad.
+- Veracidad: el relato coincide con lo ocurrido.
+
+La confianza del testigo no garantiza exactitud: hay "errores sinceros" por fallas en la percepción, la interpretación, la memoria o la recuperación del recuerdo. La distinción es central en delitos sin prueba directa (delitos sexuales, identificación de personas). Como referencia doctrinaria -no como autoridad argentina- la literatura sobre fiabilidad de la identificación de testigos remite a jurisprudencia estadounidense (Neil v. Biggers, 1972; Manson v. Brathwaite, 1976).
+
+**Regla de exclusión probatoria y nulidad derivada:**
+La prueba obtenida mediante un acto ilegal o lesivo de garantías debe descartarse. Por la teoría del fruto del árbol envenenado, la invalidez se extiende a los actos que dependan causalmente del vicio inicial; la extensión requiere nexo causal concreto.
+
+Excepciones que permiten que la prueba subsista (su invocación pesa sobre la acusación):
+- Fuente independiente: la prueba se obtuvo por un cauce de investigación lícito y paralelo, ajeno al vicio.
+- Descubrimiento inevitable: la evidencia se habría hallado igualmente por medios legales en curso.
+- Atenuación o purga del vicio: el vínculo entre la ilegalidad y la prueba es tan tenue que el vicio ya no la contamina.
+
+Jurisprudencia cargada (ver penal-DOCTRINA.md; verificar texto íntegro antes de transcribir): CSJN "Charles Hermanos", "Montenegro", "Fiorentino", "Rayford", "Ruiz", "Daray", "Quaranta" - regla de exclusión y fruto del árbol envenenado. Para la recepción de las excepciones:
+```
+[INSERTAR FALLO VERIFICADO: CSJN - recepción de las excepciones a la regla de exclusión (fuente independiente, descubrimiento inevitable, atenuación)]
+```
 
 ---
 
@@ -560,6 +643,41 @@ Normativa específica:
 - Arts. 89-92 CP (lesiones) con agravantes de género
 - Art. 80 inc. 11 CP (femicidio)
 - Convenio de Belém do Pará (Ley 24.632)
+
+Bien jurídico: desde la Ley 25.087 [VERIFICAR VIGENCIA] (1999) el bien jurídico protegido es la integridad sexual -libertad de autodeterminación sexual-, en reemplazo del concepto de "honestidad" del texto anterior.
+
+Estructura del art. 119 CP [VERIFICAR VIGENCIA]:
+- Primer párrafo - abuso sexual simple: acto de connotación sexual sin consentimiento (tocamientos, actos con fin libidinoso).
+- Segundo párrafo - abuso sexual gravemente ultrajante: cuando, por su duración o por las circunstancias de realización, configura un sometimiento sexual ultrajante para la víctima.
+- Tercer párrafo - abuso sexual con acceso carnal: tras la Ley 27.352 [VERIFICAR VIGENCIA], acceso carnal por cualquier vía (anal, vaginal u oral) o introducción de objetos o partes del cuerpo por las dos primeras vías.
+- Cuarto y quinto párrafos - agravantes (ver abajo).
+
+Otros tipos:
+- Art. 120 CP: estupro - actos de los párrafos 2° o 3° del art. 119 con menor de 13 a 16 años, aprovechando su inmadurez sexual o una relación de preeminencia.
+- Art. 125 CP: corrupción de menores - delito de peligro; no exige que el menor resulte efectivamente corrompido.
+- Arts. 125 bis y 127 CP: promoción o facilitación de la prostitución y rufianería.
+- Art. 128 CP: producción y distribución de pornografía infantil.
+- Art. 129 CP: exhibiciones obscenas.
+- Art. 130 CP: rapto.
+- Art. 131 CP: grooming - contacto tecnológico con un menor con finalidad sexual.
+
+Consentimiento y edad:
+- Menor de 13 años: no hay consentimiento válido; el acto sexual es típico sin necesidad de acreditar falta de consentimiento.
+- Mayor de 13 años: debe acreditarse la falta de consentimiento (violencia, amenaza, abuso coactivo de una relación de dependencia o de poder, o aprovechamiento de la imposibilidad de la víctima de consentir libremente -por ejemplo, sueño o intoxicación).
+
+Agravantes (art. 119, párrafos 4° y 5° CP):
+- Vínculo: ascendiente, descendiente, hermano, tutor o encargado de la guarda. "Ascendiente" alude al vínculo consanguíneo; el caso adoptivo suele encuadrar por la vía de "encargado de la guarda".
+- Grave daño en la salud física o mental de la víctima.
+- Autor que sabe ser portador de una enfermedad de transmisión sexual grave, con peligro de contagio.
+- Comisión por dos o más personas o con armas.
+- Autor integrante de una fuerza de seguridad en ocasión de sus funciones.
+- Contra menor de 18 años aprovechando la situación de convivencia preexistente.
+
+Cuestiones probatorias:
+- Cámara Gesell para víctimas menores o vulnerables: el psicólogo conduce la entrevista; juez, fiscal y defensa intervienen desde sala contigua por audio y video. Verificar si está realizada o pendiente y resguardar su validez.
+- Valoración del testimonio de la víctima: aplicar la distinción sinceridad / veracidad (ver sección de prueba); la firmeza del relato no equivale a exactitud.
+
+Acción y probation: delitos de acción pública. La probation se deniega en hechos calificados como violencia de género (CSJN "Góngora", Fallos 336:392; ver penal-DOCTRINA.md y la sección de suspensión del proceso a prueba). Discutir primero la calificación del hecho.
 
 Reglas operativas específicas:
 - En causas con víctima, identificar si hay Cámara Gesell realizada o pendiente
@@ -874,7 +992,9 @@ El organismo recaudador no formula denuncia en los supuestos del art. 19 Ley 27.
 *Correcciones v2 (auditoría del titular, junio 2026): (1) marcadores normalizados al glosario canónico - [INSERTAR FALLO VERIFICADO: CSJN - ...], [VERIFICAR MONTO ACTUALIZADO] para SMVM del art. 303 CP y para UVA del Título IX, [VERIFICAR CRITERIO DEL FUERO] para implementación del CPPF y colaboración eficaz, [ALERTA PLAZO FATAL] con estructura completa en probation; (2) responsabilidad penal de la persona jurídica - corregida la afirmación de que la Ley 27.401 "modificó el art. 1 CP para incorporar" la RPPJ: el régimen es autónomo (art. 1 Ley 27.401, complementario del CP por art. 27); el art. 29 reformó el art. 1 CP solo para la jurisdicción extraterritorial del cohecho transnacional (art. 258 bis); (3) sanciones del art. 7, eximente/atenuante (arts. 8, 9, 22 y 23) y acuerdo de colaboración (arts. 16-21) precisados verbatim; (4) listado de fuentes oficiales alineado con el índice general (sj.csjn.gov.ar, SAIJ, JUBA, JUSBAIRES); (5) fecha de verificación de la alerta normativa unificada en junio 2026.*
 *Contenido verificado por conector (Infoleg/SAIJ, junio 2026): Ley 27.799 (BO 2/1/2026) - todos los umbrales del Título IX Ley 27.430 transcriptos coinciden verbatim con el articulado; art. 16 (extinción), art. 19 (no denuncia) y art. 43 (ajuste UVA desde 1/1/2027) confirmados. Ley 27.739 (BO 15/3/2024, vigente 14/4/2024 por art. 40, 30 días corridos) - art. 303 CP umbral 150 SMVM; art. 306 inc. f financiamiento de proliferación; UIF al Ministerio de Economía (art. 5); registro de PSAV bajo CNV (art. 37); confirmados. Ley 27.401 - catálogo de delitos (258, 258 bis, 265, 268, 268(1) y (2), 300 bis) confirmado verbatim. Art. 76 bis CP (máximo tres años) confirmado por sumarios SAIJ. Art. 56 bis Ley 24.660 - catálogo de 11 incisos confirmado verbatim (sustituido por art. 30 Ley 27.375, BO 28/7/2017).*
 *Leading cases cargados en penal-DOCTRINA.md (cita oficial aportada por el titular en sesión, junio 2026; holdings verificados vía SAIJ o aportados): probation/consumo/recursos/hábeas corpus - Acosta 331:858, Góngora 336:392, Arriola 332:1963, Casal 328:3399, Verbitsky 328:1146; prisión preventiva - Nápoli 321:3633, Nánez 327:2403, Véliz, Díaz Bessone (C.N.C.P. Plenario 13, 30/10/2008), y Corte IDH (Suárez Rosero, Bayarri, Jenkins, Tzompaxtle Tecpile, García Rodríguez, con Serie C); exclusión/allanamiento - Charles Hermanos, Montenegro, Rayford, Ruiz, Fiorentino, Ciraolo, Minaglia, Ventura, Daray, Quaranta; jurados - Canales 342:697, V.R.P. vs. Nicaragua, Díaz Marcos, Sandoval; lesa humanidad/RPPJ - Arancibia Clavel 327:3312, Simón 328:2056, Blaquier 344:1785, "Müller"/Ford (C.F.C.P. Sala II, Reg. 1589/21, 2022), Larrabeiti Yáñez 330:4592, Villamil 340:345.*
-*Pendiente: prescripción de la acción penal común; ley provincial de jurados PBA (14.543); estado de implementación del CPPF por distrito; ratificación interna del 2º Protocolo de Budapest.*
+*Mejoras v3 (cotejo con material de doctrina procesal vía NotebookLM, junio 2026): (1) nueva sección "Metodología de trabajo del caso" (diagnóstico provisorio/definitivo, objetivos de fondo y de libertad, regla de incorporación al debate); (2) nueva sección "Eximición de prisión y excarcelación" (ordinaria art. 169 CPPBA / extraordinaria), diferenciada de las alternativas a la prisión preventiva; (3) nueva sección "Etapa intermedia y control de la acusación" (requisitoria clara, precisa y circunstanciada; art. 334 CPPBA); (4) nueva sección "Prueba: libertad probatoria, valoración y regla de exclusión" con las tres excepciones a la regla de exclusión (fuente independiente, descubrimiento inevitable, atenuación/purga) y psicología del testimonio (sinceridad vs. veracidad); (5) nulidades: articulado CPPBA precisado (arts. 201-207) y principios sumados (especificidad/taxatividad, instrumentalidad de las formas, conservación/economía procesal); (6) delitos sexuales: desarrollo del bien jurídico (Ley 25.087), estructura del art. 119 CP, reforma Ley 27.352, arts. 120-131, régimen de consentimiento por edad y agravantes. El material es introductorio y no aportó jurisprudencia citable en firme: las citas penales nuevas quedan como leads con [INSERTAR FALLO VERIFICADO].*
+*[DISCREPANCIA ENTRE FUENTES: el cotejo NotebookLM consignó "Aref, Vanesa Anahí y otros", Reg. 1119/2016. El perfil mantiene "Aref, Bertolano y Morales", causa 75.937, Reg. 1119/2016, carátula verificada vía JUBA. Prevalece la verificada; confirmar carátula exacta antes de citar.]*
+*Pendiente: verificar leads aportados por apunte (Rey vs. Rocha 1909 - arbitrariedad; Bianchi 2002 - nulidades; G. Domingo Fernando 2019 - nulidad relativa por falta de testigos; recepción CSJN de las excepciones a la regla de exclusión); prescripción de la acción penal común; ley provincial de jurados PBA (14.543); estado de implementación del CPPF por distrito; ratificación interna del 2º Protocolo de Budapest.*
 *Última actualización: junio 2026*
 *Normativa base: CP (Ley 11.179), CPPN (Ley 23.984), CPPF (Ley 27.063), CPPCABA (Ley 2303), CPPBA (Ley 11.922), Ley 24.660, Ley 27.272 (flagrancia), Ley 27.304 (colaboración eficaz), Ley 27.401 (RPPJ), Ley 27.430 Título IX (régimen penal tributario, umbrales actualizados por Ley 27.799), Ley 27.739 (lavado), Ley 27.743 (efectos extintivos moratoria y blanqueo)*
 *Autor: Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*

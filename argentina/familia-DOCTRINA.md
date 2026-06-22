@@ -44,8 +44,12 @@ Doctrina verificada:
   holding verificado vía SAIJ.]
 
 Doctrina de la CSJN sobre el interés superior como pauta de ponderación concreta (no
-abstracta): [INSERTAR FALLO VERIFICADO: CSJN - interés superior del niño como estándar de
-ponderación - aportar expediente, sala, fuero y año].
+abstracta): el interés superior del niño no puede aprehenderse ni entenderse satisfecho sino
+en la medida de las circunstancias comprobadas en cada asunto; su configuración exige examinar
+en concreto las particularidades del caso y cómo la decisión cuestionada -y la que corresponda
+adoptar- afectan los derechos del niño. ["D., H. C. y otros s/ guarda con fines de adopción -
+declaración de adoptabilidad", CSJN, 20/04/2023, CSJ 1645/2019/RH1, Fallos: 346:287 (ver
+sección 8); texto oficial y cita verificados en sj.csjn.gov.ar.]
 
 ---
 
@@ -63,9 +67,9 @@ queda con marcador.
   corresponde confirmar la restitución de tres menores instada por el padre. El traslado con
   la madre fue lícito -mediaba autorización-, pero la retención en la Argentina fue ilícita al
   no retornar en la fecha pactada; no se configuró la excepción de grave riesgo y la
-  integración al nuevo medio no constituye motivo autónomo de oposición. [Carátula anonimizada
-  y holding verificados vía SAIJ, Sum. A0075554, fuente oficial CSJN. [VERIFICAR CITA DE
-  FALLOS: cerrar tomo:página de Fallos contra sj.csjn.gov.ar].]
+  integración al nuevo medio no constituye motivo autónomo de oposición. Fallos: 336:849
+  (S.977.XLVIII, REX). [Carátula anonimizada, holding y cita de Fallos verificados:
+  Sum. SAIJ A0075554, fuente oficial CSJN; tomo:página confirmado en sj.csjn.gov.ar.]
 - "F., C. del C. c/ G., R. T. s/ reintegro de hijo" (CSJN, 21/05/2013, expte. F.354):
   corresponde confirmar la restitución a los Estados Unidos Mexicanos requerida por la
   progenitora. Los Estados parte no deben abdicar su compromiso al abrigo de hechos consumados
@@ -79,6 +83,41 @@ queda con marcador.
   13 y 20 del CH1980, que imponen acreditar el riesgo grave de peligro físico o psíquico o una
   situación intolerable, extremos no probados. [Verificado vía SAIJ, Sum. B0957239.
   [VERIFICAR CITA DE FALLOS].]
+- "A. G. L. I. c/ R. M. G. H. s/ restitución internacional de menores" (CSJN, 28/10/2021,
+  CSJ 982/2021/CS001): corresponde revocar el rechazo y ordenar la restitución de las niñas a
+  España. La ilicitud se verifica aun habiendo autorización de viaje, porque la permanencia no
+  fue consentida por la madre, que denunció e inició la restitución de inmediato. La oposición
+  del niño (art. 13, penúltimo párrafo) solo procede ante una verdadera oposición -repudio
+  genuino e irreductible a regresar-, no ante una mera preferencia o negativa, y exige una
+  situación delicada que exceda el natural padecimiento del cambio de residencia o idioma. La
+  integración al nuevo medio -o el mantenimiento de la conexión afectiva con el entorno- no es
+  motivo autónomo de oposición ni excusa el incumplimiento; el cuidado personal no es objeto de
+  este proceso, sino de la jurisdicción del país de residencia habitual. La residencia habitual
+  no se modifica sin anuencia concluyente, con prueba que supere la simple posibilidad; el
+  CH1980 garantiza un regreso inmediato y seguro, y el juez fija la forma menos lesiva (varios
+  puntos del dictamen de la Procuración General al que la Corte remite). Fallos: 344:3078.
+  [Texto oficial CSJN y cita de Fallos verificados en sj.csjn.gov.ar.]
+- "P. S., M. c/ S. M., M. V. s/ restitución internacional de menores de edad" (CSJN,
+  24/05/2022, CSJ 1003/2021/CS001): cuando la excepción a la restitución se funda en violencia
+  familiar o de género, quien la invoca debe demostrar -con prueba concreta, clara y
+  contundente- que el efecto de esa situación sobre el niño tras la restitución alcanza el alto
+  umbral de grave riesgo del art. 13, inc. b, del CH1980 (art. 11, inc. b, de la Convención
+  Interamericana sobre Restitución Internacional de Menores, Ley 25.358 [VERIFICAR VIGENCIA]).
+  La presunción, el indicio o aun la existencia misma de la violencia no determinan por sí
+  solas la operatividad de la excepción: la violencia no es una excepción autónoma, sino una
+  especie del género grave riesgo. Fallos: 345:358. [Texto oficial CSJN y cita de Fallos
+  verificados en sj.csjn.gov.ar.]
+- "M. S., M. G. c/ F., M. V. s/ restitución internacional de menores" (CSJN, 17/09/2024,
+  CSJ 1428/2023/RH1): corresponde restituir al niño a España. Hay retención ilícita (art. 3
+  CH1980); no se configura la excepción de grave riesgo (art. 13 inc. b); y la oposición del
+  niño del art. 13, segundo párrafo, exige un repudio genuino, coherente e irreductible a
+  regresar, no una mera preferencia o negativa, de modo que la simple oposición o preferencia
+  no basta para denegar la restitución. Las excepciones son de interpretación restrictiva y el
+  CH1980 busca un regreso inmediato y seguro; el juez de la causa fija la forma de retorno
+  menos lesiva para el niño (del dictamen del Procurador Fiscal al que la Corte remite, con
+  salvedades). Fallos: 347:1234. Votos: Rosatti, Rosenkrantz, Maqueda, Lorenzetti; tribunal de
+  origen: SCBA. [Texto oficial CSJN y cita de Fallos verificados en sj.csjn.gov.ar
+  (idAnalisis 801161).]
 
 Doctrina verificada (alzada):
 - La restitución admite las excepciones previstas tanto en el Convenio de La Haya como en
@@ -184,17 +223,65 @@ Doctrina sobre estándar probatorio amplio y perspectiva de género en violencia
 FALLO VERIFICADO: amplitud probatoria y perspectiva de género en violencia familiar -
 aportar expediente, sala, fuero y año]. Nota: el leading case de la CSJN sobre
 improcedencia de la probation en casos de violencia de género (Convención de Belém do Pará)
-está cargado y verificado en `penal-DOCTRINA.md`.
+está cargado y verificado en `penal-DOCTRINA.md`. Para la violencia familiar o de género
+invocada como excepción a la restitución internacional (especie del género grave riesgo, con
+carga probatoria estricta), ver sección 2, "P. S., M. c/ S. M., M. V." (CSJN, Fallos: 345:358).
+
+Competencia territorial en violencia familiar (CSJN):
+- Criterio general: es decisivo el lugar de residencia del damnificado, porque favorece la
+  implementación oportuna y efectiva de la protección, la optimización de recursos y la
+  celeridad; se trata de asuntos urgentes y de naturaleza preventiva, referidos a la integridad
+  psicofísica del afectado. Tratándose de NNyA rige su centro de vida (art. 716 CCCN
+  [VERIFICAR VIGENCIA]: residencia principal acordada por los progenitores, conf. voto del juez
+  Rosenkrantz). El empleo de la fuerza pública está vedado a los jueces fuera de su jurisdicción
+  territorial. ["D., C. F. y otro/a c/ J., B. s/ protección contra la violencia familiar
+  (Ley 12569)", CSJN, 09/04/2026, CSJ 623/2025/CS001 [VERIFICAR CITA DE FALLOS: tomo:página de
+  Fallos]; "S., O. E. c/ S., N. B. s/ protección contra la violencia familiar (Ley 12569)",
+  CSJN, 05/11/2020, CSJ 435/2020/CS001 [VERIFICAR CITA DE FALLOS: tomo:página de Fallos].
+  Texto oficial CSJN aportado en sesión; carátula anonimizada en la sentencia oficial.]
+  En "S., O. E." el damnificado era una persona de 84 años: la Corte ponderó además el
+  principio de inmediatez como parte de la tutela judicial efectiva y el trato diferenciado y
+  preferente a las personas mayores (Convención Interamericana sobre la Protección de los
+  Derechos Humanos de las Personas Mayores, Ley 27.360 [VERIFICAR VIGENCIA]).
+- Excepción por conexidad: razones de seguridad jurídica, mayor inmediación y conocimiento del
+  conflicto determinan la competencia del juez que ya intervino en otras controversias del
+  mismo grupo familiar -incluido un proceso de inhabilitación-, sin que el lugar de residencia
+  del causante o de otros afectados justifique modificar esa intervención. ["Winteker, Beatriz
+  del Carmen c/ Vera, Benjamín Alcibíades s/ violencia familiar art. 1 Ley 12569", CSJN,
+  28/11/2006, Fallos: 329:5514; texto oficial CSJN y cita verificados en sj.csjn.gov.ar.]
 
 ---
 
-## 8. Institutos sin precedente cargado
+## 8. Adopción: guarda con fines de adopción, entrega directa e interés superior (arts. 594-637 CCCN [VERIFICAR VIGENCIA])
+
+Doctrina verificada (CSJN):
+- "D., H. C. y otros s/ guarda con fines de adopción - declaración de adoptabilidad" (CSJN,
+  20/04/2023, CSJ 1645/2019/RH1): es arbitrario el rechazo in limine de la demanda de
+  declaración de adoptabilidad y guarda con fines de adopción deducida por la madre biológica y
+  el matrimonio guardador cuando la niña convive con los guardadores desde su nacimiento (más
+  de cinco años). El interés superior del niño -no como concepto abstracto, sino según las
+  circunstancias comprobadas en cada caso- y el efecto constitutivo del paso del tiempo en la
+  personalidad del niño imponen continuar el trámite, manteniéndose ínterin la guarda
+  provisoria a cargo del matrimonio guardador. Dejar sin efecto el rechazo no implica admitir
+  sin más la guarda: el juez de la causa debe ordenar los informes y, previa declaración de
+  adoptabilidad, evaluar la aptitud de los guardadores. La decisión de cámara que confirmó el
+  rechazo in limine es equiparable a sentencia definitiva. El voto del juez Rosenkrantz -que
+  remite a su voto en "G., A. C", del mismo 20/04/2023- subraya que el art. 611 CCCN
+  [VERIFICAR VIGENCIA] prohíbe la entrega directa y exige decisiones inmediatas para revertir
+  la situación irregular. Fallos: 346:287. [Texto oficial CSJN y cita de Fallos verificados en
+  sj.csjn.gov.ar.]
+
+Nota operativa: la prohibición de la guarda de hecho y la entrega directa (art. 611 CCCN)
+convive con la línea que pondera el interés superior y el paso del tiempo cuando la situación
+socioafectiva está consolidada. La tensión se resuelve caso por caso; el tiempo transcurrido o
+la guarda de hecho no operan como fundamento autónomo de la adopción.
+
+---
+
+## 9. Institutos sin precedente cargado
 
 Para mantener la integridad, estos institutos quedan con marcador hasta cargar precedente
 verificado:
-- Adopción: declaración de adoptabilidad y prohibición de entrega directa (art. 611 CCCN).
-  [INSERTAR FALLO VERIFICADO: nulidad de la guarda de hecho / entrega directa - aportar
-  expediente, sala, fuero y año].
 - Régimen de comunicación: sanciones por incumplimiento reiterado (art. 557 CCCN).
   [INSERTAR FALLO VERIFICADO: sanciones conminatorias por obstrucción del régimen de
   comunicación - aportar expediente, sala, fuero y año].
@@ -213,11 +300,23 @@ A0074851, B0957239 (CSJN, restitución internacional), B0958966 (alzada, excepci
 S0012209 (compensación económica); W0003033 (gestación por sustitución); B0964171, H0007111,
 S0011282, I0084467 (cuidado personal compartido).*
 *Precedentes CSJN de restitución cargados con carátula oficial anonimizada y expediente
-(verificados vía SAIJ, fuente oficial CSJN): "S., D. c/ R., L. M." (02/07/2013, S.977),
-"F., C. del C. c/ G., R. T." (21/05/2013, F.354) y "P., C. c/ S. B. d. P., M." (16/04/2014).
-Único dato pendiente: el tomo:página de la colección Fallos, que ningún conector expone (el
-portal CSJN, sj.csjn.gov.ar, no tiene conector); cerrar manualmente allí.*
-*Pendiente de carga (institutos sin precedente): CSJN sobre interés superior y prueba de ADN;
-alimentos (cuantificación y art. 660); adopción (entrega directa); régimen de comunicación
-(art. 557); régimen patrimonial (art. 473).*
+(verificados vía SAIJ, fuente oficial CSJN): "S., D. c/ R., L. M." (02/07/2013, S.977) -
+cita de Fallos cerrada en sj.csjn.gov.ar: Fallos: 336:849-; "F., C. del C. c/ G., R. T."
+(21/05/2013, F.354) y "P., C. c/ S. B. d. P., M." (16/04/2014) -tomo:página de Fallos aún
+pendiente; ningún conector lo expone, se cierra en sj.csjn.gov.ar-. Sumados con cita de Fallos
+cerrada (texto oficial CSJN aportado en sesión y verificado en sj.csjn.gov.ar): "A. G. L. I.
+c/ R. M. G. H." (28/10/2021, CSJ 982/2021/CS001, Fallos: 344:3078), "P. S., M. c/ S. M., M.
+V." (24/05/2022, CSJ 1003/2021/CS001, Fallos: 345:358) y "M. S., M. G. c/ F., M. V."
+(17/09/2024, CSJ 1428/2023/RH1, Fallos: 347:1234).*
+*Adopción e interés superior (CSJN, texto oficial aportado en sesión y verificado en
+sj.csjn.gov.ar): "D., H. C. y otros s/ guarda con fines de adopción - declaración de
+adoptabilidad" (20/04/2023, CSJ 1645/2019/RH1, Fallos: 346:287); cierra el instituto de
+adopción (sección 8) y la doctrina CSJN de interés superior como pauta concreta (sección 1).*
+*Competencia territorial en violencia familiar (CSJN, texto oficial aportado en sesión,
+sección 7): "Winteker c/ Vera" (28/11/2006, Fallos: 329:5514, cita cerrada en sj.csjn.gov.ar);
+"S., O. E. c/ S., N. B." (05/11/2020, CSJ 435/2020/CS001) y "D., C. F. c/ J., B." (09/04/2026,
+CSJ 623/2025/CS001), estos dos con tomo:página de Fallos pendiente.*
+*Pendiente de carga (institutos sin precedente): CSJN sobre prueba biológica/ADN (negativa
+como indicio); alimentos (cuantificación y art. 660); régimen de comunicación (art. 557);
+régimen patrimonial (art. 473).*
 *Autor: Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*

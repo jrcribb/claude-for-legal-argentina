@@ -28,6 +28,32 @@ No esperar a la revisión periódica.
  
 ## 2026
 
+### Junio 2026 - Nuevo módulo de tránsito + verificación de adhesiones provinciales + baja del módulo macOS
+
+**Archivos nuevos:**
+- `argentina/transito-CLAUDE.md` - perfil de práctica para impugnación de infracciones y multas de tránsito. Cubre régimen nacional (ANSV/SINAI - Ley 26.363, Decreto 1716/2008 Anexo I; Ley 24.449 Título VIII supletorio), CABA (Ley 2148 Código de Tránsito y Transporte, Ley 451 Régimen de Faltas, Ley 1217 Procedimiento de Faltas), PBA (Ley 13.927 mod. Ley 15.402 -con discrepancia de vigencia señalada-, Decreto-Ley 8751/77 Faltas Municipales, Decreto-Ley 8031/73 contravencional) y matriz de las 22 provincias con su ley de adhesión a la Ley 24.449. Documenta el art. 71 (defensa por escrito a distancia a más de 60 km vs. prórroga de jurisdicción con convenio de reciprocidad), el bloqueo del art. 72 por retención de licencia, la mecánica registral del CENAT y el procedimiento sancionador del SINAI con su vía recursiva
+- `argentina/transito/descargos/descargos-SKILL.md` - skill de redacción de descargos y recursos de tránsito: identificación previa de jurisdicción y órgano, advertencia estratégica de pérdida del descuento por pago voluntario, encabezados por autoridad de juzgamiento competente
+- `argentina/transito/descargos/modelos/` - 7 modelos por causal: nulidad formal/fotomulta (calibración del cinemómetro), urgencia/estado de necesidad, denuncia de venta anterior al hecho, falta de notificación/prescripción, error de identificación/cesión de uso en flota, recurso de apelación, y defensa por escrito a distancia art. 71
+
+**Archivos modificados:**
+- `argentina/CLAUDE.md` - routing de área (transito + `transito/descargos/descargos-SKILL.md`) y árbol de estructura con los 7 modelos
+- `argentina/marcadores-GLOSARIO.md` - nueva entrada canónica A11 · VERIFICAR PLAZO (plazos procesales/administrativos ordinarios que varían por jurisdicción o código local; distinta de A10 ALERTA PLAZO FATAL, reservada para caducidad/prescripción extintiva). Formaliza un marcador ya usado de facto en administrativo y tránsito
+- `README.md` (raíz) - árbol de estructura, tabla de perfiles (fila de tránsito) y sección de capacidades "Tránsito"
+- `argentina/fuentes.md` - eliminada la sección "Módulo de automatización de escritorio (macOS)"
+
+**Archivos eliminados:**
+- `argentina/macos-automation.md` - baja del módulo opcional de automatización de escritorio macOS (macos-use). Se retiró además la fila del conector macos-use de la tabla de conectores del README y la línea del árbol en `CLAUDE.md` y `README.md`
+
+**Verificación de adhesiones provinciales (SAIJ + sitios oficiales provinciales/BORA vía navegador, junio 2026):**
+El cruce de las 22 provincias contra fuente oficial corrigió siete números de ley erróneos en los datos de base y detectó una norma derogada:
+- Números corregidos: Chaco Ley 4488 (no 4933), San Juan Ley 528-R (no 6684), La Pampa Ley 1713 (no 2443), La Rioja Ley 9941 (no 6168), Chubut Ley XIX-26 / antes 286 (no 4165), Tucumán Ley 6836 (no 8084), Santiago del Estero Ley 6904 (no 6283)
+- Vigencia: Entre Ríos Ley 8963 derogada por Ley 10025 (BO 09/05/2011, mod. Ley 10460); San Luis adhesión vigente Ley X-888 (2014), descartada la inexistente "X-0568-2007/2013"
+- Confirmadas en fuente: Córdoba 8560, Mendoza 9024 (plazo de descargo 5 días hábiles, art. 114), Santa Fe 13.133 + 13.169 (Código de Faltas de Tránsito), Salta 6913, Misiones XVIII-29 (sustituyó la 4511), Corrientes 5037, Catamarca 5285, Río Negro S-2942, Jujuy 4870, Neuquén 2178, Santa Cruz 2417, Tierra del Fuego 376, Formosa 1150. Cada fila de la matriz quedó con su origen trazable (SAIJ / BO / web oficial); ninguna en "aportado"
+
+**Motivo:** incorporación de un área de alto volumen de consultas (faltas de tránsito) con verificación normativa completa por jurisdicción, y baja de un módulo (macos-use) que no aplica al uso del sistema.
+
+---
+
 ### Junio 2026 - Auditoría y ampliación del módulo de familia (correcciones + doctrina + ejemplos + escritos)
 
 **Archivos nuevos:**

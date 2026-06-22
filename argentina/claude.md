@@ -394,7 +394,7 @@ Para consultas de una sola área: el sistema indica qué perfil cargar y puede c
 Para consultas multidisciplinarias (ejemplo: M&A con impacto laboral e impositivo): el sistema identifica todas las áreas involucradas, indica qué perfiles cargar, y opera con el conocimiento base del CLAUDE.md general hasta que se carguen los perfiles.
 
 Perfiles disponibles y cuándo activarlos:
-PerfilActivar cuando la consulta involucra...laboral-CLAUDE.mdcontrato de trabajo, despido, liquidación, accidente laboral, sindicato, CCTlaboral-CLAUDE.md + laboral/telegrama/telegramas-SKILL.mdtelegramas laborales, cartas documento, intimaciones, notificaciones fehacientes laboralescivil-CLAUDE.md + ejemplos-civil.mddaños y perjuicios, responsabilidad civil, contratos civiles, prescripción civilcontratos/CLAUDE.md + contratos/red-flags.mdrevisión o redacción de contratos (NDA, servicios, compraventa, locación, SaaS, mutuo, agencia)societario-CLAUDE.md + ejemplos-societario.mdconstitución de sociedades, M&A, due diligence, pactos de accionistasadministrativo-CLAUDE.mdrecurso administrativo, responsabilidad del Estado, contratación pública, empleo públicotributario-CLAUDE.mdARCA, TFN, IVA, Ganancias, ingresos brutos, régimen penal tributariopenal-CLAUDE.mdimputado, procesado, defensa penal, querella, medidas cautelares penalesespecialidades/medicina-legal-CLAUDE.mdinforme médico-legal pericial, lesiones, imputabilidad, incapacidad laboral, invalidez previsional, praxis médica, amparo de salud, pericia en fuero penal / civil / seguridad socialfamilia-CLAUDE.mddivorcio, alimentos, cuidado personal, filiación, adopción, violencia familiarconcursos-CLAUDE.mdconcurso preventivo, quiebra, verificación de créditos, APE, cramdownplazos-SKILL.mdcómputo de plazos procesales o administrativos, prescripción, caducidad, ferias judiciales, SECLOdiagnostico-SKILL.mddiagnóstico previo de cualquier escrito aportado antes de modificarlo
+PerfilActivar cuando la consulta involucra...laboral-CLAUDE.mdcontrato de trabajo, despido, liquidación, accidente laboral, sindicato, CCTlaboral-CLAUDE.md + laboral/telegrama/telegramas-SKILL.mdtelegramas laborales, cartas documento, intimaciones, notificaciones fehacientes laboralescivil-CLAUDE.md + ejemplos-civil.mddaños y perjuicios, responsabilidad civil, contratos civiles, prescripción civilcontratos/CLAUDE.md + contratos/red-flags.mdrevisión o redacción de contratos (NDA, servicios, compraventa, locación, SaaS, mutuo, agencia)societario-CLAUDE.md + ejemplos-societario.mdconstitución de sociedades, M&A, due diligence, pactos de accionistasadministrativo-CLAUDE.mdrecurso administrativo, responsabilidad del Estado, contratación pública, empleo públicotributario-CLAUDE.mdARCA, TFN, IVA, Ganancias, ingresos brutos, régimen penal tributariopenal-CLAUDE.mdimputado, procesado, defensa penal, querella, medidas cautelares penalesespecialidades/medicina-legal-CLAUDE.mdinforme médico-legal pericial, lesiones, imputabilidad, incapacidad laboral, invalidez previsional, praxis médica, amparo de salud, pericia en fuero penal / civil / seguridad socialfamilia-CLAUDE.mddivorcio, alimentos, cuidado personal, filiación, adopción, violencia familiarconcursos-CLAUDE.mdconcurso preventivo, quiebra, verificación de créditos, APE, cramdowntransito-CLAUDE.md + transito/descargos/descargos-SKILL.mdmulta o infracción de tránsito, acta, fotomulta, descargo o apelación ante controlador o juez de faltas, denuncia de venta frente a infracciónplazos-SKILL.mdcómputo de plazos procesales o administrativos, prescripción, caducidad, ferias judiciales, SECLOdiagnostico-SKILL.mddiagnóstico previo de cualquier escrito aportado antes de modificarlo
 Para conectores de fuentes primarias (InfoLEG, BORA, SAIJ, SCBA, CSJN, etc.):
 ver argentina/fuentes.md.
 
@@ -456,11 +456,22 @@ argentina/
         bloque-08-construccion.md
   penal-CLAUDE.md                   # Perfil derecho penal
   societario-CLAUDE.md              # Perfil derecho societario (LGS)
+  transito-CLAUDE.md                # Perfil infracciones y multas de tránsito
+  transito/
+    descargos/
+      descargos-SKILL.md            # Instrucciones operativas del skill de descargos
+      modelos/                       # Modelos de descargo y recurso por causal
+        modelo-01-nulidad-formal.md
+        modelo-02-urgencia-fuerza-mayor.md
+        modelo-03-denuncia-de-venta.md
+        modelo-04-falta-notificacion-prescripcion.md
+        modelo-05-error-identificacion.md
+        modelo-06-recurso-apelacion.md
+        modelo-07-defensa-a-distancia-art71.md
   tributario-CLAUDE.md              # Perfil derecho tributario
   ejemplos-civil.md                 # Casos de daños y responsabilidad civil
   ejemplos-societario.md            # Due diligence y pactos de accionistas
   fuentes.md                        # Conectores MCP y fuentes primarias
-  macos-automation.md               # Módulo opcional - automatización de escritorio macOS (Claude Code)
   legal.local.md.template           # Template de configuración local del estudio (por rama del derecho)
   evals/                            # Casos de control para verificar perfiles de área
     README.md                       # Formato estándar y áreas prioritarias

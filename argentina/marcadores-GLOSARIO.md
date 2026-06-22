@@ -202,6 +202,26 @@ Ejemplos:
 
 ---
 
+### A11 · VERIFICAR PLAZO
+
+**Uso:** plazos procesales o administrativos ordinarios (para descargo, recurso, contestación) cuyo valor concreto varía por jurisdicción o código local y debe confirmarse contra la norma aplicable antes de citarlo. Distinto de A10 (ALERTA PLAZO FATAL), reservado para plazos de caducidad o prescripción cuyo vencimiento extingue el derecho o la acción. Usado en administrativo y en tránsito, donde el plazo depende del código de faltas de cada jurisdicción.
+
+**Sintaxis:**
+```
+[VERIFICAR PLAZO: acto procesal - norma de la jurisdicción]
+```
+
+Ejemplos:
+```
+[VERIFICAR PLAZO: descargo ante el juez de faltas - código de faltas de la jurisdicción]
+[VERIFICAR PLAZO: recurso contra la resolución sancionatoria - norma procesal local]
+[VERIFICAR PLAZO: prescripción de la acción de falta - código local]
+```
+
+**Nunca:** usar para plazos fatales de caducidad o prescripción extintiva del derecho (usar A10). No combinar con A1 en un mismo corchete.
+
+---
+
 ## Categoría B - Integridad probatoria
 
 Marcan ausencia de material fáctico o jurisprudencial necesario para sostener el argumento.
