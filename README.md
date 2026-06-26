@@ -53,6 +53,7 @@ argentina/
       notarial-CLAUDE.md              # Derecho notarial (protocolo, compliance UIF, escrituras)
       notarial-clausulas.md           # Biblioteca de cláusulas tipo (complemento del perfil base)
       notarial-_PROVINCIA_-CLAUDE.md  # Template para perfiles jurisdiccionales
+  proteccion-datos-CLAUDE.md        # Perfil protección de datos e informes crediticios (Ley 25.326 / Veraz)
   civil-CLAUDE.md                   # Perfil derecho civil (CCCN)
   civil-DOCTRINA.md                 # Doctrina y jurisprudencia civil por instituto (leading cases verificados)
   civil/
@@ -140,6 +141,7 @@ argentina/
 - LDC (Ley 24.240) para contratos de consumo
 - LGS para societario
 - Ley 17.801 y CCCN para actos registrales y compliance notarial (Res. UIF 242/2023)
+- Ley 25.326, Decreto 1558/01 y disposiciones AAIP para protección de datos e informes crediticios (hábeas data, derecho al olvido, Veraz/Nosis)
 - Ley 24.901 + CDPCD (Ley 27.044) para derecho de la discapacidad
 
 **Reemplaza la lógica de common law en tres áreas críticas:**
@@ -349,6 +351,7 @@ Los plugins disponibles corresponden a las áreas de práctica cubiertas por est
 
 | Archivo de perfil | Área | Complementos | Alertas |
 |---|---|---|---|
+| `proteccion-datos-CLAUDE.md` | Protección de datos personales e informes crediticios · Ley 25.326: derecho de acceso (art. 14), rectificación/actualización (art. 16), supresión, derecho al olvido (art. 26 inc. 4), hábeas data judicial (art. 43 CN); bases crediticias privadas (Veraz/Equifax, Nosis) y Central de Deudores BCRA; medida cautelar innovativa (bloqueo preventivo del dato); distinción hábeas data vs. mediación previa y COPREC; estrategia diferenciada para phishing e ingeniería social; daño moral in re ipsa con respaldo fáctico | - | Ley 25.326 sin reforma sancionada; plazo reducido art. 26 inc. 4 es 2 años (no 3); cómputo desde última información adversa significativa (no la mora original); Comunicaciones BCRA A 7328 y A 7370; estado parlamentario de los proyectos de reforma (Carro / Doñate / AAIP) |
 | `laboral-CLAUDE.md` | Derecho del trabajo (LCT) | `laboral/telegrama/` | DNU 70/2023, Ley 27.742, Ley 27.802, topes art. 245, tasas CNAT |
 | `administrativo-CLAUDE.md` | Derecho administrativo (federal) | - | Plazos de caducidad, contratación pública |
 | `administrativo/administrativo-CABA-CLAUDE.md` | Derecho administrativo CABA | `administrativo-CLAUDE.md` (base) | Plazo 90 días art. 7 CCAyT, Dec 1510/97, Ley 2095, Ley 471 |
@@ -383,6 +386,7 @@ de cada perfil para que el sistema la procese con prioridad.
 
 | Perfil | Sección de alerta | Normas cubiertas |
 |---|---|---|
+| `proteccion-datos-CLAUDE.md` | `## Alerta normativa - normas de vigencia variable` | Ley 25.326 sin reforma sancionada (proyectos Carro / Doñate / AAIP en danza); plazo reducido art. 26 inc. 4 es 2 años, no 3; cómputo desde última información adversa significativa (no la mora original); Comunicaciones BCRA A 7328 y A 7370 (seguridad en canales electrónicos); arts. 230 y 232 CPCCN (cautelares); Ley 26.589 art. 2 inc. c) (exclusión de mediación); Ley 26.993 COPREC (procedimiento vigente); arts. 51, 52 y 1741 CCyC (daño moral) |
 | `laboral-CLAUDE.md` | `## Alerta normativa - Reforma laboral 2023-2026 vigente operacionalmente` | DNU 70/2023, Ley 27.742 (derogación agravantes registrales), Ley 27.802 (art. 245, art. 66, art. 80, art. 240) |
 | `civil-CLAUDE.md` | `## Alerta normativa - normas de vigencia variable` | Tasas de interés por fuero, fórmulas de cuantificación de daños, art. 52 bis LDC |
 | `discapacidad-CLAUDE.md` | `## Alerta normativa - normas de vigencia variable` | Ley 27.793 (emergencia, vence 31/12/2026), nomenclador ANDIS (RESOL-2026-13-APN-SND#MS, actualización mensual), Ley 26.682 y decretos de desregulación económica, ANDIS (Decreto 698/2017, dependencia jerárquica variable), CUD sin vencimiento Ley 27.711 (resoluciones de actualización ANDIS), Ley 26.657 (reglamentación salud mental - plazos e internación involuntaria), Decreto 843/2024 (parámetro rígido 66% PNC - inconvencionalidad obligatoria en denegatorias post 23/09/2024) |
@@ -547,6 +551,15 @@ Accedé directamente y pegá el texto en la sesión. Son la fuente de verdad ant
 - Armar convenios reguladores de divorcio con todos los institutos del CCCN, alertando el plazo de caducidad de 6 meses de la compensación económica (art. 442)
 - Redactar demandas de alimentos (competencia del centro de vida, art. 716; cuantificación por IC-INDEC; subsistencia hasta 21/25) y solicitudes de medidas de protección por violencia familiar (Ley 26.485 mod. Olimpia; Ley 12.569 PBA, medidas en 48 horas, sin mediación)
 - Analizar cuidado personal, régimen comunicacional, filiación, restitución internacional y compensación económica con holdings verificados (`familia-DOCTRINA.md`)
+
+**Protección de datos e informes crediticios:**
+- Identificar el escenario antes de elegir la vía: dato pagado que sigue figurando / dato caduco / dato falso / phishing con credenciales propias; la estrategia difiere en cada caso
+- Calcular el plazo de caducidad del art. 26 inc. 4 Ley 25.326 desde la última información adversa significativa (no la mora original), distinguir el plazo de 5 años del reducido de 2 años para deudas canceladas, y contrarrestar el argumento de prescripción civil no cumplida con la doctrina "Catania" (CSJN)
+- Redactar intimaciones fehacientes al banco emisor o a la empresa de informes (Veraz/Nosis) con los plazos legales exactos: 10 días corridos para acceso (art. 14), 5 días hábiles para rectificación/supresión (art. 16)
+- Evaluar la medida cautelar innovativa (bloqueo preventivo del dato) verificando verosimilitud del derecho y perjuicio concreto acreditable antes de incluir el acápite; un pedido sin prueba suficiente se rechaza in limine y debilita el principal
+- Advertir sobre la trampa procesal de acumular daños al hábeas data sin verificar el criterio del fuero sobre mediación previa para el rubro resarcitorio; en urgencia pura, plantear solo el hábeas data y reservar los daños para proceso posterior o COPREC
+- En casos de phishing o ingeniería social: secuenciar el reclamo intimando primero al banco emisor (Comunicaciones BCRA A 7328 y A 7370, deber de seguridad en canales electrónicos) antes de exigir a Veraz la supresión directa
+- Invocar el daño moral in re ipsa conforme jurisprudencia mayoritaria CNCom / CNCiv y Com Fed, sin exigir prueba psicológica, pero siempre construyendo la base fáctica de impacto concreto (crédito rechazado, locación frustrada, tiempo de permanencia en la base) que sostiene la cuantificación
 
 **Tributario:**
 - Analizar recursos ante el TFN y la CNACAF
