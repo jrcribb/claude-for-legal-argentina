@@ -200,6 +200,34 @@ se nombran por su prefijo de tool; el detalle está en fuentes.md.
   fecha límite del edicto - vencimiento: calcular]`, `[VACÍO PROBATORIO: causa y monto
   del crédito - aportar]`.
 
+### Previsional
+
+- Entregable: demanda de reajuste de haberes ante el Fuero Federal de la Seguridad
+  Social (haber inicial, movilidad, o ambos).
+- Nodo bloqueante (doble): habilitación de instancia en la impugnación de denegatorias
+  (reclamo administrativo previo + plazo de impugnación de la resolución de ANSES) y
+  prescripción bienal de los haberes devengados en los reajustes. La acción de reajuste
+  no prescribe; lo que prescribe es el cobro del retroactivo más allá del bienio. Va
+  antes del fondo.
+- Criterio de salida: fórmula de movilidad identificada y verificada por cada período
+  reclamado - la secuencia de regímenes (24.241 / 26.417 / 27.426 / 27.541 / 27.609 /
+  DNU 274/2024) no es intercambiable (ver previsional-CLAUDE.md); índice de
+  actualización de remuneraciones del haber inicial con el criterio del fuero marcado
+  (administrativo vs. ISBIC judicial); retroactivo con el corte de prescripción
+  calculado; intereses con la tasa del fuero marcada; precedentes de movilidad y de
+  haber inicial con marcador de vigencia (B5), porque la doctrina de movilidad se supera
+  por norma o fallo posterior.
+- Conectores: `infoleg__` (Ley 24.241, Ley 24.463, Ley 26.417, leyes y DNU de
+  movilidad), `csjn__` (línea de movilidad y haber inicial), `saij__`, `pjnjuris__`
+  (jurisprudencia del fuero).
+- Marcadores típicos: `[REVISIÓN NORMATIVA REQUERIDA: fórmula de movilidad por cada
+  período reclamado]`, `[VERIFICAR CRITERIO DEL FUERO: índice de actualización del haber
+  inicial - CFSS / CSJN a la fecha]`, `[VERIFICAR TASA VIGENTE: fuero federal de la
+  seguridad social - criterio de la CFSS / CSJN al período]`, `[VERIFICAR PRECEDENTE:
+  línea "Sánchez" / "Badaro" o "Elliff" / "Blanco" - confirmar que no fue dejada sin
+  efecto ni superada antes de citar]`, `[VACÍO PROBATORIO: historia previsional /
+  resoluciones / recibos - aportar]`.
+
 ---
 
 ## Vigencia del precedente - límite del bucle

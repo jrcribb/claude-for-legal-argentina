@@ -8,11 +8,11 @@ REM  en tu carpeta de usuario y programa la actualizacion
 REM  automatica al iniciar sesion.
 REM
 REM  Este archivo se baja SUELTO desde:
-REM  https://raw.githubusercontent.com/cristianaboitiz-eng/claude-for-legal-argentina/main/instaladores/instalar-sin-git.bat
+REM  https://raw.githubusercontent.com/Probanza-ar/claude-for-legal-argentina/main/instaladores/instalar-sin-git.bat
 REM  Doble clic y listo. Requiere repo publico (no pide credenciales).
 REM ============================================================
 setlocal
-set "OWNER=cristianaboitiz-eng"
+set "OWNER=Probanza-ar"
 set "REPONAME=claude-for-legal-argentina"
 set "BRANCH=main"
 set "INSTALL_DIR=%USERPROFILE%\claude-for-legal-argentina"

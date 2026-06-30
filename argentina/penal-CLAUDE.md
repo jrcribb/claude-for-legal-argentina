@@ -83,6 +83,11 @@ implementación gradual. No todas las disposiciones están vigentes en todos
 los fueros. Verificar el estado de implementación antes de aplicar institutos
 del CPPF.
 
+Advertencia de numeración: las citas del CPPF por número de artículo deben
+confrontarse contra el texto ordenado aprobado por Decreto 118/2019, que
+renumeró el articulado original de la Ley 27.063. Un número tomado de la ley
+original puede no coincidir con el del texto ordenado vigente.
+
 Regla operativa:
 ```
 [VERIFICAR CRITERIO DEL FUERO: implementación del CPPF (Ley 27.063) - confirmar
@@ -102,6 +107,16 @@ colaboración eficaz están en desarrollo. Verificar criterio del fuero
 antes de asesorar sobre esta figura.
 ```
 [VERIFICAR CRITERIO DEL FUERO: colaboración eficaz Ley 27.304 - criterio jurisprudencial en el fuero específico]
+```
+
+### Régimen penal juvenil - reforma con vigencia diferida
+La Ley 27.801 (nuevo Régimen Penal Juvenil, BO 9/3/2026) deroga el Decreto-Ley
+22.278 y baja la edad de imputabilidad de 16 a 14 años, pero su art. 52 difiere
+la entrada en vigencia a los 180 días de la publicación (aproximadamente
+principios de septiembre de 2026). Hasta esa fecha sigue rigiendo el DL 22.278.
+Ver el desarrollo en "Normativa de referencia - Derecho penal juvenil".
+```
+[VERIFICAR VIGENCIA: Ley 27.801 - fecha exacta de entrada en vigencia (180 días desde el 9/3/2026) y régimen aplicable según la fecha del hecho]
 ```
 
 ---
@@ -125,16 +140,41 @@ antes de asesorar sobre esta figura.
 - **Ley 26.842:** trata de personas
 - **Ley 26.485:** protección integral de la mujer - impacto en tipos penales y medidas cautelares
 
-### Derecho penal juvenil
+### Derecho penal juvenil - régimen en transición
 
-- **Régimen Penal de la Minoridad (Decreto-Ley 22.278 y modificatorias - Leyes 22.803, 23.264 y 23.742):** vigente. No hubo reforma legislativa general al cierre de esta actualización (junio 2026); verificar si hubo sanción posterior antes de aconsejar sobre imputabilidad.
+A junio de 2026 el régimen está en transición. La Ley 27.801 (nuevo Régimen Penal Juvenil) fue sancionada el 27/2/2026 y publicada en el Boletín Oficial el 9/3/2026, pero su art. 52 difiere la entrada en vigencia a los 180 días de la publicación: rige aproximadamente desde principios de septiembre de 2026 [VERIFICAR VIGENCIA: fecha exacta de entrada en vigencia de la Ley 27.801 y eventual prórroga o reglamentación]. Hasta esa fecha sigue operativo el Decreto-Ley 22.278, que la Ley 27.801 deroga (art. 48) recién al entrar en vigencia.
+
+Consecuencia operativa: identificar la fecha del hecho y la fecha de juzgamiento. Para hechos cometidos bajo la vigencia del DL 22.278 rige el principio de ley penal más benigna (art. 2 CP): el nuevo régimen no se aplica retroactivamente en lo que resulte más gravoso -en particular, la baja de la edad de imputabilidad de 16 a 14 años no alcanza a hechos anteriores-. A la inversa, algunas reglas de la Ley 27.801 pueden ser más benignas (tope de 15 años, prohibición de la perpetua) y habilitar su aplicación a hechos anteriores. El análisis es caso por caso.
+
+```
+[REVISIÓN NORMATIVA REQUERIDA: determinar el régimen aplicable según la fecha del hecho y de juzgamiento, y la ley penal más benigna en el tránsito DL 22.278 / Ley 27.801]
+```
+
+**Régimen saliente - Decreto-Ley 22.278 (operativo hasta la entrada en vigencia de la Ley 27.801):**
 
 Esquema de imputabilidad (art. 1° DL 22.278 texto según Ley 22.803):
 - No punible absoluto: menor que no haya cumplido 16 años (cualquier delito).
 - No punible relativo: menor de 16 a 18 años respecto de delitos de acción privada, o reprimidos con pena privativa de libertad que no exceda de 2 años, o con multa, o con inhabilitación.
-- Punible: menor de 16 a 18 años en los demás casos (art. 2°), con sujeción al régimen tutelar del art. 4° (requiere: declaración de responsabilidad penal, cumplimiento de 18 años, y periodo de tratamiento tutelar no inferior a 1 año). La imposición de pena es facultativa: si no fuere necesaria, el juez absuelve.
+- Punible: menor de 16 a 18 años en los demás casos (art. 2°), con sujeción al régimen tutelar del art. 4° (declaración de responsabilidad penal, cumplimiento de 18 años, y tratamiento tutelar no inferior a 1 año). La imposición de pena es facultativa: si no fuere necesaria, el juez absuelve.
 
-Alerta: la "no punibilidad relativa" del menor de 16 a 18 años no impide la disposición tutelar; el juez puede disponer del menor aunque no le aplique pena (arts. 1° y 3° DL 22.278).
+La "no punibilidad relativa" del menor de 16 a 18 años no impide la disposición tutelar (arts. 1° y 3° DL 22.278).
+
+**Régimen entrante - Ley 27.801 [VERIFICAR VIGENCIA] (rige a los 180 días de la publicación del 9/3/2026):**
+
+- Ámbito: adolescentes desde los 14 años hasta las 0 horas del día en que cumplen 18, imputados por delito del CP o de leyes especiales (art. 1). Presunción de minoridad si la edad no se acredita (art. 2). Aplicación supletoria del CP (art. 3).
+- Baja de la edad de imputabilidad de 16 a 14 años. Los menores de 14, y los declarados inimputables entre 14 y 18, quedan excluidos del régimen sancionatorio (art. 24); la investigación continúa y se da intervención a los organismos de protección de la niñez y de salud mental (arts. 24-25). La responsabilidad civil queda a salvo (art. 26).
+- Penas (art. 12): amonestación, prohibición de contacto o aproximación, prohibición de conducir, prohibición de concurrir a determinados lugares, prohibición de salir del país, prestación de servicios a la comunidad, monitoreo electrónico, reparación integral del daño y penas privativas de libertad. Las penas no privativas -salvo amonestación, reparación y privativa- no exceden 3 años (art. 15).
+- Sustitución de la pena privativa: si la pena del delito o concurso es de hasta 3 años, se reemplaza por penas del art. 12 (art. 11, primer párrafo); si supera 3 y llega a 10 años, no hubo muerte ni grave violencia física o psíquica (ni, en culposos, lesiones gravísimas o muerte) y el adolescente no registra condenas ni procesamiento firme, el tribunal puede reemplazarla previo dictamen pericial, conformidad del MPF y víctima oída (art. 11, segundo párrafo).
+- Penas privativas de libertad (art. 17): domiciliaria, en instituto abierto o en instituto especializado. Prohibida la perpetua; máximo de 15 años aun cuando la escala sea mayor por concurso real (art. 19). A los dos tercios, con dictamen pericial favorable, conformidad del MPF y opinión de la víctima, el resto puede cumplirse mediante las demás penas (art. 19).
+- Salidas alternativas: criterio de oportunidad (art. 41) y mediación penal juvenil (art. 42) para delitos con pena máxima no superior a 6 años, sin muerte ni grave violencia y sin antecedentes; en la mediación, el consentimiento de la víctima es condición bajo sanción de nulidad y la oposición fiscal es vinculante. Suspensión del proceso a prueba (art. 43) cuando el mínimo de pena no excede 3 años, con conformidad del MPF y audiencia oral bajo sanción de nulidad; el cumplimiento extingue la acción (art. 45).
+- Proceso: rigen las garantías del sistema acusatorio del CPPF (Ley 27.063 y modificatorias) conforme la implementación de la Ley 27.150 (art. 47). Medidas de coerción solo por peligro real de fuga o de entorpecimiento (art. 17 CPPF); la prisión preventiva no puede superar el plazo de la Ley 24.390 (art. 39).
+- Especialización obligatoria de jueces, fiscales y defensores (art. 38); supervisor especializado para el seguimiento (arts. 23 y 46); institutos de detención separados de adultos (Capítulo VIII). La ley invita a las provincias y a la CABA a adecuar su legislación procesal (art. 49).
+
+Jurisprudencia de respaldo (ver penal-DOCTRINA.md sección 10): CSJN "Maldonado" (Fallos 328:4343) -reproche disminuido y fin resocializador de la pena al menor- y Corte IDH "Mendoza y otros vs. Argentina" (Serie C No. 260, 14/5/2013) -prohibición de la perpetua a menores y deber de adecuar el régimen-, fundamento convencional del art. 19 de la Ley 27.801.
+
+```
+[VERIFICAR VIGENCIA: Decreto-Ley 22.278 (operativo hasta la entrada en vigencia de la Ley 27.801) y Ley 27.801 (entrada en vigencia a los 180 días de la publicación del 9/3/2026); confirmar la fecha y el estado de adecuación procesal de la jurisdicción]
+```
 
 ### Organismos y fuentes primarias
 
@@ -218,7 +258,7 @@ Marco de análisis (aplicar según fuero):
 - Presentación periódica
 
 **Jurisprudencia cargada (ver penal-DOCTRINA.md; verificar texto íntegro antes de transcribir):**
-- CSJN: "Nápoli" (Fallos 321:3633), "Nánez" (Fallos 327:2403), "Véliz" (causa 5640, 15/6/2010) y el plenario "Díaz Bessone" (C.N.C.P.) - inconstitucionalidad del automatismo por la sola gravedad del delito; la libertad es la regla; el peligro procesal debe fundarse en datos objetivos.
+- CSJN: "Nápoli" (Fallos 321:3630), "Estévez" (Fallos 320:2105), "Véliz" (causa 5640, 15/6/2010) y el plenario "Díaz Bessone" (C.N.C.P.) - inconstitucionalidad del automatismo por la sola gravedad del delito; la libertad es la regla; el peligro procesal debe fundarse en datos objetivos.
 - Corte IDH: "Suárez Rosero", "Bayarri vs. Argentina", "Jenkins vs. Argentina", "Tzompaxtle Tecpile vs. México", "García Rodríguez vs. México" - prisión preventiva como medida cautelar excepcional; no es pena anticipada; la carga de probar el peligro procesal recae en la acusación.
 
 ### Eximición de prisión y excarcelación
@@ -266,14 +306,14 @@ Alertar siempre sobre:
 
 Normativa:
 - Art. 59 inc. 3 CP: la prescripción como causal de extinción de la acción penal
-- Art. 62 CP: plazos según la pena máxima del delito (2 años para penas de multa o inhabilitación; máximo de la escala para penas privativas de libertad, con tope de 12 años)
+- Art. 62 CP: plazos de prescripción de la acción. Prisión o reclusión perpetua: 15 años (inc. 1). Prisión o reclusión temporal: el máximo de la pena del delito, sin exceder de 12 años ni bajar de 2 (inc. 2). Inhabilitación perpetua: 5 años (inc. 3). Inhabilitación temporal: 1 año (inc. 4). Multa: 2 años (inc. 5)
 - Art. 63 CP: inicio del cómputo (desde la medianoche del día en que se cometió el delito; reglas especiales para delitos continuados, permanentes y los cometidos contra menores)
-- Art. 67 CP: causales de interrupción (secuelas del juicio - primer acto del proceso dirigido contra el imputado) y suspensión (cuestiones prejudiciales, juicio político, suspensión del proceso a prueba)
+- Art. 67 CP (texto según Ley 25.990): la prescripción se interrumpe solo por actos taxativos: a) comisión de otro delito; b) primer llamado a prestar declaración indagatoria; c) requerimiento acusatorio de apertura o elevación a juicio; d) auto de citación a juicio o acto equivalente; e) sentencia condenatoria aunque no esté firme. Causales de suspensión: cuestiones previas o prejudiciales; delitos cometidos en ejercicio de la función pública mientras cualquier partícipe ocupe cargo público (Ley 25.188); suspensión del proceso a prueba (art. 76 ter CP); suspensión por delitos contra la integridad sexual de menores (Ley 27.206)
 
-Doctrina CSJN sobre actos interruptivos:
-- La expresión "secuelas del juicio" del art. 67 CP fue objeto de interpretación extensa por la CSJN; los actos que interrumpen la prescripción varían según el sistema procesal aplicable
+Régimen temporal del art. 67 CP:
+- La enumeración taxativa rige para hechos posteriores a la Ley 25.990 (BO 11/1/2005). Para hechos anteriores, la interrupción se regía por la "secuela de juicio" del texto previo, de interpretación jurisprudencial discutida; en el tránsito aplicar la ley penal más benigna (art. 2 CP).
 ```
-[INSERTAR FALLO VERIFICADO: CSJN - doctrina sobre actos interruptivos de la prescripción según el código procesal aplicable]
+[INSERTAR FALLO VERIFICADO: CSJN - alcance de la "secuela de juicio" para hechos anteriores a la Ley 25.990 / aplicación de la ley penal más benigna en materia de prescripción]
 ```
 
 Preguntas de diagnóstico:
@@ -293,7 +333,7 @@ Alertas específicas:
 
 Normativa por fuero:
 - CPPN: art. 431 bis
-- CPPF: arts. 288 y ss.
+- CPPF: procedimientos abreviados (acuerdo pleno, parcial y juicio directo), arts. 323 a 327 (texto ordenado Decreto 118/2019)
 - CPPCABA: arts. 266 y ss.
 - CPPBA: arts. 395 y ss.
 
@@ -322,7 +362,7 @@ Normativa:
 - Arts. 76 bis, 76 ter y 76 quater CP [VERIFICAR VIGENCIA]
 - Normas procesales por fuero (verificar artículo específico en cada código):
   - CPPN: arts. 293 y ss.
-  - CPPF: arts. 34 inc. e) y 295 y ss.
+  - CPPF: art. 35 (suspensión del proceso a prueba; texto ordenado Decreto 118/2019)
   - CPPCABA: arts. 205 y ss.
   - CPPBA: arts. 404 y ss.
 
@@ -495,7 +535,7 @@ Doctrina cargada (ver penal-DOCTRINA.md): CSJN, "Canales" (Fallos 342:697) - con
 
 Normativa por fuero (verificar artículo específico):
 - CPPN: arts. 166 y ss.
-- CPPF: arts. 114 y ss.
+- CPPF: actividad procesal defectuosa, arts. 129 a 133 (saneamiento, convalidación y nulidad; texto ordenado Decreto 118/2019)
 - CPPCABA: arts. 71 y ss.
 - CPPBA: arts. 201 (especificidad y trascendencia), 202 (nulidades generales), 203 (declaración de oficio), 205 (oportunidad de articulación bajo sanción de caducidad), 206 (saneamiento) y 207 (efectos) [VERIFICAR VIGENCIA]
 
@@ -690,7 +730,7 @@ Reglas operativas específicas:
 Normativa específica:
 - Ley 23.737 y modificatorias
 - Distinción tenencia simple / tenencia para consumo personal / tenencia para comercialización
-- CSJN, "Arriola, Sebastián y otros", Fallos 332:1963 (5/8/2009): inconstitucional la persecución penal de la tenencia para consumo personal cuando no hay peligro concreto ni daño a terceros (art. 19 CN); el art. 14, segundo párrafo, Ley 23.737 subsiste formalmente. Ver penal-DOCTRINA.md; verificar el texto íntegro antes de transcribir
+- CSJN, "Arriola, Sebastián y otros", Fallos 332:1963 (25/8/2009): inconstitucional la persecución penal de la tenencia para consumo personal cuando no hay peligro concreto ni daño a terceros (art. 19 CN); el art. 14, segundo párrafo, Ley 23.737 subsiste formalmente. Ver penal-DOCTRINA.md; verificar el texto íntegro antes de transcribir
 - Agravantes por cantidad, organización y calidad del autor
 
 Preguntas de diagnóstico:
@@ -833,7 +873,7 @@ Normativa:
 - Acordadas relevantes del fuero de ejecución
 
 Instituciones clave:
-- Libertad condicional (art. 13 CP mod. por Ley 27.375 / arts. 28 y ss. Ley 24.660 mod. por Ley 27.375 - verificar art. 56 bis Ley 24.660 para delitos excluidos)
+- Libertad condicional: requisitos temporales en el art. 13 CP [VERIFICAR VIGENCIA] (los 35 años para la perpetua provienen de la Ley 25.892, no de la Ley 27.375); exclusiones por tipo de delito y por reincidencia en el art. 14 CP (texto según Ley 27.375); delitos excluidos de los egresos anticipados en el art. 56 bis Ley 24.660 (texto según Ley 27.375)
 - Libertad asistida (art. 54 Ley 24.660)
 - Salidas transitorias (arts. 16 y ss. Ley 24.660)
 - Prisión domiciliaria (art. 10 CP / art. 32 Ley 24.660)
@@ -991,10 +1031,11 @@ El organismo recaudador no formula denuncia en los supuestos del art. 19 Ley 27.
 *Versión inicial: perfil de práctica penal multifuero (federal, nacional, CABA, PBA).*
 *Correcciones v2 (auditoría del titular, junio 2026): (1) marcadores normalizados al glosario canónico - [INSERTAR FALLO VERIFICADO: CSJN - ...], [VERIFICAR MONTO ACTUALIZADO] para SMVM del art. 303 CP y para UVA del Título IX, [VERIFICAR CRITERIO DEL FUERO] para implementación del CPPF y colaboración eficaz, [ALERTA PLAZO FATAL] con estructura completa en probation; (2) responsabilidad penal de la persona jurídica - corregida la afirmación de que la Ley 27.401 "modificó el art. 1 CP para incorporar" la RPPJ: el régimen es autónomo (art. 1 Ley 27.401, complementario del CP por art. 27); el art. 29 reformó el art. 1 CP solo para la jurisdicción extraterritorial del cohecho transnacional (art. 258 bis); (3) sanciones del art. 7, eximente/atenuante (arts. 8, 9, 22 y 23) y acuerdo de colaboración (arts. 16-21) precisados verbatim; (4) listado de fuentes oficiales alineado con el índice general (sj.csjn.gov.ar, SAIJ, JUBA, JUSBAIRES); (5) fecha de verificación de la alerta normativa unificada en junio 2026.*
 *Contenido verificado por conector (Infoleg/SAIJ, junio 2026): Ley 27.799 (BO 2/1/2026) - todos los umbrales del Título IX Ley 27.430 transcriptos coinciden verbatim con el articulado; art. 16 (extinción), art. 19 (no denuncia) y art. 43 (ajuste UVA desde 1/1/2027) confirmados. Ley 27.739 (BO 15/3/2024, vigente 14/4/2024 por art. 40, 30 días corridos) - art. 303 CP umbral 150 SMVM; art. 306 inc. f financiamiento de proliferación; UIF al Ministerio de Economía (art. 5); registro de PSAV bajo CNV (art. 37); confirmados. Ley 27.401 - catálogo de delitos (258, 258 bis, 265, 268, 268(1) y (2), 300 bis) confirmado verbatim. Art. 76 bis CP (máximo tres años) confirmado por sumarios SAIJ. Art. 56 bis Ley 24.660 - catálogo de 11 incisos confirmado verbatim (sustituido por art. 30 Ley 27.375, BO 28/7/2017).*
-*Leading cases cargados en penal-DOCTRINA.md (cita oficial aportada por el titular en sesión, junio 2026; holdings verificados vía SAIJ o aportados): probation/consumo/recursos/hábeas corpus - Acosta 331:858, Góngora 336:392, Arriola 332:1963, Casal 328:3399, Verbitsky 328:1146; prisión preventiva - Nápoli 321:3633, Nánez 327:2403, Véliz, Díaz Bessone (C.N.C.P. Plenario 13, 30/10/2008), y Corte IDH (Suárez Rosero, Bayarri, Jenkins, Tzompaxtle Tecpile, García Rodríguez, con Serie C); exclusión/allanamiento - Charles Hermanos, Montenegro, Rayford, Ruiz, Fiorentino, Ciraolo, Minaglia, Ventura, Daray, Quaranta; jurados - Canales 342:697, V.R.P. vs. Nicaragua, Díaz Marcos, Sandoval; lesa humanidad/RPPJ - Arancibia Clavel 327:3312, Simón 328:2056, Blaquier 344:1785, "Müller"/Ford (C.F.C.P. Sala II, Reg. 1589/21, 2022), Larrabeiti Yáñez 330:4592, Villamil 340:345.*
+*Leading cases cargados en penal-DOCTRINA.md (cita oficial aportada por el titular en sesión, junio 2026; holdings verificados vía SAIJ o aportados): probation/consumo/recursos/hábeas corpus - Acosta 331:858, Góngora 336:392, Arriola 332:1963, Casal 328:3399, Verbitsky 328:1146; prisión preventiva - Nápoli 321:3630, Estévez 320:2105, Véliz, Díaz Bessone (C.N.C.P. Plenario 13, 30/10/2008), y Corte IDH (Suárez Rosero, Bayarri, Jenkins, Tzompaxtle Tecpile, García Rodríguez, con Serie C); exclusión/allanamiento - Charles Hermanos, Montenegro, Rayford, Ruiz, Fiorentino, Ciraolo, Minaglia, Ventura, Daray, Quaranta; jurados - Canales 342:697, V.R.P. vs. Nicaragua, Díaz Marcos, Sandoval; lesa humanidad/RPPJ - Arancibia Clavel 327:3312, Simón 328:2056, Blaquier 344:1785, "Müller"/Ford (C.F.C.P. Sala II, Reg. 1589/21, 2022), Larrabeiti Yáñez 330:4592, Villamil 340:345.*
 *Mejoras v3 (cotejo con material de doctrina procesal vía NotebookLM, junio 2026): (1) nueva sección "Metodología de trabajo del caso" (diagnóstico provisorio/definitivo, objetivos de fondo y de libertad, regla de incorporación al debate); (2) nueva sección "Eximición de prisión y excarcelación" (ordinaria art. 169 CPPBA / extraordinaria), diferenciada de las alternativas a la prisión preventiva; (3) nueva sección "Etapa intermedia y control de la acusación" (requisitoria clara, precisa y circunstanciada; art. 334 CPPBA); (4) nueva sección "Prueba: libertad probatoria, valoración y regla de exclusión" con las tres excepciones a la regla de exclusión (fuente independiente, descubrimiento inevitable, atenuación/purga) y psicología del testimonio (sinceridad vs. veracidad); (5) nulidades: articulado CPPBA precisado (arts. 201-207) y principios sumados (especificidad/taxatividad, instrumentalidad de las formas, conservación/economía procesal); (6) delitos sexuales: desarrollo del bien jurídico (Ley 25.087), estructura del art. 119 CP, reforma Ley 27.352, arts. 120-131, régimen de consentimiento por edad y agravantes. El material es introductorio y no aportó jurisprudencia citable en firme: las citas penales nuevas quedan como leads con [INSERTAR FALLO VERIFICADO].*
 *[DISCREPANCIA ENTRE FUENTES: el cotejo NotebookLM consignó "Aref, Vanesa Anahí y otros", Reg. 1119/2016. El perfil mantiene "Aref, Bertolano y Morales", causa 75.937, Reg. 1119/2016, carátula verificada vía JUBA. Prevalece la verificada; confirmar carátula exacta antes de citar.]*
+*Correcciones v4 (auditoría junio 2026): (1) régimen penal juvenil reescrito - la Ley 27.801 (BO 9/3/2026) deroga el DL 22.278 y baja la imputabilidad a 14 años, con entrada en vigencia diferida a 180 días (art. 52); el perfil afirmaba erróneamente que no había reforma. Sección reescrita en clave de transición (DL 22.278 operativo hasta la vigencia de la 27.801; ley penal más benigna en el tránsito) y alerta normativa agregada; texto cotejado contra el BO; (2) art. 62 CP completado: perpetua 15 años, inhabilitación perpetua 5 / temporal 1, multa 2, temporales el máximo de la pena con tope 12 y piso 2 (antes decía "2 años para multa o inhabilitación"); (3) art. 67 CP actualizado al texto de la Ley 25.990 (2005): actos interruptivos taxativos, no la "secuela de juicio" derogada; (4) fecha de "Arriola" corregida a 25/8/2009; (5) libertad condicional: removida la atribución incorrecta de modificación del art. 13 CP a la Ley 27.375 (la 27.375 reformó el art. 14 CP y el art. 56 bis Ley 24.660; los 35 años del art. 13 vienen de la Ley 25.892); (6) citas del CPPF confirmadas contra el texto ordenado (Decreto 118/2019): suspensión del proceso a prueba art. 35 (antes "34 inc. e y 295"), procedimientos abreviados arts. 323 a 327 (antes "288"), actividad procesal defectuosa/nulidades arts. 129 a 133 (antes "114"); advertencia general de numeración agregada para el resto de las citas del CPPF.*
 *Pendiente: verificar leads aportados por apunte (Rey vs. Rocha 1909 - arbitrariedad; Bianchi 2002 - nulidades; G. Domingo Fernando 2019 - nulidad relativa por falta de testigos; recepción CSJN de las excepciones a la regla de exclusión); prescripción de la acción penal común; ley provincial de jurados PBA (14.543); estado de implementación del CPPF por distrito; ratificación interna del 2º Protocolo de Budapest.*
 *Última actualización: junio 2026*
-*Normativa base: CP (Ley 11.179), CPPN (Ley 23.984), CPPF (Ley 27.063), CPPCABA (Ley 2303), CPPBA (Ley 11.922), Ley 24.660, Ley 27.272 (flagrancia), Ley 27.304 (colaboración eficaz), Ley 27.401 (RPPJ), Ley 27.430 Título IX (régimen penal tributario, umbrales actualizados por Ley 27.799), Ley 27.739 (lavado), Ley 27.743 (efectos extintivos moratoria y blanqueo)*
+*Normativa base: CP (Ley 11.179), CPPN (Ley 23.984), CPPF (Ley 27.063), CPPCABA (Ley 2303), CPPBA (Ley 11.922), Ley 24.660, Ley 27.272 (flagrancia), Ley 27.304 (colaboración eficaz), Ley 27.401 (RPPJ), Ley 27.430 Título IX (régimen penal tributario, umbrales actualizados por Ley 27.799), Ley 27.739 (lavado), Ley 27.743 (efectos extintivos moratoria y blanqueo), Ley 25.990 (interrupción de la prescripción), DL 22.278 y Ley 27.801 (régimen penal juvenil; 27.801 con entrada en vigencia diferida a 180 días desde el 9/3/2026)*
 *Autor: Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*

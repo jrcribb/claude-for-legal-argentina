@@ -28,6 +28,80 @@ No esperar a la revisión periódica.
  
 ## 2026
 
+### Junio 2026 - Ampliación de jurisprudencia del perfil penal (juvenil, recursos, consumo)
+
+**Archivos modificados:**
+- `argentina/penal-DOCTRINA.md` - incorporación de cuatro leading cases verificados contra fuente oficial:
+  - Sección nueva 10 (Derecho penal juvenil): CSJN "Maldonado" (Fallos 328:4343, 7/12/2005) -reproche disminuido y fin resocializador de la pena al menor- y Corte IDH "Mendoza y otros (Prisión y reclusión perpetua de adolescentes) vs. Argentina" (Serie C No. 260, 14/5/2013) -inconvencionalidad de la perpetua a menores; deber de no reimponerla, revisar las impuestas y adecuar el régimen-. Son el respaldo del núcleo de la Ley 27.801 (art. 19). Marcador dejado para la jurisprudencia sobre la 27.801 en sí, pendiente hasta su entrada en vigencia
+  - Recursos (sección 3): CSJN "Duarte, Felicia" (Fallos 337:901, 5/8/2014) -doble conforme / casación horizontal cuando la condena nace en casación; sigue "Mohamed vs. Argentina" de la Corte IDH; extendido en "P., S. M." (Fallos 342:2389)-. Complementa "Casal"
+  - Consumo (sección 2): antecedente "Bazterrica" (Fallos 308:1392, 29/8/1986), precedente que "Arriola" retoma
+  - Footer actualizado con la ampliación
+- `argentina/penal-CLAUDE.md` - el módulo de derecho penal juvenil ahora remite a la sección 10 del DOCTRINA (Maldonado + Mendoza) como fundamento convencional del art. 19 de la Ley 27.801
+
+**Verificación (fuentes oficiales, junio 2026):**
+- "Maldonado, Daniel Enrique y otro", Fallos 328:4343, 7/12/2005 (CSJN / SAIJ)
+- Corte IDH "Mendoza y otros vs. Argentina", Serie C No. 260, 14/5/2013 (corteidh.or.cr)
+- "Duarte, Felicia s/ recurso de casación", Fallos 337:901, 5/8/2014 (CSJN, Tomo 337; con "P., S. M." Fallos 342:2389)
+- "Bazterrica, Gustavo Mario", Fallos 308:1392, 29/8/1986 (citado por el propio "Arriola")
+
+**Motivo:** dotar de respaldo jurisprudencial al módulo juvenil reescrito, que había quedado sin doctrina, y reforzar los módulos de recursos y consumo. Todas las citas verificadas una por una antes de la carga.
+
+---
+
+### Junio 2026 - Auditoría de archivos complementarios de penal (doctrina, ejemplos, escritos)
+
+**Archivos modificados:**
+- `argentina/penal-DOCTRINA.md`, `argentina/penal-CLAUDE.md`, `argentina/ejemplos-penal.md`, `argentina/penal/escritos/escritos-penal-SKILL.md`, `argentina/penal/escritos/modelos/excarcelacion-cese-prision-preventiva.md` - corrección de una cita de jurisprudencia propagada en los cinco archivos: reemplazo de "Nánez" (Fallos 327:2403) por "Estévez, José Luis" (Fallos 320:2105, 3/10/1997, causa 33.769) en la sección de prisión preventiva. No se pudo confirmar la carátula ni el tomo:página de "Nánez" en ninguna fuente oficial; el holding atribuido (la libertad es la regla; la denegatoria de excarcelación no puede fundarse en la sola gravedad ni en afirmaciones dogmáticas, sino en la verificación concreta del peligro procesal) corresponde al leading case "Estévez". Corregido en DOCTRINA (sección 5 y footer), CLAUDE.md (prisión preventiva y footer), ejemplos (Caso 3), skill de escritos (reglas de integridad) y modelo de excarcelación (fundamentos y estado del escrito)
+- `argentina/penal-DOCTRINA.md` - además, fecha de "Arriola" (Fallos 332:1963) corregida de 5/8/2009 a 25/8/2009 (dos lugares), para alinear con la corrección ya aplicada en penal-CLAUDE.md
+
+**Verificación (fuentes oficiales, junio 2026):**
+- "Estévez, José Luis s/ solicitud de excarcelación", Fallos 320:2105, 3/10/1997 (SAIJ y texto del fallo)
+- "Arriola", Fallos 332:1963, 25/8/2009 (SAIJ, CSJN, carátula A.891.XLIV)
+
+**Cita de "Nápoli" corregida:** de Fallos 321:3633 a Fallos 321:3630 ("Nápoli, Erika Elizabeth y otros", CSJN, 22/12/1998), en los mismos cinco archivos. Confirmado contra el repositorio del MPD (2015.08 Prisión Preventiva, repositorio.mpd.gov.ar) y la colección oficial de Fallos de la Secretaría de Jurisprudencia de la CSJN.
+
+**Motivo:** auditoría de los archivos complementarios del perfil penal a partir del Código Penal y del CPPF aportados. El resto resultó consistente; los cinco modelos de escritos usan el articulado procesal como placeholder, sin números horneados.
+
+---
+
+### Junio 2026 - Auditoría y corrección del perfil penal (régimen juvenil, prescripción)
+
+**Archivos modificados:**
+- `argentina/penal-CLAUDE.md` - auditoría de errores normativos con las siguientes correcciones:
+  - Régimen penal juvenil reescrito en clave de transición. La Ley 27.801 (nuevo Régimen Penal Juvenil, BO 9/3/2026) deroga el Decreto-Ley 22.278 y baja la edad de imputabilidad de 16 a 14 años, pero su art. 52 difiere la entrada en vigencia a los 180 días de la publicación (aproximadamente principios de septiembre de 2026). El perfil afirmaba que no había habido reforma. Se reescribió la sección con el régimen saliente (DL 22.278, operativo hasta la vigencia de la 27.801) y el entrante (Ley 27.801: ámbito 14-18, catálogo de penas del art. 12, sustitución del art. 11, tope de 15 años y prohibición de perpetua del art. 19, criterio de oportunidad / mediación / probation de los arts. 41-43, inimputables de los arts. 24-26, especialización, proceso CPPF), más la regla de ley penal más benigna en el tránsito. Texto cotejado contra el Boletín Oficial; alerta normativa agregada en la sección de normas de vigencia variable
+  - Art. 62 CP (prescripción) completado: perpetua 15 años; privativas temporales el máximo de la pena con tope 12 y piso 2; inhabilitación perpetua 5, temporal 1; multa 2. Antes consignaba "2 años para multa o inhabilitación" y omitía la perpetua
+  - Art. 67 CP actualizado al texto de la Ley 25.990 (2005): los actos interruptivos son taxativos (comisión de otro delito, primer llamado a indagatoria, requerimiento de elevación a juicio, citación a juicio, sentencia condenatoria), no la "secuela de juicio" derogada. Lead jurisprudencial reformulado
+  - Fecha de "Arriola" (Fallos 332:1963) corregida de 5/8/2009 a 25/8/2009
+  - Libertad condicional: removida la atribución incorrecta de la modificación del art. 13 CP a la Ley 27.375 (esa ley reformó el art. 14 CP y el art. 56 bis Ley 24.660; los 35 años del art. 13 provienen de la Ley 25.892)
+  - Citas del CPPF confirmadas contra el texto ordenado (Decreto 118/2019, edición SAIJ aportada por la titular): suspensión del proceso a prueba en el art. 35 (el perfil indicaba "arts. 34 inc. e y 295"; el art. 34 es Conciliación); procedimientos abreviados -acuerdo pleno, parcial y juicio directo- en los arts. 323 a 327 (indicaba "arts. 288 y ss."); actividad procesal defectuosa/nulidades en los arts. 129 a 133 (indicaba "arts. 114 y ss."). Advertencia general de numeración agregada para el resto de las citas del CPPF
+
+**Verificación normativa (Boletín Oficial, junio 2026):**
+- Ley 27.801 (Régimen Penal Juvenil) confirmada contra el BO: sancionada 27/2/2026, publicada 9/3/2026, deroga el DL 22.278 (art. 48), imputabilidad desde los 14, máximo de 15 años de privación de libertad y prohibición de perpetua para adolescentes (art. 19), vigencia a los 180 días (art. 52). A junio 2026 sigue operativo el DL 22.278
+- Ley 27.799 (Inocencia Fiscal, BO 2/1/2026): se cotejaron los umbrales del régimen penal tributario contra el articulado del BO; el perfil ya los transcribía correctamente (evasión simple $100.000.000; agravada inc. a $1.000.000.000; incs. b y c $200.000.000), más precisos que varias fuentes secundarias que consignaban $800.000.000. Sin cambios en ese módulo
+
+**Motivo:** auditoría de errores del perfil penal. El hallazgo principal -la reforma juvenil dada por inexistente- mostró que el sello "última verificación junio 2026" no garantizaba un barrido completo; corregido y documentado. Los demás son errores de derecho de fondo estable (prescripción) y de cita.
+
+---
+
+### Junio 2026 - Nuevo perfil previsional (SIPA) + ejemplos de reajuste
+
+**Archivos nuevos:**
+- `argentina/previsional-CLAUDE.md` - perfil de práctica previsional del régimen general (SIPA) ante el Fuero Federal de la Seguridad Social. Cubre acceso al beneficio, determinación y reajuste del haber inicial, movilidad, retroactivos e intereses, impugnación de denegatorias de ANSES, pensiones derivadas y ejecución de sentencia contra el organismo. Acción insignia: reajuste de haberes (haber inicial + movilidad). Fronteras explícitas anti-duplicación: la PNC por invalidez se deriva a `discapacidad-CLAUDE.md`; el retiro por invalidez del SIPA (art. 48 Ley 24.241) se trata acá, con la pericia ruteada a `especialidades/medicina-legal-CLAUDE.md`. Ganancias sobre el haber como módulo opcional. Secuencia de regímenes de movilidad (24.241 / 26.417 / 27.426 / 27.541 / 27.609 / DNU 274/2024), cada tramo a [VERIFICAR VIGENCIA]; precedentes (Sánchez/Badaro en movilidad, Elliff/Blanco en haber inicial, García en ganancias) nombrados como referencia doctrinal pero citados vía B1 [INSERTAR FALLO VERIFICADO] y con vigencia por B5 [VERIFICAR PRECEDENTE]. Nodo bloqueante doble (habilitación de instancia en denegatorias + prescripción bienal del retroactivo). Sin montos, índices ni tasas horneados: todo a marcador
+- `argentina/ejemplos-previsional.md` - casos modelo de liquidación de reajuste, en la línea de `ejemplos-laboral.md`: Ejemplo 1 haber inicial (actualización de remuneraciones, índice administrativo vs. ISBIC judicial, recálculo de PC/PAP), Ejemplo 2 movilidad (recálculo de un tramo mal aplicado + arrastre), Ejemplo 3 retroactivo con corte de prescripción bienal e intereses mensualidad por mensualidad. Montos y coeficientes hipotéticos marcados "(hipotético - verificar)"; valores verificables (índice, tasa, PBU) a marcador canónico. Checklist de rubros por reclamo
+
+**Archivos modificados:**
+- `argentina/bucles-SKILL.md` - agregada la rama Previsional (la décima): entregable demanda de reajuste; nodo bloqueante doble (habilitación de instancia + prescripción bienal del retroactivo); criterio de salida por fórmula de movilidad por período (secuencia no intercambiable), índice del haber inicial con criterio del fuero, y precedentes con B5; conectores `infoleg__` / `csjn__` / `saij__` / `pjnjuris__`. El skill pasó de nueve a diez bucles por rama
+- `argentina/CLAUDE.md` - routing de área (fila `previsional-CLAUDE.md + ejemplos-previsional.md`) y árbol de estructura con la línea del perfil y del archivo de ejemplos. Además, completado el bloque de ejemplos del árbol que estaba desactualizado: agregadas las líneas de `ejemplos-laboral.md`, `ejemplos-discapacidad.md`, `ejemplos-familia.md` y `ejemplos-penal.md`, que ya existían en el repo pero no figuraban en el árbol
+- `argentina/fuentes.md` - nueva combinación recomendada "InfoLeg + CSJN + SAIJ + previsional-CLAUDE.md" para la demanda de reajuste ante el FSS: InfoLeg verifica la fórmula de movilidad de cada período y la Ley 24.463; CSJN aporta la línea de movilidad y de haber inicial; SAIJ y PJN Jurisprudencia la jurisprudencia del fuero (CFSS); la vigencia del precedente de movilidad se verifica a mano (B5)
+
+**Verificación normativa del tramo volátil (Boletín Oficial + resoluciones ANSES + fuentes, junio 2026):**
+- Movilidad: el DNU 274/2024 sustituyó el art. 32 de la Ley 24.241 y fijó la movilidad mensual por IPC del INDEC con dos meses de rezago, primera aplicación julio 2024; vigente a junio 2026 (Resol. ANSES 38/2026 y 139/2026). Derogó de hecho la fórmula de la Ley 27.609. No fue ratificado por ley: el artículo del proyecto de Presupuesto 2025 que lo ratificaba no se sancionó, de modo que la movilidad vigente es de fuente reglamentaria, no legal -dato que alimenta la litigiosidad de reajuste-. Registrado en la "Alerta normativa" del perfil con su marcador de verificación
+- Acceso sin 30 años de aportes: la moratoria amplia de la Ley 27.705 (Unidad de Pago de Deuda Previsional, para quien ya tiene la edad) venció en marzo 2025 y no fue prorrogada. Sobreviven la UCAP (trabajadores en actividad, capítulo de la misma ley) y la Ley 24.476 (períodos hasta septiembre 1993). PUAM (art. 13 Ley 27.260) como red de contención: 65 años sin distinción de sexo, 80% de la mínima, sin pensión derivada, evaluación socioeconómica. Reconocimiento de aportes por tareas de cuidado (Decreto 475/2021) vigente. El perfil es explícito en no ofrecer la moratoria en cuotas como si siguiera disponible para quien ya cumplió la edad
+
+**Motivo:** incorporar el área previsional -alto volumen, escrito templado de reajuste, adversario único (ANSES), jurisprudencia recurrente- con verificación del tramo volátil (movilidad post-2024 y estado de moratorias) y registro completo en routing, bucle, fuentes y ejemplos, alineado con la regla de integridad (sin montos ni precedentes horneados; todo a marcador). De paso, corregido el árbol de `CLAUDE.md`, que omitía cuatro archivos de ejemplos ya existentes.
+
+---
+
 ### Junio 2026 - fuentes.md reescrito hub-centric (mcp-legal-ar) + nuevo skill de bucle de fundamentación
 
 **Archivos nuevos:**

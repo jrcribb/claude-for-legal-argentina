@@ -74,7 +74,7 @@ Todo redistribuidor del contenido comprendido en la seccion 2 debe
 incluir en lugar visible:
 
 > "Basado en contribuciones originales de Cristian Aboitiz
-> (github.com/cristianaboitiz-eng), publicadas bajo licencia dual.
+> (github.com/Probanza-ar), publicadas bajo licencia dual.
 > El codigo base proviene de claude-for-legal (Anthropic, Inc.),
 > licenciado bajo Apache 2.0."
 

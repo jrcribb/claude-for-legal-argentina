@@ -203,7 +203,7 @@ No necesitás cuenta de GitHub para descargar y usar el sistema.
 Abrí Git Bash desde el menú inicio y ejecutá:
 
 ```bash
-git clone https://github.com/cristianaboitiz-eng/claude-for-legal-argentina.git
+git clone https://github.com/Probanza-ar/claude-for-legal-argentina.git
 cd claude-for-legal-argentina
 git pull
 ```
@@ -417,7 +417,7 @@ No son necesarios para empezar. Los perfiles funcionan solos. Los conectores mej
 
 Hub unificado que concentra las principales fuentes jurídicas argentinas en un solo servidor local. Sin servidores externos, sin dependencia de terceros. Se instala una sola vez y las 14 fuentes quedan disponibles al mismo tiempo.
 
-**[GitHub](https://github.com/cristianaboitiz-eng/mcp-legal-ar)** · Instalación: ver README del repositorio.
+**[GitHub](https://github.com/Probanza-ar/mcp-legal-ar)** · Instalación: ver README del repositorio.
 
 | Conector incluido | Descripción |
 |---|---|

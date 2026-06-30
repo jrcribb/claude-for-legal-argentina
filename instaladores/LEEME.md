@@ -40,8 +40,8 @@ actualización automática. Requiere que el repo sea **público** (no pide crede
 
 Estos archivos se bajan **sueltos** desde GitHub, sin tener el repo todavía:
 
-- Windows: `https://raw.githubusercontent.com/cristianaboitiz-eng/claude-for-legal-argentina/main/instaladores/instalar-sin-git.bat`
-- Mac/Linux: `https://raw.githubusercontent.com/cristianaboitiz-eng/claude-for-legal-argentina/main/instaladores/instalar-sin-git.sh`
+- Windows: `https://raw.githubusercontent.com/Probanza-ar/claude-for-legal-argentina/main/instaladores/instalar-sin-git.bat`
+- Mac/Linux: `https://raw.githubusercontent.com/Probanza-ar/claude-for-legal-argentina/main/instaladores/instalar-sin-git.sh`
 
 **Importante:** en esta modalidad, si editás archivos del sistema se sobrescriben en la
 próxima actualización. El único archivo que podés editar y que se conserva es

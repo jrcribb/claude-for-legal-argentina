@@ -13,7 +13,7 @@ fallo en la sesión.
 
 `mcp-legal-ar` es 100% local (transporte stdio, sin servidores intermediarios),
 solo lectura y de código abierto auditable. Repositorio:
-https://github.com/cristianaboitiz-eng/mcp-legal-ar
+https://github.com/Probanza-ar/mcp-legal-ar
 
 La instalación no se documenta acá para no duplicarla: está en el README del hub.
 Resumen: requiere Node.js, se baja el repo y se agrega un bloque a
@@ -485,6 +485,12 @@ fundar una pretensión en un fallo. Marcar en sesión cuando no se pudo confirma
   nacional verificada + jurisprudencia PBA + doctrina.
 - **InfoLeg + CSJN + PJN Jurisprudencia:** recursos y escritos ante fueros
   nacionales/federales. Norma verificada + Corte + cámaras.
+- **InfoLeg + CSJN + SAIJ + previsional-CLAUDE.md:** demanda de reajuste de haberes
+  ante el Fuero Federal de la Seguridad Social. InfoLeg verifica la fórmula de
+  movilidad de cada período (secuencia 24.241 / 26.417 / 27.426 / 27.541 / 27.609 /
+  DNU 274/2024) y la Ley 24.463; CSJN aporta la línea de movilidad y de haber inicial;
+  SAIJ y PJN Jurisprudencia, la jurisprudencia del fuero (CFSS). La vigencia del
+  precedente de movilidad se verifica a mano (B5).
 - **InfoLeg + BORA:** verificación normativa completa. InfoLeg da el texto
   consolidado; BORA confirma la publicación original y la cadena de modificaciones.
 - **BORA + societario-CLAUDE.md:** due diligence societario. BORA busca el acto

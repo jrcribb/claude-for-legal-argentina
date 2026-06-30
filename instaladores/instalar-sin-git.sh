@@ -12,7 +12,7 @@
 #  que ya vienen en macOS y en la mayoria de los Linux.
 # ============================================================
 set -euo pipefail
-OWNER="cristianaboitiz-eng"
+OWNER="Probanza-ar"
 REPO="claude-for-legal-argentina"
 BRANCH="main"
 DEST="$HOME/claude-for-legal-argentina"

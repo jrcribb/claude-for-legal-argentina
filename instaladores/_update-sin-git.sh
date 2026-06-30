@@ -10,7 +10,7 @@
 #  Se autolocaliza: el repo es la carpeta padre de /instaladores.
 # ============================================================
 set -euo pipefail
-OWNER="cristianaboitiz-eng"
+OWNER="Probanza-ar"
 REPO="claude-for-legal-argentina"
 BRANCH="main"
 

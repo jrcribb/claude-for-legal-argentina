@@ -28,7 +28,7 @@ III. FUNDAMENTOS
 1. Carácter excepcional de la prisión preventiva. La prisión preventiva es una medida cautelar de carácter excepcional. No es una pena anticipada y solo se justifica para neutralizar peligros procesales concretos: el peligro de fuga y el de entorpecimiento de la investigación (art. 18 CN; art. 8.2 CADH; arts. {...} del código procesal aplicable).
 
     [VERIFICAR VIGENCIA: arts. {...} del código procesal del fuero - presupuestos y alternativas de la coerción personal]
-    Doctrina cargada (ver penal-DOCTRINA.md): CSJN, "Nápoli" (Fallos 321:3633), "Nánez" (Fallos 327:2403) y "Véliz" (causa 5640) - la gravedad del delito no basta, la libertad es la regla, inconstitucionalidad del automatismo; Corte IDH, "Bayarri vs. Argentina" (2008) y "Jenkins vs. Argentina" (2019) - el peligro procesal se prueba con hechos actuales y la carga recae en la acusación. Verificar el texto íntegro antes de transcribir considerandos.
+    Doctrina cargada (ver penal-DOCTRINA.md): CSJN, "Nápoli" (Fallos 321:3630), "Estévez" (Fallos 320:2105) y "Véliz" (causa 5640) - la gravedad del delito no basta, la libertad es la regla, inconstitucionalidad del automatismo; Corte IDH, "Bayarri vs. Argentina" (2008) y "Jenkins vs. Argentina" (2019) - el peligro procesal se prueba con hechos actuales y la carga recae en la acusación. Verificar el texto íntegro antes de transcribir considerandos.
 
 2. Inexistencia o cese del peligro de fuga. {Mi asistido tiene arraigo acreditado: domicilio, familia y trabajo}. La gravedad del delito y la pena en expectativa no constituyen, por sí solas, fundamento autónomo de la prisión preventiva, sino a lo sumo indicios a ponderar junto con el resto de las circunstancias.
 
@@ -61,7 +61,7 @@ Marcadores pendientes:
 - [VERIFICAR VIGENCIA: art. {...} CP] - completar con la calificación y verificar escala y agravantes vigentes.
 - [VERIFICAR VIGENCIA: arts. {...} del código procesal del fuero] - completar con el código aplicable (CPPN/CPPF/CPPCABA/CPPBA).
 - [VACÍO PROBATORIO: arraigo / estado de la prueba / resolución cautelar] - aportar constancias.
-- Doctrina cargada (Nápoli, Nánez, Véliz; Corte IDH Bayarri, Jenkins) - ver penal-DOCTRINA.md; verificar el texto íntegro antes de transcribir.
+- Doctrina cargada (Nápoli, Estévez, Véliz; Corte IDH Bayarri, Jenkins) - ver penal-DOCTRINA.md; verificar el texto íntegro antes de transcribir.
 
 Normas con [VERIFICAR VIGENCIA]: art. {...} CP; arts. {...} del código procesal del fuero.
 

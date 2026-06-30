@@ -73,7 +73,7 @@ Cita completa: CSJN, "Góngora, Gabriel Arnaldo", Fallos 336:392 (23/4/2013).
 
 ### Inconstitucionalidad de la criminalización - "Arriola"
 
-CSJN, "Arriola, Sebastián y otros", Fallos 332:1963, 5/8/2009 (holding verificado
+CSJN, "Arriola, Sebastián y otros", Fallos 332:1963, 25/8/2009 (holding verificado
 vía SAIJ, sumarios 33013056, 33012968 y 33015120, que aplican la doctrina del
 precedente; cita oficial de Fallos y fecha aportadas por el titular en sesión,
 junio 2026).
@@ -89,7 +89,13 @@ acreditando que la tenencia era para uso propio y sin trascendencia a terceros.
 Verificar el encuadre fáctico (cantidad, lugar, circunstancias) porque el estándar
 es de peligro concreto.
 
-Cita completa: CSJN, "Arriola, Sebastián y otros", Fallos 332:1963 (5/8/2009).
+Cita completa: CSJN, "Arriola, Sebastián y otros", Fallos 332:1963 (25/8/2009).
+
+### Antecedente - "Bazterrica"
+
+CSJN, "Bazterrica, Gustavo Mario", Fallos 308:1392 (29/8/1986). Es el precedente que "Arriola" retoma: declaró inconstitucional la criminalización de la tenencia de estupefacientes para consumo personal (entonces art. 6 de la Ley 20.771) por invadir la esfera de privacidad del art. 19 CN. Entre "Bazterrica" y "Arriola" rigió el criterio inverso de "Montalvo" (1990). Útil para mostrar que la doctrina del art. 19 CN en la materia no es novedosa ni aislada.
+
+Cita completa: CSJN, "Bazterrica, Gustavo Mario", Fallos 308:1392 (29/8/1986).
 
 ---
 
@@ -112,6 +118,14 @@ Uso: fundar el recurso de casación contra la condena, sosteniendo que el tribun
 debe revisar la valoración de la prueba y no solo la aplicación del derecho.
 
 Cita completa: CSJN, "Casal, Matías Eugenio y otro", Fallos 328:3399 (20/9/2005).
+
+### Doble conforme cuando la condena nace en casación - "Duarte"
+
+CSJN, "Duarte, Felicia s/ recurso de casación", Fallos 337:901 (5/8/2014). Holding: cuando la Cámara de Casación condena por primera vez al revocar una absolución (casación positiva), el condenado tiene derecho al doble conforme (art. 8.2.h CADH); la revisión amplia la realiza otra sala de la misma Cámara (casación horizontal), sin que ello implique anular la condena. Sigue la doctrina de la Corte IDH en "Mohamed vs. Argentina". Extendido luego a la agravación de pena o de calificación en segunda instancia en "P., S. M." (Fallos 342:2389, 2019).
+
+Uso: complementa "Casal". "Casal" garantiza la revisión amplia de la condena de primera instancia; "Duarte" cubre el supuesto en que la condena aparece recién en la instancia revisora, y fija que la revisa otra sala del mismo tribunal.
+
+Cita completa: CSJN, "Duarte, Felicia s/ recurso de casación", Fallos 337:901 (5/8/2014).
 
 ---
 
@@ -145,12 +159,12 @@ antes de transcribir considerandos.
 
 ### CSJN
 
-CSJN, "Nápoli", Fallos 321:3633 (1998). Holding: inconstitucionalidad del
+CSJN, "Nápoli, Erika Elizabeth y otros", Fallos 321:3630 (22/12/1998). Holding: inconstitucionalidad del
 automatismo. Son inválidas las normas que niegan la excarcelación por la sola
 naturaleza o gravedad del delito; la exclusión apriorística viola la igualdad y la
 presunción de inocencia.
 
-CSJN, "Nánez", Fallos 327:2403 (2004). Holding: la libertad durante el proceso es la
+CSJN, "Estévez, José Luis", Fallos 320:2105 (3/10/1997). Holding: la libertad durante el proceso es la
 regla; toda restricción se interpreta de modo restrictivo y excepcional.
 
 CSJN, "Véliz", causa N° 5640 (15/6/2010). Holding: inconstitucionalidad del art. 10
@@ -425,10 +439,29 @@ cuestión distinta y no completan este marcador.
 
 ---
 
+## 10. Derecho penal juvenil
+
+Encuadre: a junio de 2026 el régimen está en transición (DL 22.278 operativo hasta la entrada en vigencia de la Ley 27.801, diferida a 180 días de su publicación del 9/3/2026; ver penal-CLAUDE.md). Los dos precedentes que siguen son el respaldo constitucional y convencional del núcleo de la reforma -reproche disminuido, fin resocializador, prohibición de la perpetua y tope temporal-. No hay todavía jurisprudencia sobre la Ley 27.801 en sí; queda pendiente de carga cuando la ley entre en vigencia.
+
+CSJN, "Maldonado, Daniel Enrique y otro", Fallos 328:4343 (7/12/2005). Holding: la pena a quien cometió el hecho siendo menor debe atender de modo preponderante a la resocialización y reflejar un reproche disminuido respecto del adulto; la "necesidad de pena" del art. 4 DL 22.278 no se equipara a gravedad del hecho ni a peligrosidad. No prohibió en abstracto la perpetua a menores, pero exigió que sean la acusación y el tribunal quienes justifiquen por qué no basta la escala reducida (la de la tentativa, art. 4 DL 22.278) antes de aplicarla; es inconstitucional el camino inverso de exigir a la defensa que "merezca" la reducción. Anuló por falta de fundamentación la perpetua impuesta en casación.
+
+Uso: pilar para discutir el quantum y la motivación de la pena a un adolescente bajo el régimen saliente; su lógica (reproche disminuido, fin resocializador) sobrevive en la Ley 27.801.
+
+Corte IDH, "Mendoza y otros (Prisión y reclusión perpetua de adolescentes) vs. Argentina", Serie C No. 260 (14/5/2013). Holding: la prisión y la reclusión perpetuas impuestas por hechos cometidos siendo menor de 18 años violan los arts. 5.6, 7.3, 19 y 8.2.h CADH (en relación con los arts. 1.1 y 2): no son sanciones excepcionales, no se imponen por el menor tiempo posible ni admiten revisión periódica, y frustran el fin de reintegración social. Ordenó al Estado no volver a imponerlas a menores, revisar las ya impuestas, garantizar el doble conforme y adecuar el régimen penal juvenil a los estándares internacionales.
+
+Uso: es el fundamento convencional directo del art. 19 de la Ley 27.801 (prohibición de la perpetua y tope de 15 años). Sirve para impugnar penas perpetuas dictadas bajo el régimen saliente y para interpretar la nueva ley conforme a la CADH. Cita verificada en el sitio oficial de la Corte IDH.
+
+```
+[VERIFICAR VIGENCIA: jurisprudencia sobre la Ley 27.801 propiamente dicha - pendiente hasta su entrada en vigencia (aproximadamente septiembre de 2026)]
+```
+
+---
+
 *Versión inicial: junio 2026 (v1) - estructura espejada de civil-DOCTRINA.md y discapacidad-DOCTRINA.md.*
-*Fallos cargados (holding verificado vía SAIJ y/o aportado por el titular en sesión jun. 2026; cita oficial de Fallos aportada por el titular): probation y consumo - "Acosta" 331:858, "Góngora" 336:392, "Arriola" 332:1963; recursos - "Casal" 328:3399; hábeas corpus - "Verbitsky" 328:1146; prisión preventiva (CSJN) - "Nápoli" 321:3633, "Nánez" 327:2403, "Véliz" (causa 5640, 15/6/2010), plenario "Díaz Bessone" (C.N.C.P.); prisión preventiva (Corte IDH) - Suárez Rosero, Bayarri, Jenkins, Tzompaxtle Tecpile, García Rodríguez; exclusión probatoria y allanamiento - "Charles Hermanos" 46:36, "Montenegro" 303:1938, "Rayford" 308:733, "Ruiz" 310:1847, "Fiorentino" 306:1752, "Ciraolo" 321:1328, "Minaglia" 330:3801, "Ventura" 312:201, "Daray" 317:1985, "Quaranta" 333:1674.*
+*Fallos cargados (holding verificado vía SAIJ y/o aportado por el titular en sesión jun. 2026; cita oficial de Fallos aportada por el titular): probation y consumo - "Acosta" 331:858, "Góngora" 336:392, "Arriola" 332:1963; recursos - "Casal" 328:3399; hábeas corpus - "Verbitsky" 328:1146; prisión preventiva (CSJN) - "Nápoli" 321:3630, "Estévez" 320:2105, "Véliz" (causa 5640, 15/6/2010), plenario "Díaz Bessone" (C.N.C.P.); prisión preventiva (Corte IDH) - Suárez Rosero, Bayarri, Jenkins, Tzompaxtle Tecpile, García Rodríguez; exclusión probatoria y allanamiento - "Charles Hermanos" 46:36, "Montenegro" 303:1938, "Rayford" 308:733, "Ruiz" 310:1847, "Fiorentino" 306:1752, "Ciraolo" 321:1328, "Minaglia" 330:3801, "Ventura" 312:201, "Daray" 317:1985, "Quaranta" 333:1674.*
 *Jurados (sección 7): "Canales" (Fallos 342:697), "V.R.P., V.P.C. y otros vs. Nicaragua" (Corte IDH, Serie C No. 350, 8/3/2018), "Aref, Bertolano y Morales" (T.C.P. PBA Sala I, causa 75.937, Reg. 1119/2016 - carátula verificada vía JUBA idFallo 143028; antes mal identificada como "Díaz Marcos"/"Mazzon"), "Mazzon, Marcos Ezequiel" (causa 72.016, 27/10/2015, precedente relacionado), "Sandoval" (TSJ Neuquén, primer juicio por jurados, Cutral Có, 10/4/2014), más el test del jurado razonable (Yebes/Biniaris, ratificado por SCBA) y las fórmulas de litigio.*
 *Lesa humanidad y RPPJ (sección 8): "Arancibia Clavel" (327:3312), "Simón" (328:2056), "Blaquier"/Ledesma (344:1785), "Müller, Pedro y otros" (Ford; C.F.C.P. Sala II, Reg. 1589/21, causa FSM 27004012/2003/TO4/CFC, sept. 2022); límite de la RPPJ a la lesa humanidad; reparación integral interamericana (Velásquez Rodríguez; V.R.P. Serie C 350); imprescriptibilidad de la reparación civil - Corte IDH "Órdenes Guerra y otros vs. Chile" (Serie C No. 372, 29/11/2018) y "Almonacid Arellano y otros vs. Chile" (Serie C No. 154, 26/9/2006), verificadas en el sitio oficial; acción civil interna - "Larrabeiti Yáñez" (330:4592) y "Villamil" (340:345).*
 *Díaz Bessone cerrado: C.N.C.P. en pleno, Plenario N° 13, 30/10/2008. Corte IDH (prisión preventiva) con Serie C completa: Suárez Rosero No. 35, Bayarri No. 187, Jenkins No. 397, Tzompaxtle Tecpile No. 470, García Rodríguez No. 482.*
 *Marcadores [VERIFICAR CITA DE FALLOS] abiertos: jurados - "Sandoval" (TSJ Neuquén, 2014) en jurispenal.jusneuquen.gov.ar, "Mazzon" (causa 72.016) en JUBA y el precedente del test Yebes/Biniaris (SCBA). Pendiente de carga: fallo de la CSJN sobre "secuela de juicio" como interrupción de la prescripción (art. 67 CP, Ley 25.990) - distinto de "Canales". Cerrados en esta tanda contra fuente oficial: "Aref, Bertolano y Morales" (JUBA, 75.937/Reg. 1119/2016, 22/12/2016); Órdenes Guerra (Serie C 372) y Almonacid Arellano (Serie C 154) (corteidh.or.cr). Antes de transcribir considerandos, verificar el texto íntegro en la fuente oficial.*
+*Ampliación (junio 2026): recursos - "Duarte, Felicia" (Fallos 337:901, 5/8/2014, doble conforme / casación horizontal; con "P., S. M." Fallos 342:2389); consumo - antecedente "Bazterrica" (Fallos 308:1392, 29/8/1986); sección 10 derecho penal juvenil - "Maldonado" (Fallos 328:4343, 7/12/2005) y Corte IDH "Mendoza y otros vs. Argentina" (Serie C No. 260, 14/5/2013). Verificados contra fuente oficial (CSJN / SAIJ / corteidh.or.cr).*
 *Autor: Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*

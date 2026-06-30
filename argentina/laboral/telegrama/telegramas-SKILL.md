@@ -5,7 +5,7 @@ description: Redacta telegramas laborales y cartas documento en el marco del der
 
 # Telegramas laborales
 
-> Parte del repositorio [claude-for-legal-argentina](https://github.com/cristianaboitiz-eng/claude-for-legal-argentina/).  
+> Parte del repositorio [claude-for-legal-argentina](https://github.com/Probanza-ar/claude-for-legal-argentina/).  
 > Autor: Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)
 
 ---

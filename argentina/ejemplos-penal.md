@@ -72,7 +72,7 @@ Lección operativa: el pedido se gana con prueba de arraigo y con una alternativ
 concreta menos lesiva, no solo con la doctrina de la excepcionalidad.
 
     [VACÍO PROBATORIO: arraigo del imputado - aportar constancias de domicilio, vínculos familiares y trabajo]
-    Doctrina cargada (ver penal-DOCTRINA.md): CSJN "Nápoli" (Fallos 321:3633), "Nánez" (Fallos 327:2403); Corte IDH "Bayarri vs. Argentina" (2008).
+    Doctrina cargada (ver penal-DOCTRINA.md): CSJN "Nápoli" (Fallos 321:3630), "Estévez" (Fallos 320:2105); Corte IDH "Bayarri vs. Argentina" (2008).
 
 ---
 

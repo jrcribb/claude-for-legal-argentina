@@ -9,7 +9,7 @@
 #  Se autolocaliza: el repo es la carpeta padre de \instaladores.
 # ============================================================
 $ErrorActionPreference = 'Stop'
-$owner  = 'cristianaboitiz-eng'
+$owner  = 'Probanza-ar'
 $repo   = 'claude-for-legal-argentina'
 $branch = 'main'
 

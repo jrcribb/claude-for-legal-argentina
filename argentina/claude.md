@@ -2,7 +2,7 @@ Perfil de práctica · Derecho argentino
 
 Archivo de configuración para el sistema claude-for-legal · Adaptación argentina.
 Reemplaza el CLAUDE.md original orientado a derecho norteamericano.
-Repo: https://github.com/cristianaboitiz-eng/claude-for-legal-argentina
+Repo: https://github.com/Probanza-ar/claude-for-legal-argentina
 
 
 Primera vez que usás este sistema
@@ -394,7 +394,7 @@ Para consultas de una sola área: el sistema indica qué perfil cargar y puede c
 Para consultas multidisciplinarias (ejemplo: M&A con impacto laboral e impositivo): el sistema identifica todas las áreas involucradas, indica qué perfiles cargar, y opera con el conocimiento base del CLAUDE.md general hasta que se carguen los perfiles.
 
 Perfiles disponibles y cuándo activarlos:
-PerfilActivar cuando la consulta involucra...laboral-CLAUDE.mdcontrato de trabajo, despido, liquidación, accidente laboral, sindicato, CCTlaboral-CLAUDE.md + laboral/telegrama/telegramas-SKILL.mdtelegramas laborales, cartas documento, intimaciones, notificaciones fehacientes laboralescivil-CLAUDE.md + ejemplos-civil.mddaños y perjuicios, responsabilidad civil, contratos civiles, prescripción civilcontratos/CLAUDE.md + contratos/red-flags.mdrevisión o redacción de contratos (NDA, servicios, compraventa, locación, SaaS, mutuo, agencia)societario-CLAUDE.md + ejemplos-societario.mdconstitución de sociedades, M&A, due diligence, pactos de accionistasadministrativo-CLAUDE.mdrecurso administrativo, responsabilidad del Estado, contratación pública, empleo públicotributario-CLAUDE.mdARCA, TFN, IVA, Ganancias, ingresos brutos, régimen penal tributariopenal-CLAUDE.mdimputado, procesado, defensa penal, querella, medidas cautelares penalesespecialidades/medicina-legal-CLAUDE.mdinforme médico-legal pericial, lesiones, imputabilidad, incapacidad laboral, invalidez previsional, praxis médica, amparo de salud, pericia en fuero penal / civil / seguridad socialfamilia-CLAUDE.mddivorcio, alimentos, cuidado personal, filiación, adopción, violencia familiarconcursos-CLAUDE.mdconcurso preventivo, quiebra, verificación de créditos, APE, cramdowntransito-CLAUDE.md + transito/descargos/descargos-SKILL.mdmulta o infracción de tránsito, acta, fotomulta, descargo o apelación ante controlador o juez de faltas, denuncia de venta frente a infracciónplazos-SKILL.mdcómputo de plazos procesales o administrativos, prescripción, caducidad, ferias judiciales, SECLOdiagnostico-SKILL.mddiagnóstico previo de cualquier escrito aportado antes de modificarlobucles-SKILL.mdarmar o fundamentar desde cero un escrito de fondo (demanda, contestación, recurso, alegato): bucle con criterio de salida verificable y nodo bloqueante de plazo / competencia / agotamiento antes del fondo
+PerfilActivar cuando la consulta involucra...laboral-CLAUDE.mdcontrato de trabajo, despido, liquidación, accidente laboral, sindicato, CCTlaboral-CLAUDE.md + laboral/telegrama/telegramas-SKILL.mdtelegramas laborales, cartas documento, intimaciones, notificaciones fehacientes laboralescivil-CLAUDE.md + ejemplos-civil.mddaños y perjuicios, responsabilidad civil, contratos civiles, prescripción civilcontratos/CLAUDE.md + contratos/red-flags.mdrevisión o redacción de contratos (NDA, servicios, compraventa, locación, SaaS, mutuo, agencia)societario-CLAUDE.md + ejemplos-societario.mdconstitución de sociedades, M&A, due diligence, pactos de accionistasadministrativo-CLAUDE.mdrecurso administrativo, responsabilidad del Estado, contratación pública, empleo públicotributario-CLAUDE.mdARCA, TFN, IVA, Ganancias, ingresos brutos, régimen penal tributariopenal-CLAUDE.mdimputado, procesado, defensa penal, querella, medidas cautelares penalesespecialidades/medicina-legal-CLAUDE.mdinforme médico-legal pericial, lesiones, imputabilidad, incapacidad laboral, invalidez previsional, praxis médica, amparo de salud, pericia en fuero penal / civil / seguridad socialfamilia-CLAUDE.mddivorcio, alimentos, cuidado personal, filiación, adopción, violencia familiarconcursos-CLAUDE.mdconcurso preventivo, quiebra, verificación de créditos, APE, cramdownprevisional-CLAUDE.md + ejemplos-previsional.mdreajuste de haberes, movilidad jubilatoria, haber inicial, denegatoria de beneficio de ANSES, jubilación, pensión, retiro por invalidez del SIPA, PUAM, moratoria previsional, Fuero Federal de la Seguridad Socialtransito-CLAUDE.md + transito/descargos/descargos-SKILL.mdmulta o infracción de tránsito, acta, fotomulta, descargo o apelación ante controlador o juez de faltas, denuncia de venta frente a infracciónplazos-SKILL.mdcómputo de plazos procesales o administrativos, prescripción, caducidad, ferias judiciales, SECLOdiagnostico-SKILL.mddiagnóstico previo de cualquier escrito aportado antes de modificarlobucles-SKILL.mdarmar o fundamentar desde cero un escrito de fondo (demanda, contestación, recurso, alegato): bucle con criterio de salida verificable y nodo bloqueante de plazo / competencia / agotamiento antes del fondo
 Para conectores de fuentes primarias (hub mcp-legal-ar) y para rutear cada pieza
 del escrito a su fuente - incluida la verificación de vigencia de la norma y del
 precedente - ver argentina/fuentes.md.
@@ -457,6 +457,7 @@ argentina/
         bloque-07-salud-hostigamiento.md
         bloque-08-construccion.md
   penal-CLAUDE.md                   # Perfil derecho penal
+  previsional-CLAUDE.md             # Perfil derecho previsional (SIPA - Fuero Federal de la Seguridad Social)
   societario-CLAUDE.md              # Perfil derecho societario (LGS)
   transito-CLAUDE.md                # Perfil infracciones y multas de tránsito
   transito/
@@ -472,6 +473,11 @@ argentina/
         modelo-07-defensa-a-distancia-art71.md
   tributario-CLAUDE.md              # Perfil derecho tributario
   ejemplos-civil.md                 # Casos de daños y responsabilidad civil
+  ejemplos-discapacidad.md          # Amparo de salud, AT y reintegros - casos modelo
+  ejemplos-familia.md               # Casos modelo de familia
+  ejemplos-laboral.md               # Liquidaciones laborales - casos modelo y checklist
+  ejemplos-penal.md                 # Casos modelo penales
+  ejemplos-previsional.md           # Reajuste de haberes: haber inicial, movilidad, retroactivo e intereses
   ejemplos-societario.md            # Due diligence y pactos de accionistas
   fuentes.md                        # Conectores MCP y fuentes primarias
   legal.local.md.template           # Template de configuración local del estudio (por rama del derecho)

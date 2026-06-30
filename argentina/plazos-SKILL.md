@@ -10,7 +10,7 @@ description: Computa plazos procesales y administrativos bajo derecho argentino:
 > Activación: cargar en el Project junto con el perfil de área correspondiente,
 > o invocar directamente con el comando `/argentina:plazos`.
 >
-> Repo: https://github.com/cristianaboitiz-eng/claude-for-legal-argentina
+> Repo: https://github.com/Probanza-ar/claude-for-legal-argentina
 
 ---
 
@@ -591,6 +591,6 @@ Antes de entregar cualquier cómputo, confirmar:
 Decreto 894/2017 (RLNPA - texto ordenado vigente), CCCN (Ley 26.994), Ley 26.589 (mediación),
 Ley 24.635 (SECLO), Ley 16.986 (amparo federal), Ley 2145 CABA (amparo local), Ley 26.426
 (Carnaval), Ley 27.399 y Decreto 614/2025 (feriados trasladables)*
-*Autor: archivo generado para https://github.com/cristianaboitiz-eng/claude-for-legal-argentina*
+*Autor: archivo generado para https://github.com/Probanza-ar/claude-for-legal-argentina*
 *Basado en la arquitectura del repo de Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*
 
