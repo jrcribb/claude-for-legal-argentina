@@ -28,6 +28,148 @@ No esperar a la revisión periódica.
  
 ## 2026
 
+### Julio 2026 - Autoauditoría integral del perfil previsional (previsional-CLAUDE.md, ejemplos-previsional.md, README.md)
+
+**Motivo:** después de cuatro rondas de correcciones a partir de revisiones externas, se hizo una auditoría propia de los tres archivos para detectar errores no señalados por ningún revisor externo, así como fechas o marcadores desactualizados por ediciones sucesivas.
+
+**Hallazgo principal - previsional-CLAUDE.md:** la sección "Confiscatoriedad por aplicación de topes" describía el art. 26 Ley 24.241 como "la escala de deducciones" del tope al haber máximo. Verificado el texto contra InfoLEG, el art. 26 no es una escala de deducciones: fija el haber máximo de la prestación compensatoria en un MOPRE (ex AMPO) por cada año de servicios con aportes computados. La escala de deducciones progresiva (20%/35%/50%/70%) está en el art. 9, inc. 2, de la Ley 24.463 - una figura distinta, con texto distinto. Este error era preexistente (no había sido introducido por ninguna revisión de este año) y no había sido detectado en las cuatro rondas anteriores. Corregido con distinción expresa de los dos topes, nota de "Corrección de auditoría interna" en el cuerpo del perfil, y ajuste de los marcadores: se quitó la especificidad "inc. 3" del marcador de traslado del límite del 15% (línea "Rapisarda"/"Argento") y se agregó un `[REVISIÓN NORMATIVA REQUERIDA]` nuevo advirtiendo que no está verificada la extensión de esa doctrina al tope del art. 26.
+
+**Otros hallazgos:**
+- `previsional-CLAUDE.md`: la sección "Alerta normativa" tenía fecha de última verificación "junio 2026" pese a contener contenido editado en julio de 2026 (la precisión UPDP/UCAP del art. 4 Ley 27.705). Corregida la fecha.
+- `previsional-CLAUDE.md` y `ejemplos-previsional.md`: el marcador `[ALERTA PLAZO FATAL]` de prescripción de haberes devengados no seguía el formato canónico de cuatro campos (norma - plazo - inicio del cómputo - vencimiento) de `marcadores-GLOSARIO.md` A10. Alineado en ambos archivos.
+- `ejemplos-previsional.md`: revisado contra la corrección del art. 26 Ley 24.241 - el archivo no lo citaba (ya usaba correctamente art. 9 Ley 24.463 y descartaba art. 79), no requirió cambio de fondo.
+- `README.md`: verificadas las siete secciones con contenido previsional agregado en la ronda anterior (estructura, "opera bajo", tabla de perfiles, alertas, instalación, capacidades, footer): sin duplicaciones, tablas y árbol de archivos íntegros.
+- Se hizo un cotejo completo de todos los marcadores usados en `previsional-CLAUDE.md` contra `marcadores-GLOSARIO.md`: sin desviaciones de sintaxis fuera de las ya corregidas arriba.
+
+**Archivos modificados:**
+- `previsional-CLAUDE.md`: corrección del art. 26 Ley 24.241, fecha de la sección de alerta normativa, marcador de prescripción, footer con nueva nota de "Ampliación julio 2026 (quinta tanda, autoauditoría)"
+- `ejemplos-previsional.md`: marcador de prescripción alineado al formato canónico, footer con nueva nota de "Ampliación julio 2026 (cuarta tanda, autoauditoría)"
+
+**Verificación:** art. 26 Ley 24.241 confirmado vía InfoLEG (texto vigente). Resto de hallazgos son de consistencia interna, no requirieron nueva verificación normativa.
+
+### Julio 2026 - README.md sin el perfil previsional (omisión detectada y corregida)
+
+**Archivos modificados:**
+- `README.md` (raíz del repo) - el perfil previsional (`previsional-CLAUDE.md` + `ejemplos-previsional.md`), creado en junio de 2026, nunca había quedado registrado en el README: no figuraba en el árbol de `## Estructura`, ni en la tabla `## Perfiles por área`, ni en `## Alertas de normas inestables`, ni en el Paso 4 de instalación, ni en `## Lo que podés hacer desde el día uno`, ni en el bloque "Opera bajo" de `## Qué hace este sistema`. El resto de los perfiles creados en el mismo período (consumidor, familia, tránsito) sí habían quedado documentados en su momento; previsional quedó afuera por omisión. Corregido en las seis secciones:
+  1. `## Estructura`: agregada la línea `previsional-CLAUDE.md` (junto a `tributario-CLAUDE.md`) y `ejemplos-previsional.md` (en el bloque de archivos de ejemplos, junto a `ejemplos-penal.md`)
+  2. `## Qué hace este sistema` - "Opera bajo": agregada la línea de Ley 24.241 (SIJP) y Ley 24.463 (Solidaridad Previsional)
+  3. `## Perfiles por área`: nueva fila con área, complementos (`ejemplos-previsional.md`) y alertas (movilidad post-DNU 274/2024, vencimiento UPDP/vigencia UCAP, plazo 90/180 días por Ley 27.742, tasa de interés)
+  4. `## Alertas de normas inestables`: nueva fila apuntando a la sección `## Alerta normativa` del perfil, con el listado de normas de mayor volatilidad
+  5. Paso 4 de instalación: agregado el ejemplo "Previsional: `argentina/previsional-CLAUDE.md` + `argentina/ejemplos-previsional.md`"
+  6. `## Lo que podés hacer desde el día uno`: nueva sección "Previsional" con las capacidades vigentes a julio de 2026 (reajuste con control de topes, índice ISBIC con "Elliff"/"Blanco", confiscatoriedad con "Actis Caporale"/"Tudor", servicios mixtos y SICAM, acceso sin 30 años de aportes, pensión derivada con prueba de convivencia, nodo bloqueante de habilitación de instancia, costas y honorarios en UMA)
+  - Footer de fecha actualizado a julio 2026
+
+**Motivo:** el abogado preguntó directamente si hacía falta actualizar el README. La revisión mostró que sí, y que la omisión no era de esta sesión sino que venía arrastrándose desde la creación del perfil en junio. Corregido para que el README vuelva a ser un índice completo y confiable de los perfiles del repositorio.
+
+---
+
+### Julio 2026 - Tercera revisión de colega sobre el perfil previsional (UMA, topes, plazo LNPA reiterado, tasa de interés)
+
+**Archivos modificados:**
+- `argentina/previsional-CLAUDE.md` y `argentina/ejemplos-previsional.md` - cuatro observaciones adicionales, verificadas antes de incorporar:
+  1. **UMA (Unidad de Medida Arancelaria) - incorporada, con corrección del link.** Se agregó a la sección "Costas y honorarios" que la Ley 27.423 (arts. 19 y 51, verificados verbatim contra InfoLEG) fija los honorarios en UMA -3% de la remuneración básica de juez federal de primera instancia, valor publicado mensualmente por la CSJN- y que el pago cancelatorio se calcula al valor de la UMA vigente al momento del pago, no al de la regulación. El link de InfoLEG aportado (id 295984) no corresponde a la Ley 27.423: es la aprobación de un convenio con Gran Bretaña sobre comercio de carnes. Se mantiene el id ya verificado en la ronda anterior (305057)
+  2. **Tope de la base imponible y "control de topes" en el Ejemplo 1 - incorporado el paso, corregida la cita del tope de haber máximo.** Se agregó un "Paso 1 bis - Control de topes" en `ejemplos-previsional.md`, antes del recálculo de las prestaciones, cubriendo el tope de la base imponible de aportes (art. 9, segundo párrafo, Ley 24.241) y el tope del haber máximo. Se rechazó la cita de "art. 79 Ley 24.241" para este último: verificado el texto actualizado contra InfoLEG, ese artículo está derogado desde el 22/7/2016 por art. 35 de la Ley 27.260 y no regula haberes máximos. El tope de haber máximo sigue siendo, como ya estaba en el perfil, el art. 9 Ley 24.463. Se rechazó también el precedente "Tual": buscado vía conector CSJN y SAIJ, no arrojó resultados; el planteo de inconstitucionalidad por confiscatoriedad queda apoyado en "Actis Caporale" y "Tudor" (ya incorporados en la ronda anterior), con la extensión del 15% al tope de base imponible identificada expresamente como argumento por analogía, no como doctrina consolidada
+  3. **Plazo de caducidad (art. 25 Ley 24.463) - la observación repitió un error ya corregido.** Se había corregido en la primera ronda de este ciclo (ver entrada de más abajo) que el plazo de impugnación no surge del art. 25 de la Ley 24.463 -que regula el cumplimiento de sentencias contra ANSES anteriores al 31/12/1995- sino del art. 15 de la misma ley, que remite al art. 25 inc. a) de la Ley 19.549 (LNPA), hoy con el desdoblamiento 90/180 días por la reforma de la Ley 27.742. Se agregó una nota explícita en el texto para que la confusión no se reitere en futuras revisiones
+  4. **Tasa de interés diferenciada por "vulnerabilidad extrema" (fallo "García") - no incorporada.** No se pudo verificar un precedente de la CSJN o la CFSS que fije una tasa activa (o la de la Caja de Ahorro Común del BNA) para retroactivos originados en conceptos de "vulnerabilidad extrema". El único "García" con cita firme en el perfil es "García, María Isabel" (ganancias sobre el haber del jubilado vulnerable), que no trata la tasa de interés de los retroactivos de reajuste: usarlo para este punto habría sido una atribución errónea. Se dejó constancia de la no verificación y un marcador para incorporar el fallo si el abogado lo aporta
+  - Footer de normativa base y versionado de ambos archivos actualizado; checklist de `ejemplos-previsional.md` ampliado con el control de topes
+
+**Verificación (InfoLEG y conectores, julio 2026):**
+- Ley 27.423 (idNorma 305057), arts. 19 y 51: texto verbatim de la UMA y de la regla de pago cancelatorio
+- Art. 79 Ley 24.241 (idNorma 639, texto actualizado): "(Artículo derogado por art. 35 de la Ley N° 27.260 B.O. 22/7/2016)" - confirmado verbatim
+- idNorma 295984 (InfoLEG): confirmado que corresponde a la aprobación de un convenio con Gran Bretaña sobre comercio de carnes, no a la Ley 27.423
+- "Tual" (autos, conector CSJN) y búsqueda en SAIJ: 0 resultados en ambos
+- Búsqueda de un fallo "García" sobre tasa de interés diferenciada por vulnerabilidad: sin resultado verificable: el único "García" con cita firme sigue siendo el de ganancias, ya incorporado en un módulo distinto del perfil
+
+**Motivo:** cuarta ronda de revisión externa sobre el mismo perfil. De las cuatro observaciones, dos procedieron sin objeciones (UMA) o con corrección de cita (control de topes, corrigiendo "art. 79" por "art. 9 Ley 24.463" y descartando "Tual"), una repitió un error de cita ya corregido antes en este mismo ciclo (art. 25 Ley 24.463 para el plazo de caducidad) y una no pudo verificarse y no se incorporó (tasa diferenciada por vulnerabilidad, fallo "García"). Se mantiene el mismo criterio: verificar antes de escribir, e incorporar solo lo que resiste la verificación contra fuente primaria o conector.
+
+---
+
+### Julio 2026 - Segunda revisión de colega sobre el perfil previsional (índice ISBIC, tope de base imponible, pensión derivada)
+
+**Archivos modificados:**
+- `argentina/previsional-CLAUDE.md` y `argentina/ejemplos-previsional.md` - tres observaciones de un colega sobre la ampliación anterior, verificadas una por una vía conector CSJN/SAIJ antes de incorporar:
+  1. **"Blanco" (CSJN) - incorporado, pero corrigiendo el dato que lo acompañaba.** El colega afirmó que "Blanco" (2018) fija un corte del índice ISBIC al 11 de agosto de 2018, reemplazado desde esa fecha por un "índice SIPA" según una "Resolución SSS N° 2/2018". Verificado el sumario oficial de "Blanco, Lucio Orlando c/ ANSeS s/ reajustes varios" (Fallos 341:1924, 18/12/2018) vía conector CSJN: el fallo declaró la inconstitucionalidad de la Res. ANSES 56/2018 y la Res. SSS 1/2018 -que pretendían reemplazar el ISBIC por el RIPTE- y sostuvo que la fijación del índice es resorte exclusivo del Congreso, ordenando que el ISBIC siga aplicándose hasta que el Congreso legisle. No hay corte al 11/8/2018 ni "índice SIPA": esa fecha corresponde a "Elliff" (Fallos 332:1914), decidido el 11/8/2009 -no 2018-, lo que sugiere una confusión entre ambos precedentes. Se incorporaron ambos fallos con cita verificada y se dejó constancia expresa de la corrección
+  2. **Tope del art. 9 Ley 24.241 (base imponible máxima) - incorporado con matiz.** Se agregó la advertencia de que ANSES excluye del promedio las remuneraciones que superaron la base imponible máxima (art. 9, segundo párrafo, por remisión del art. 25), como segunda causa -distinta del índice- de un promedio más bajo. Precisión de cita: la ley no subdivide el art. 9 en incisos numerados como sugería la observación ("inc. 2"); son dos párrafos de un mismo artículo (mínimo y máximo de la base imponible). El argumento de inconstitucionalidad por confiscatoriedad se incorporó planteado como argumento por analogía con "Actis Caporale", no como doctrina consolidada: no se verificó un precedente de la CSJN que aplique el límite del 15% a este tope en particular
+  3. **Pensión derivada, cónyuge separado de hecho - la regla ya estaba cubierta; no se incorporó jurisprudencia.** El colega pidió reforzar el punto con "Avila, María" y "Deidda" (CSJN). Ambos se buscaron vía conector CSJN (autos y texto libre) y vía SAIJ: cero resultados para "Deidda"; "Avila" devolvió 95 resultados sin ningún caso de pensión derivada o convivencia. No se pudieron verificar como precedentes reales y no se incorporaron. Se dejó una nota aclarando que la regla de concurrencia por partes iguales entre cónyuge y conviviente en caso de separación de hecho sin culpa surge directamente del texto del art. 53 Ley 24.241 y no requiere apoyo jurisprudencial adicional
+  - Footer de normativa base y versionado de ambos archivos actualizado
+
+**Verificación (conector CSJN, julio 2026):**
+- "Elliff, Alberto José c/ ANSeS s/ reajustes varios", Fallos 332:1914, 11/8/2009, expte. E.131.XLIV.REX
+- "Blanco, Lucio Orlando c/ ANSeS s/ reajustes varios", Fallos 341:1924, 18/12/2018, expte. CSS 042272/2012/CS001 (corroborado además contra comentarios de doctrina de acceso público, que confirman el mismo objeto: Res. ANSES 56/2018 y Res. SSS 1/2018 vs. RIPTE, mantenimiento del ISBIC hasta que el Congreso legisle)
+- Art. 9 Ley 24.241 (InfoLEG, idNorma 639, texto actualizado): confirmado verbatim - base imponible mínima (3 MOPRE) y máxima (75 MOPRE) en un solo artículo de dos párrafos, sin incisos numerados
+- "Avila" (autos, conector CSJN): 95 resultados, ninguno de materia previsional/pensión derivada en la muestra revisada. "Deidda" (autos, conector CSJN) y "Deidda pensión conviviente" (SAIJ): 0 resultados en ambos
+
+**Motivo:** una segunda ronda de revisión externa aportó dos observaciones que enriquecieron el perfil (Blanco/Elliff con cita verificada; tope del art. 9 como causa adicional de diferencia en el promedio) y una que no resistió la verificación (Avila/Deidda). Se corrigió además, de oficio, un dato erróneo que acompañaba la primera observación (el supuesto corte del ISBIC al 11/8/2018), en vez de transcribirlo sin chequear. Se sigue el mismo criterio de las rondas anteriores: incorporar lo que se verifica, señalar lo que no, y dejar registro de por qué.
+
+---
+
+### Julio 2026 - Corrección del perfil previsional a partir de una revisión de colega (plazo LNPA, silencio, confiscatoriedad, UCAP)
+
+**Archivos modificados:**
+- `argentina/previsional-CLAUDE.md` - correcciones y ampliaciones a partir de tres observaciones de un colega sobre la ampliación de julio 2026:
+  1. **Plazo de impugnación de denegatoria - corregido.** El perfil citaba únicamente 90 días hábiles judiciales (art. 15 Ley 24.463 + art. 25 inc. a LNPA). Se corrigió: la Ley 27.742 (Bases, BO 9/7/2024) reformó el art. 25 LNPA y duplicó el plazo a 180 días hábiles judiciales para actos notificados desde esa fecha; 90 días para actos anteriores. Se agregó remisión a `administrativo-CLAUDE.md`, que ya tenía esta reforma documentada, y una nota sobre el silencio positivo del art. 10 LNPA (Decreto 971/2024) para que no se asuma sin verificar que reemplaza la doctrina específica del fuero ("Biosystem"/"Villarreal Clara")
+  2. **Confiscatoriedad de topes - jurisprudencia de la CSJN incorporada.** El perfil solo tenía la línea de la CFSS ("Rapisarda", "Argento") sin fallo de la Corte. Se agregó, verificado vía conector CSJN, "Actis Caporale, Loredano Luis Adolfo c/ INPS..." (Fallos 323:4216, 19/8/1999, unanimidad - origen del límite del 15%, entonces sobre el tope del art. 55 Ley 18.037) y "Tudor, Enrique José c/ ANSeS" (Fallos 327:3251, 19/8/2004 - aplicación del criterio en la etapa de ejecución de sentencia). "Rapisarda"/"Argento" quedan como estaban, sin verificar (marcador B1), porque no se verificaron en esta sesión
+  3. **UCAP (Ley 27.705) - la sugerencia de marcarla "vencida" no procedió.** El colega planteó que el art. 4 de la Ley 27.705 fija un plazo de dos años (prorrogable) para todo el "Plan de Pago de Deuda Previsional", y que por lo tanto la UCAP también habría caducado junto con la UPDP en marzo de 2025. Verificado el texto de la ley contra InfoLEG: el art. 4 está en el Capítulo II (arts. 4 a 14), exclusivo de la UPDP; el Capítulo III (UCAP, arts. 15 a 20) no tiene cláusula de vigencia temporal equivalente. Se agregó una precisión en el perfil explicando la distinción por capítulos y se descartó el cambio de estatus, sin perjuicio de dejar el `[VERIFICAR VIGENCIA]` existente
+  - Footer de normativa base y versionado actualizados con las tres correcciones
+
+**Verificación (julio 2026):**
+- Art. 25 LNPA reformado por Ley 27.742 (90 → 180 días hábiles judiciales desde el 9/7/2024): ya documentado y verificado en `argentina/administrativo-CLAUDE.md` (secciones "Plazo de caducidad" y "Silencio administrativo - regla reformada"); reutilizado por remisión, no reverificado de cero
+- "Actis Caporale" (CSJN, Fallos 323:4216, 19/8/1999, expte. A.403.XXXII.REX) y "Tudor, Enrique José c/ ANSeS" (CSJN, Fallos 327:3251, 19/8/2004, expte. T.198.XXXVII): carátula, cita y sumario obtenidos vía conector `csjn__buscar_sumarios`
+- Ley 27.705 (idNorma InfoLEG 380615), texto actualizado: arts. 1 a 24 leídos íntegros; confirmado que el plazo de dos años del art. 4 está circunscripto al Capítulo II (UPDP)
+
+**Discrepancia con los links aportados por el colega:** de los cinco links de InfoLEG que acompañaban la revisión, dos coinciden con los IDs verificados de forma independiente en esta sesión (Ley 27.705 id 380615; DNU 274/2024 id 397577) y tres no: el link dado para "Ley 24.463" (id 25372) corresponde en realidad a la Ley 25.372 (la que incorporó el art. 7 bis a la Ley 24.463, mencionada como nota al pie en su propio texto), no a la Ley 24.463 misma (id correcto: 16102); el link de "Ley 24.241" (id 2764) no coincide con el id confirmado por búsqueda oficial (639); el de "Ley 27.423" (id 305055) difiere en dos dígitos del id confirmado (305057). No se usaron esos links como fuente: todas las citas de este perfil surgen de los IDs verificados de forma independiente vía el conector `infoleg__` contra argentina.gob.ar/normativa.
+
+**Motivo:** incorporar una revisión externa de calidad sin comprometer la regla de integridad normativa. De las tres observaciones, dos procedían con matices (plazo LNPA sí estaba desactualizado; confiscatoriedad ganó respaldo de la CSJN) y una no procedía tal como estaba formulada (UCAP no vence junto con la UPDP, según el texto vigente de la ley). Se corrigió lo que ameritaba corrección y se dejó constancia de por qué no se adoptó el resto, en vez de aceptar la sugerencia sin verificar.
+
+---
+
+### Julio 2026 - Ampliación del perfil previsional (costas/honorarios, convivencia, servicios mixtos, vía administrativa)
+
+**Archivos modificados:**
+- `argentina/previsional-CLAUDE.md` - cuatro secciones nuevas a partir de un dictamen de auditor:
+  1. **Costas y honorarios:** costas por su orden en el proceso de impugnación (art. 21 Ley 24.463 - "en todos los casos las costas serán por su orden"), por lo que ANSES no afronta el honorario del letrado del actor. Corrección al dictamen: no existe un tope legal del 20% para el pacto de cuota litis en materia previsional. El art. 6 inc. c) de la Ley 27.423 directamente **prohíbe** el pacto de cuota litis en asuntos previsionales; un convenio informal con el mismo efecto es nulo de nulidad absoluta por el art. 5 de la misma ley. El honorario se fija por regulación judicial y lo paga el cliente
+  2. **Pensión derivada - prueba de la convivencia:** checklist probatorio (domicilio, información sumaria, servicios, obra social, estado civil del causante) con los plazos legales del art. 53 Ley 24.241: cinco años de convivencia pública en aparente matrimonio, reducidos a dos años si hay descendencia reconocida por ambos convivientes
+  3. **Servicios mixtos (dependencia + autónomo) y SICAM:** prorrateo por años de servicio de cada clase (art. 24 inc. c Ley 24.241, remisión reglamentaria), distinto de un promedio informal; referencia operativa al SICAM (AFIP/ARCA + ANSES) para verificar la deuda autónoma antes de dar por computables esos períodos
+  4. **Vía administrativa previa - entorno digital de ANSES:** Clave de la Seguridad Social, verificación de aportes en "Mi ANSES", distinción Atención Virtual / turno presencial en UDAI, y conservación del número de trámite como dato de cómputo del nodo bloqueante
+  - "Instrucciones operativas específicas" ampliadas con las cuatro reglas (sin cuota litis, checklist de convivencia obligatorio, prorrateo de servicios mixtos, punto de partida digital) y "Estado del escrito" extendido de 8 a 10 ítems (prueba de convivencia y régimen de honorarios advertido)
+  - Bucle de fundamentación (rama Previsional): nodo bloqueante propio de pensión derivada (prueba de convivencia) y criterio de salida ampliado (prorrateo de servicios mixtos, honorarios advertidos); conector `infoleg__` sumó Ley 27.423
+  - Footer de normativa base y versionado actualizados
+
+**Verificación (InfoLEG, texto actualizado, julio 2026):**
+- Art. 21 Ley 24.463 (idNorma 16102): "En todos los casos las costas serán por su orden" - verbatim
+- Art. 53 Ley 24.241 (idNorma 639): plazo de convivencia de cinco años, reducido a dos años con descendencia reconocida por ambos convivientes - verbatim
+- Art. 24 inc. c) Ley 24.241 (idNorma 639): prorrateo proporcional al tiempo computado para servicios en relación de dependencia y autónomos, sucesivos o simultáneos - verbatim
+- Arts. 5 y 6 Ley 27.423 (idNorma 305057): nulidad absoluta de pactos que reduzcan el arancel (art. 5) y prohibición de cuota litis en asuntos previsionales, alimentarios o con intervención de menores con representante legal (art. 6 inc. c) - verbatim
+- SICAM (AFIP/ARCA): confirmado como sistema operativo de liquidación de deuda de autónomos y monotributistas vía fuentes públicas (AFIP, CPACF); no es una norma, se referencia como herramienta operativa sin marcador de vigencia normativa
+
+**Corrección al dictamen del auditor:** la nota de trabajo asumía un "límite legal consuetudinario, generalmente el 20% del retroactivo" para el pacto de cuota litis. El texto vigente del art. 6 inc. c) Ley 27.423 no fija un tope: prohíbe directamente el pacto de cuota litis en materia previsional. El 20% que circula en la práctica del fuero es una referencia empírica a la regulación judicial de honorarios, no un porcentaje pactable con el cliente. El perfil quedó corregido en ese punto y advierte contra ofrecer o redactar cuota litis en esta materia.
+
+---
+
+### Junio 2026 - Auditoría y ampliación del perfil previsional
+
+**Archivos modificados:**
+- `argentina/previsional-CLAUDE.md` - auditoría contra dictamen de auditor y Boletín de Jurisprudencia CFSS Nro. 82:
+  1. Alzada del interior: cerrado el nodo abierto. La apelación de los juzgados federales del interior va a la Cámara Federal de Apelaciones de la jurisdicción respectiva, no a la CFSS (doctrina "Pedraza", CSJN Fallos 337:530, 6/5/2014, inconstitucionalidad del art. 18 Ley 24.463; ratificada por "Constantino" 339:740 y "Giménez Rosa" 344:1788)
+  2. Convención Interamericana sobre la Protección de los Derechos Humanos de las Personas Mayores (Ley 27.360, jerarquía constitucional Ley 27.700) y principio de progresividad / no regresividad agregados al fundamento constitucional y supranacional
+  3. Ganancias: actualizada la secuencia. Ley 27.617 (2021) / Ley 27.725 (2023, impuesto cedular) / Ley 27.743 (Ley de Bases 2024, art. 75: derogó el cedular y restableció el IG general, deducción específica de 8 haberes mínimos, Decreto 652/2024); "García" sobre el jubilado vulnerable subsiste pretorianamente
+  4. Plazos de nodos bloqueantes nombrados: caducidad de la impugnación de 90 días hábiles judiciales (art. 15 Ley 24.463 que remite al art. 25 inc. a Ley 19.549; el silencio de ANSES no hace correr el plazo, doctrina "Biosystem" / "Villarreal Clara"); prescripción bienal de haberes (art. 82 Ley 18.037 por reenvío)
+  5. Nuevo sub-módulo de confiscatoriedad por aplicación de topes (art. 9 inc. 3 Ley 24.463; art. 26 Ley 24.241; límite del 15%; línea CFSS "Rapisarda" 6/8/2015 y "Argento" 26/3/2013)
+  6. Haber inicial de autónomos: nota sobre el recálculo por categorías (art. 24 inc. b Ley 24.241) con la línea "Makler, Simón"
+  - Footer de normativa base actualizado
+
+**Verificación (fuentes oficiales, junio 2026):**
+- "Pedraza, Héctor Hugo c/ ANSeS", CSJN, Fallos 337:530, 6/5/2014 (CIJ/CSJN; Acordada 14/2014)
+- Ley 27.743 art. 75 (derogación del cedular) y Decreto 652/2024 (Boletín Oficial / InfoLeg)
+- Art. 15 Ley 24.463 con remisión al art. 25 inc. a Ley 19.549, 90 días hábiles judiciales (texto de InfoLeg; doctrina "Biosystem" sobre el silencio)
+- Convención de las Personas Mayores con jerarquía constitucional por Ley 27.700, confiscatoriedad de topes y "Makler" (Boletín de Jurisprudencia CFSS Nro. 82)
+
+**Corrección al dictamen del auditor:** el plazo de caducidad de la impugnación no surge del "art. 25 de la Ley 24.463" sino del art. 15 de la Ley 24.463 que remite al art. 25 inc. a) de la Ley 19.549 (LNPA). El art. 25 de la Ley 24.463 regula el cumplimiento de sentencias anteriores al 31/12/1995.
+
+**Sin cambios:** `argentina/ejemplos-previsional.md` - auditado y consistente (mecánica de cálculo con marcadores; no requería modificación).
+
+---
+
 ### Junio 2026 - Ampliación de jurisprudencia del perfil penal (juvenil, recursos, consumo)
 
 **Archivos modificados:**

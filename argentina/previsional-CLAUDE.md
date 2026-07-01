@@ -29,7 +29,7 @@ Ejemplo: `AREAS_PRACTICA: Reajuste de haberes (haber inicial + movilidad), impug
 
 Este perfil cubre la práctica previsional argentina del régimen general (SIPA): acceso al beneficio jubilatorio, determinación y reajuste del haber inicial, movilidad de las prestaciones, retroactivos e intereses, impugnación de denegatorias de ANSES, pensiones derivadas, y ejecución de sentencia contra el organismo. El eje de la práctica es la acción de reajuste de haberes ante el Fuero Federal de la Seguridad Social.
 
-El fundamento de la materia es constitucional: el art. 14 bis CN [VERIFICAR VIGENCIA] declara que las jubilaciones y pensiones son móviles, sin fijar un mecanismo. Toda la litigación de reajuste se apoya en esa garantía y en su integración con los instrumentos de derechos humanos con jerarquía constitucional (art. 75 inc. 22 CN; PIDESC art. 9 [VERIFICAR VIGENCIA]).
+El fundamento de la materia es constitucional: el art. 14 bis CN [VERIFICAR VIGENCIA] declara que las jubilaciones y pensiones son móviles, sin fijar un mecanismo. Toda la litigación de reajuste se apoya en esa garantía y en su integración con los instrumentos de derechos humanos con jerarquía constitucional (art. 75 inc. 22 CN; PIDESC art. 9; Convención Interamericana sobre la Protección de los Derechos Humanos de las Personas Mayores, con jerarquía constitucional por Ley 27.700 [VERIFICAR VIGENCIA]).
 
 **Fronteras con otros perfiles - no duplicar, derivar:**
 - **Invalidez del SIPA** (retiro por invalidez, art. 48 Ley 24.241 [VERIFICAR VIGENCIA]): es previsional y se trata acá. La acreditación médica de la incapacidad y la pericia se rutean a `especialidades/medicina-legal-CLAUDE.md`.
@@ -50,7 +50,7 @@ La competencia previsional del régimen general es federal y exclusiva. El deman
 Fuero | Demandado | Naturaleza del reclamo | Procedimiento | Alzada
 --- | --- | --- | --- | ---
 Juzgados Federales de Primera Instancia de la Seguridad Social (CABA) | ANSES | Reajuste de haberes, determinación del haber inicial, movilidad, impugnación de denegatoria, pensiones | Ley 24.463 [VERIFICAR VIGENCIA] + CPCCN (Ley 17.454) [VERIFICAR VIGENCIA] | Cámara Federal de la Seguridad Social (CFSS), salas I, II y III
-Juzgado federal con competencia previsional (interior) | ANSES | Misma materia, beneficiarios con domicilio en el interior | Ley 24.463 + CPCCN | Verificar si la alzada es la CFSS o la cámara federal de la jurisdicción [REVISIÓN NORMATIVA REQUERIDA: alzada competente en causas previsionales del interior según jurisdicción]
+Juzgado federal con competencia previsional (interior) | ANSES | Misma materia, beneficiarios con domicilio en el interior | Ley 24.463 + CPCCN | Cámara Federal de Apelaciones de la jurisdicción respectiva (no la CFSS): doctrina "Pedraza" (CSJN, Fallos 337:530, 6/5/2014), que declaró inconstitucional el art. 18 de la Ley 24.463; ratificada por "Constantino" (339:740) y "Giménez Rosa" (344:1788) [VERIFICAR VIGENCIA]
 CSJN | - | Recurso extraordinario federal contra sentencia de la CFSS | Ley 48 [VERIFICAR VIGENCIA] | -
 
 ### Regla de competencia
@@ -65,7 +65,7 @@ El régimen general (SIPA) tramita ante el Fuero Federal de la Seguridad Social.
 
 ## Alerta normativa - normas de vigencia variable
 
-*Última verificación de esta sección: junio 2026. Actualizar cuando cambie alguna de las normas listadas. La materia previsional es de las más volátiles del repo: la movilidad, los montos y el acceso cambian por ley, decreto y resolución con alta frecuencia. No citar ninguna cifra ni régimen vigente sin verificar contra el hub al momento de la consulta.*
+*Última verificación de esta sección: julio 2026 (precisión sobre el alcance del art. 4 Ley 27.705 a la UPDP, sin extenderlo a la UCAP). Actualizar cuando cambie alguna de las normas listadas. La materia previsional es de las más volátiles del repo: la movilidad, los montos y el acceso cambian por ley, decreto y resolución con alta frecuencia. No citar ninguna cifra ni régimen vigente sin verificar contra el hub al momento de la consulta.*
 
 ### Movilidad - régimen vigente y secuencia de regímenes
 
@@ -118,7 +118,7 @@ La tasa aplicable a los retroactivos de reajuste la fija la jurisprudencia del f
 
 *Estado a junio 2026.* La moratoria amplia de la **Ley 27.705** [VERIFICAR VIGENCIA] (Plan de Pago de Deuda Previsional), en su capítulo de Unidad de Pago de Deuda Previsional - el que permitía a quien ya tenía la edad regularizar y pagar en cuotas descontadas del haber -, **venció en marzo de 2025 y no fue prorrogada**. Sobreviven:
 
-- **UCAP** (Unidad de Cancelación de Aportes Previsionales para trabajadores en actividad, capítulo de la misma Ley 27.705): vigente. Para personas a diez años o menos de la edad jubilatoria (mujeres 50-59, varones 55-64) que regularizan de modo anticipado períodos hasta marzo de 2012. [VERIFICAR VIGENCIA]
+- **UCAP** (Unidad de Cancelación de Aportes Previsionales para trabajadores en actividad, Capítulo III de la misma Ley 27.705, arts. 15 a 20): vigente. Para personas a diez años o menos de la edad jubilatoria (mujeres 50-59, varones 55-64) que regularizan de modo anticipado períodos hasta marzo de 2012. Precisión sobre el vencimiento de la UPDP: el plazo de dos años prorrogable por igual período que fija el art. 4 de la Ley 27.705 rige exclusivamente para la UPDP (Capítulo II, arts. 4 a 14); el Capítulo III (UCAP) no tiene una cláusula de vigencia temporal equivalente en el texto de la ley. No corresponde extender el vencimiento de la UPDP a la UCAP sin una norma posterior que lo disponga expresamente. [VERIFICAR VIGENCIA]
 - **Ley 24.476** [VERIFICAR VIGENCIA]: moratoria de carácter permanente, regulariza períodos hasta septiembre de 1993. Para muchos solicitantes de 2026 los años disponibles ya no alcanzan a completar los 30.
 - **PUAM** (Prestación Universal para el Adulto Mayor, art. 13 Ley 27.260 [VERIFICAR VIGENCIA]): principal red de contención. 65 años sin distinción de sexo, haber equivalente al 80% de la mínima, no genera pensión derivada, evaluación socioeconómica.
 - **Reconocimiento de aportes por tareas de cuidado** (Decreto 475/2021 [VERIFICAR VIGENCIA]): un año de aporte por hijo nacido, con adicionales por adopción, hijo con discapacidad o percepción de AUH. Herramienta central para completar años en el caso de mujeres. Verificar vigencia, porque su continuidad puede haber sido afectada por normativa posterior.
@@ -135,6 +135,7 @@ La tasa aplicable a los retroactivos de reajuste la fija la jurisprudencia del f
 
 - **Art. 14 bis CN:** movilidad de jubilaciones y pensiones; integralidad e irrenunciabilidad de los beneficios de la seguridad social. [VERIFICAR VIGENCIA]
 - **PIDESC (art. 9), DUDH, instrumentos del art. 75 inc. 22 CN:** derecho a la seguridad social con jerarquía constitucional. Fuente interpretativa de la garantía de movilidad y del carácter alimentario del haber.
+- **Convención Interamericana sobre la Protección de los Derechos Humanos de las Personas Mayores** (aprobada por Ley 27.360; jerarquía constitucional por Ley 27.700 [VERIFICAR VIGENCIA]): consagra el derecho de la persona mayor a la seguridad social y a un nivel de vida adecuado. Junto con el **principio de progresividad y no regresividad** (art. 26 CADH; art. 2.1 PIDESC), es un argumento de peso en reajuste: el Estado no puede disminuir el grado de protección ya alcanzado. La CFSS lo aplica en esa clave.
 
 ### Régimen general - acceso y prestaciones
 
@@ -173,6 +174,19 @@ La tasa aplicable a los retroactivos de reajuste la fija la jurisprudencia del f
 
 ## Institutos frecuentes y lógica de diagnóstico
 
+### Vía administrativa previa - entorno digital de ANSES
+
+Todo caso previsional arranca en sede administrativa, antes de cualquier análisis de fondo. Puntos operativos a relevar con el cliente desde la primera entrevista:
+
+1. **Clave de la Seguridad Social:** acceso indispensable a los trámites en línea (nivel 2 o 3, según el trámite). Sin ella no se puede iniciar ni seguir el expediente por vía digital. Si el cliente no la tiene o la perdió, la obtención u homologación de la clave es el primer paso, y puede requerir turno presencial.
+2. **Verificación de aportes en "Mi ANSES":** antes de proyectar cualquier reclamo (haber inicial, movilidad, acceso sin 30 años), corroborar en el portal la historia laboral registrada. Las discrepancias entre lo que el cliente recuerda y lo que figura en el sistema son el punto de partida de buena parte de los reclamos de reajuste y de las gestiones de regularización de aportes.
+3. **Atención Virtual vs. turno presencial:** buena parte de los trámites (consulta de expediente, presentación de documentación, algunos reclamos) se resuelven por Atención Virtual, sin turno. Otros -alta de beneficio, pensión derivada con documentación a evaluar, trámites con inconsistencias registrales- requieren turno presencial en UDAI. No asumir la vía sin confirmarla en el sitio de ANSES al momento de la gestión: la modalidad cambia con frecuencia.
+4. **Constancia del trámite:** conservar el número de trámite o de expediente electrónico desde el inicio. Es el dato que permite computar después el plazo de la denegatoria o del silencio (ver nodo bloqueante de habilitación de instancia, más abajo).
+
+```
+[REVISIÓN NORMATIVA REQUERIDA: modalidad vigente (Atención Virtual / turno presencial) para el trámite concreto - verificar en el sitio de ANSES al momento de la gestión, porque cambia con frecuencia]
+```
+
 ### Reajuste de haberes - acción insignia
 
 Es la pieza central de la práctica. Combina dos reclamos que pueden ir juntos o por separado: la **redeterminación del haber inicial** (mal calculado de origen) y el **recálculo de la movilidad** (mal aplicada a lo largo del tiempo). Antes de redactar, definir cuál de los dos -o ambos- sostiene el caso.
@@ -195,11 +209,44 @@ Marcadores típicos:
 
 El haber se integra con la PBU más la PC (servicios anteriores a julio de 1994) y la PAP (servicios posteriores). El núcleo litigioso es la **actualización de las remuneraciones** que sirven de base: ANSES aplica un índice y la jurisprudencia de la Corte fijó otro (línea ISBIC), más favorable al afiliado.
 
-La doctrina de la CSJN que sostiene la actualización de las remuneraciones para el cálculo del haber inicial y la inconstitucionalidad de los índices administrativos inferiores se identifica con los precedentes "Elliff" y "Blanco". Se citan como referencia doctrinal; en el escrito, la cita formal y su vigencia se anclan así:
+La doctrina de la CSJN que sostiene la actualización de las remuneraciones para el cálculo del haber inicial y la inconstitucionalidad de los índices administrativos que la limitan se apoya en dos precedentes, verificados vía conector CSJN:
+
+- **"Elliff, Alberto José c/ ANSeS s/ reajustes varios"** (Fallos 332:1914, 11/8/2009): confirmó que la actualización de las remuneraciones computables para la prestación compensatoria y la PAP debe practicarse hasta la fecha de adquisición del beneficio, sin la limitación temporal que había introducido la Res. ANSES 140/95, por exceder ésta la facultad reglamentaria delegada por el art. 24 inc. a) Ley 24.241.
+- **"Blanco, Lucio Orlando c/ ANSeS s/ reajustes varios"** (Fallos 341:1924, 18/12/2018): declaró la inconstitucionalidad de la Res. ANSES 56/2018 y de la Res. SSS 1/2018, que pretendieron reemplazar el ISBIC por el RIPTE para actualizar las remuneraciones del período 1995-2008. La Corte sostuvo que la fijación del índice de actualización es de resorte exclusivo del Congreso (no de ANSES ni de la SSS por vía reglamentaria) y dispuso que, hasta que el Congreso fije un nuevo índice, la actualización siga haciéndose por ISBIC.
+
+**Corrección a una revisión anterior:** no corresponde afirmar que "Blanco" fijó un corte temporal al 11 de agosto de 2018 para el ISBIC, ni que a partir de esa fecha rija un "índice SIPA" por una supuesta Resolución SSS N° 2/2018. Verificado el sumario oficial de "Blanco" vía conector CSJN, no hay tal límite ni tal remisión: el 11 de agosto corresponde a la fecha de "Elliff" (11/8/2009), no a un corte dentro de "Blanco" (18/12/2018). Si se pretende invocar un cambio de índice posterior a "Blanco", verificar la norma concreta antes de citarla.
 
 ```
-[INSERTAR FALLO VERIFICADO: CSJN - actualización de remuneraciones del haber inicial por ISBIC - aportar carátula, Fallos y año]
-[VERIFICAR PRECEDENTE: línea "Elliff" / "Blanco" sobre índice de actualización del haber inicial - confirmar que no fue dejada sin efecto ni superada antes de citar]
+[VERIFICAR PRECEDENTE: "Elliff" (Fallos 332:1914) y "Blanco" (Fallos 341:1924) - confirmar que la línea ISBIC no fue dejada sin efecto ni superada por norma o fallo posterior antes de citar]
+```
+
+**Tope de la base imponible (art. 9, segundo párrafo, Ley 24.241) - impacto en el promedio.** Cuando la remuneración histórica del afiliado superó, en algún mes computable, el límite máximo de la base imponible previsional (art. 9 Ley 24.241 [VERIFICAR VIGENCIA]: setenta y cinco veces el módulo previsional, hoy sujeto a las actualizaciones posteriores a la Ley 26.417), ANSES excluye el excedente del promedio por remisión expresa del art. 25 Ley 24.241 ("no se considerará... los importes que... excedan el máximo fijado... en el artículo 9"). Es una segunda causa, distinta del índice de actualización, por la que el promedio de ANSES puede resultar inferior al reclamado. Si la aplicación de ese tope de base imponible produce una merma confiscatoria sobre el haber (por analogía con el criterio del 15% de "Actis Caporale" para los topes del haber, aunque no se identificó un precedente de la CSJN que aplique ese mismo porcentaje al tope de la base imponible de aportes), corresponde plantear la inconstitucionalidad del art. 9 en ese tramo como argumento autónomo, cuantificando la quita concreta caso por caso.
+
+```
+[VERIFICAR MONTO ACTUALIZADO: base imponible máxima de aportes (art. 9 Ley 24.241) - valor vigente al período de cada remuneración computada]
+[VERIFICAR PRECEDENTE: aplicación por analogía del límite de confiscatoriedad de "Actis Caporale" (15%) al tope de la base imponible de aportes del art. 9 Ley 24.241 - no verificado un precedente específico; se plantea como argumento, no como doctrina consolidada]
+```
+
+Para afiliados **autónomos**, el recálculo del haber inicial se hace sobre el promedio actualizado de las **categorías** en que revistó el afiliado (art. 24 inc. b Ley 24.241), no sobre remuneraciones; la línea aplicable se identifica con "Makler, Simón".
+
+```
+[INSERTAR FALLO VERIFICADO: CSJN "Makler, Simón" - recálculo del haber inicial de autónomos por actualización de las categorías (art. 24 inc. b Ley 24.241) - aportar carátula y Fallos]
+```
+
+### Servicios mixtos (dependencia + autónomo) y SICAM
+
+La mayoría de los casos reales no son de un solo tipo de servicio. El art. 24 inc. c) Ley 24.241 [VERIFICAR VIGENCIA] resuelve el cálculo del haber cuando el afiliado computó servicios en relación de dependencia y autónomos, sucesiva o simultáneamente: el haber se establece sumando el que resulte para los servicios en relación de dependencia (inc. a) y el correspondiente a los servicios autónomos (inc. b), "en forma proporcional al tiempo computado para cada clase de servicios". Es un prorrateo por años de servicio de cada tipo, no un promedio simple ni la aplicación lisa y llana de una sola fórmula.
+
+Antes de liquidar un caso mixto:
+
+1. Separar la historia previsional en tramos por tipo de servicio (dependencia / autónomo) y por categoría, en el caso de los autónomos.
+2. Para el tramo autónomo, verificar la deuda de aportes: el sistema operativo para liquidar deuda de autónomos y monotributistas es el SICAM (Sistema de Información para Contribuyentes Autónomos y Monotributistas, desarrollado en conjunto por AFIP/ARCA y ANSES). Permite consultar los pagos registrados, corregir diferencias contra comprobantes y emitir la liquidación de la deuda para su cancelación.
+3. Sin la deuda autónoma cancelada o con plan de pagos vigente, esos períodos no se computan para la prestación: verificar el estado de la deuda antes de proyectar el haber.
+4. Aplicar el prorrateo del art. 24 inc. c) por años de servicio de cada clase, no por un promedio ponderado informal.
+
+```
+[VACÍO PROBATORIO: estado de deuda autónoma/monotributista (liquidación SICAM) - aportar para determinar los períodos computables del tramo autónomo]
+[REVISIÓN NORMATIVA REQUERIDA: normas reglamentarias de la Secretaría de Seguridad Social sobre el procedimiento de cálculo para servicios sucesivos y simultáneos, por remisión del propio art. 24 inc. c - verificar al momento del cálculo]
 ```
 
 ### Movilidad
@@ -213,21 +260,44 @@ La línea jurisprudencial de la CSJN sobre la garantía de movilidad y la confis
 [VERIFICAR PRECEDENTE: línea "Sánchez" / "Badaro" sobre movilidad - confirmar que no fue dejada sin efecto ni superada antes de citar; la doctrina de movilidad se supera por norma o fallo posterior]
 ```
 
+### Confiscatoriedad por aplicación de topes
+
+Cuando ANSES aplica el tope al haber máximo (art. 9 Ley 24.463, con las escalas de deducciones de su inc. 2 y el tope transitorio de su inc. 3) o el tope propio de la prestación compensatoria (art. 26 Ley 24.241 [VERIFICAR VIGENCIA]: un MOPRE -ex AMPO- por cada año de servicios con aportes computados), la quita sobre el haber reajustado puede tornarse confiscatoria. El criterio del fuero y de la CSJN fija el límite de confiscatoriedad en una quita superior al **15%**: por encima de ese porcentaje, el tope se declara inaplicable en la etapa de liquidación. Es un sub-reclamo frecuente del reajuste, sobre todo en haberes altos.
+
+**Corrección de auditoría interna:** una versión anterior de este perfil describía el art. 26 Ley 24.241 como una "escala de deducciones". Verificado el texto contra InfoLEG, el art. 26 no es una escala de deducciones: fija el haber máximo de la prestación compensatoria en un MOPRE (ex AMPO) por cada año de servicios con aportes computados. La escala de deducciones progresiva (20% / 35% / 50% / 70% según tramos) está en el art. 9, inc. 2, de la Ley 24.463, ya identificado más arriba. Son dos topes distintos, con textos distintos, y no deben describirse como si fueran la misma figura.
+
+El origen del límite del 15% es la CSJN in re "Actis Caporale, Loredano Luis Adolfo c/ INPS - Caja Nac. de Prev. de la Industria, Com. y Act. Civiles s/ reajustes por movilidad" (Fallos 323:4216, 19/8/1999, unanimidad): reconoció la legitimidad del sistema de topes (entonces el del art. 55 Ley 18.037), pero confirmó su inconstitucionalidad cuando la merma respecto del haber reajustado supera el 15%. La CFSS trasladó después ese mismo umbral al tope del art. 9 Ley 24.463 (línea "Rapisarda" y "Argento", pendientes de cita formal completa); no se verificó que la misma línea se haya trasladado también al tope de la prestación compensatoria del art. 26 Ley 24.241, y no corresponde asumirlo sin chequear. "Tudor, Enrique José c/ ANSeS" (Fallos 327:3251, 19/8/2004) reafirmó el criterio en la etapa de ejecución: resolvió que, dejada a salvo la confiscatoriedad por la sentencia de fondo, no hace falta un nuevo juicio de conocimiento para comprobarla en la liquidación.
+
+```
+[INSERTAR FALLO VERIFICADO: CFSS - línea "Rapisarda" (6/8/2015) y "Argento" (26/3/2013), traslado del límite del 15% al tope del art. 9 Ley 24.463 - aportar carátula, sala y Fallos]
+[VERIFICAR PRECEDENTE: "Actis Caporale" Fallos 323:4216 y "Tudor" Fallos 327:3251 - confirmar que la doctrina del 15% no fue dejada sin efecto ni superada antes de citar en el escrito]
+[REVISIÓN NORMATIVA REQUERIDA: si el tope aplicado es el del art. 26 Ley 24.241 (prestación compensatoria) y no el del art. 9 Ley 24.463, verificar si existe línea jurisprudencial propia que extienda el límite de confiscatoriedad del 15% a esa figura antes de invocarla]
+```
+
+**Corrección a una revisión: no citar "art. 79 Ley 24.241" para el tope del haber máximo, ni el precedente "Tual".** El tope del haber máximo se rige por el art. 9 Ley 24.463 (ya citado más arriba), no por el art. 79 Ley 24.241: verificado el texto actualizado de la Ley 24.241 contra InfoLEG, ese artículo está derogado desde 2016 (art. 35 Ley 27.260, BO 22/7/2016) y no regula haberes máximos en su redacción vigente. Sobre "Tual" como supuesto precedente adicional de confiscatoriedad: se buscó vía conector CSJN y no arrojó resultados; no se pudo verificar como fallo real y no se incorpora. La doctrina de la confiscatoriedad de topes sigue apoyada en "Actis Caporale" y "Tudor" (arriba) más la línea CFSS pendiente de cita formal.
+
+```
+[REVISIÓN NORMATIVA REQUERIDA: no usar "art. 79 Ley 24.241" para el tope del haber máximo - artículo derogado por art. 35 Ley 27.260 desde 2016; el tope vigente surge del art. 9 Ley 24.463]
+```
+
 ### Retroactivos y prescripción
 
 El reajuste reconocido genera un retroactivo. Sobre él pesa la **prescripción bienal de los haberes devengados**: las diferencias se reclaman hacia atrás con ese límite, y cada mensualidad prescribe en forma independiente desde que fue exigible. La acción de reajuste en sí no prescribe (el estado de jubilado es permanente); lo que prescribe es el cobro de las diferencias devengadas más allá del plazo.
 
 ```
-[REVISIÓN NORMATIVA REQUERIDA: norma y plazo de prescripción de los haberes devengados aplicable al período - confirmar artículo vigente antes de citar]
-[ALERTA PLAZO FATAL: prescripción de haberes devengados - cómputo bienal por mensualidad - calcular el corte del retroactivo por período]
+[REVISIÓN NORMATIVA REQUERIDA: prescripción bienal de los haberes devengados (art. 82 Ley 18.037, sostenida por reenvío en el SIPA) - confirmar el artículo y el plazo vigentes antes de cortar el retroactivo]
+[ALERTA PLAZO FATAL: prescripción bienal de haberes devengados (art. 82 Ley 18.037, por reenvío) - 2 años - desde que cada mensualidad fue exigible - vencimiento: calcular el corte del retroactivo por período]
 ```
 
 ### Intereses
 
-Los retroactivos devengan intereses desde que cada diferencia fue exigible. La tasa la fija la jurisprudencia del fuero y se modifica.
+Los retroactivos devengan intereses desde que cada diferencia fue exigible. La tasa la fija la jurisprudencia del fuero y se modifica; a título de referencia general (no como tasa cerrada), buena parte de los pronunciamientos del fuero remite a la tasa pasiva promedio que publica mensualmente el BCRA, pero el criterio cambia y debe verificarse al período.
+
+**No verificado: distinción de tasa por "vulnerabilidad extrema" a partir de un fallo "García".** Se planteó como observación que la CFSS y la CSJN aplicarían una tasa distinta (activa en lugar de pasiva, o la de la Caja de Ahorro Común del Banco Nación) cuando el retroactivo se origina en conceptos alcanzados por "vulnerabilidad extrema", con cita a un fallo "García". No se pudo verificar ese precedente ni esa distinción vía conector CSJN ni por búsqueda independiente: el único "García" con cita firme en este perfil es "García, María Isabel" (ganancias sobre el haber del jubilado vulnerable, ver más abajo), que no trata la tasa de interés de los retroactivos de reajuste. Citarlo para este punto sería un error de atribución. No se incorpora la distinción hasta contar con el fallo concreto.
 
 ```
 [VERIFICAR TASA VIGENTE: fuero federal de la seguridad social - criterio de la CFSS / CSJN al período]
+[INSERTAR FALLO VERIFICADO: si se pretende sostener una tasa diferenciada por vulnerabilidad del beneficiario o del concepto reclamado, aportar carátula, Fallos y año - no confundir con "García, María Isabel" (ganancias)]
 ```
 
 ### Impugnación de denegatoria de beneficio - nodo bloqueante de habilitación de instancia
@@ -235,11 +305,14 @@ Los retroactivos devengan intereses desde que cada diferencia fue exigible. La t
 Cuando ANSES deniega el otorgamiento de un beneficio (jubilación, pensión, retiro por invalidez), la vía es la impugnación judicial de la resolución bajo la Ley 24.463. Antes de entrar al fondo:
 
 1. **Agotamiento / habilitación de instancia:** verificar si se requiere reclamo o recurso administrativo previo y si está cumplido. Sin instancia habilitada, la demanda se rechaza in limine.
-2. **Plazo para impugnar:** el plazo de caducidad para impugnar la resolución denegatoria es de cómputo estricto y su determinación exacta depende de la norma aplicable. No asumir un número; verificar y, si está próximo, alertar antes de cualquier otra cosa.
+2. **Plazo para impugnar - no citar "art. 25 Ley 24.463" como fuente del plazo (error ya corregido una vez, reiterado en una revisión posterior):** el art. 25 de la Ley 24.463 regula el cumplimiento de sentencias dictadas contra ANSES hasta el 31/12/1995 (verificado verbatim contra InfoLEG), no la caducidad de la impugnación. El plazo correcto sigue siendo el desarrollado abajo -corregido por la reforma de la Ley 27.742-: la demanda de impugnación tiene un plazo de caducidad desde la notificación de la resolución denegatoria, por el art. 15 de la Ley 24.463 que remite al art. 25 inc. a) de la Ley 19.549 (LNPA) [VERIFICAR VIGENCIA]. La Ley 27.742 (Bases, BO 9/7/2024) modificó el art. 25 LNPA y duplicó el plazo: **90 días hábiles judiciales** para actos notificados antes del 9/7/2024, **180 días hábiles judiciales** para actos notificados desde esa fecha (ver `administrativo-CLAUDE.md`, sección "Plazo de caducidad - reforma Ley 27.742", para el desarrollo general del instituto). Verificar siempre la fecha de notificación del acto denegatorio antes de fijar cuál de los dos plazos rige. Si ANSES no se expidió (silencio), el plazo de caducidad no corre (doctrina CSJN "Biosystem" / "Villarreal Clara"): la instancia queda habilitada sin caducar. El cómputo arranca de la notificación de la denegatoria del reclamo de reajuste, no de la resolución que otorgó el beneficio. Si el plazo está próximo, alertar antes de cualquier otra cosa.
+
+**Silencio positivo (art. 10 LNPA, reforma Ley 27.742) - no asumir que reemplaza la doctrina "Biosystem".** La Ley 27.742 introdujo un régimen de silencio positivo para autorizaciones regladas, reglamentado por el Decreto 971/2024 (Anexo I procedimientos excluidos, Anexo II incluidos). No corresponde asumir sin verificar que un trámite de otorgamiento o reajuste de un beneficio previsional quede alcanzado por ese régimen: la doctrina "Biosystem"/"Villarreal Clara" sobre el silencio de ANSES en el reclamo de reajuste es una construcción específica del fuero de la seguridad social, distinta del silencio positivo general. Verificar si el trámite concreto figura en el Anexo II del Decreto 971/2024 antes de invocar silencio positivo en sede previsional.
 
 ```
-[ALERTA PLAZO FATAL: plazo de impugnación judicial de la resolución denegatoria de ANSES - confirmar norma y cómputo aplicables - vencimiento: calcular]
-[REVISIÓN NORMATIVA REQUERIDA: plazo y vía de impugnación de la denegatoria - Ley 24.463 y normas complementarias vigentes]
+[ALERTA PLAZO FATAL: impugnación judicial de la denegatoria de ANSES - 90 días hábiles judiciales si el acto fue notificado antes del 9/7/2024, 180 días hábiles judiciales si fue notificado desde esa fecha (art. 15 Ley 24.463 + art. 25 inc. a Ley 19.549, reformado por Ley 27.742) - vencimiento: calcular según la fecha de notificación]
+[VERIFICAR VIGENCIA: art. 15 Ley 24.463 y art. 25 inc. a Ley 19.549 (texto según Ley 27.742) - plazo y cómputo de la caducidad de la impugnación]
+[REVISIÓN NORMATIVA REQUERIDA: si se invoca silencio de ANSES en un trámite previsional concreto, verificar contra el Decreto 971/2024 (Anexo I/II) si corresponde el régimen de silencio positivo o la doctrina específica del fuero ("Biosystem"/"Villarreal Clara")]
 ```
 
 ### Retiro por invalidez (art. 48 Ley 24.241)
@@ -249,6 +322,35 @@ Requiere acreditar la incapacidad en los términos del régimen (porcentaje y ca
 ```
 [VACÍO PROBATORIO: dictamen de incapacidad / pericia médica - aportar para acreditar la invalidez en el porcentaje requerido]
 ```
+
+### Pensión derivada - prueba de la convivencia
+
+Cuando el reclamo es una pensión por fallecimiento (art. 53 Ley 24.241 [VERIFICAR VIGENCIA]) y no hay matrimonio, el punto crítico no es el cálculo del haber sino la acreditación del vínculo. El art. 53 exige que el o la conviviente supérstite pruebe haber convivido públicamente en aparente matrimonio con el causante durante:
+
+- Cinco (5) años inmediatamente anteriores al fallecimiento, como regla general; o
+- Dos (2) años, si existe descendencia reconocida por ambos convivientes.
+
+Además, el causante debe haberse hallado separado de hecho o legalmente, o haber sido soltero, viudo o divorciado. La regla de concurrencia surge directamente del texto del art. 53 y no depende de una construcción jurisprudencial adicional: el o la conviviente excluye al cónyuge supérstite solo cuando éste fue declarado culpable de la separación personal o el divorcio; en caso contrario -incluido el supuesto de separación de hecho sin culpa declarada- y cuando el causante hubiera estado pagando alimentos, se los hubieran demandado judicialmente, o el causante hubiera dado causa a la separación o al divorcio, la pensión se otorga por partes iguales entre cónyuge y conviviente. No se identificó jurisprudencia de la CSJN que sea necesaria para sostener este punto: la regla de reparto es de fuente legal directa.
+
+```
+[VERIFICAR VIGENCIA: art. 53 Ley 24.241 - regla de concurrencia cónyuge/conviviente en caso de separación de hecho o culpa en la separación/divorcio]
+```
+
+Checklist probatorio a reunir antes de iniciar el trámite o la demanda:
+
+1. Domicilio: mismo domicilio en el DNI de ambos, o certificado de domicilio con antigüedad suficiente para cubrir el plazo legal.
+2. Información sumaria de convivencia (testigos), tramitada preferentemente antes del fallecimiento o, si no fue posible, inmediatamente después.
+3. Servicios a nombre de ambos o del domicilio común (luz, gas, ABL, expensas) que acrediten la convivencia efectiva durante el período.
+4. Obra social: inclusión como conviviente a cargo, con fecha de alta anterior al inicio del plazo legal.
+5. Descendencia reconocida por ambos convivientes, si se invoca para reducir el plazo a dos años (partida de nacimiento con reconocimiento de los dos).
+6. Estado civil del causante al momento del fallecimiento (soltero, viudo, divorciado, separado de hecho o legalmente): partida y, si corresponde, sentencia de divorcio o constancia de separación de hecho.
+
+```
+[VACÍO PROBATORIO: prueba de convivencia (domicilio, información sumaria, servicios, obra social) por el plazo legal de cinco años, o dos años con descendencia común - aportar antes de iniciar el trámite]
+[VACÍO PROBATORIO: estado civil del causante al fallecer (soltero/viudo/divorciado/separado de hecho o legalmente) - aportar partida y documentación de respaldo]
+```
+
+Si ANSES deniega la pensión por insuficiencia de prueba de convivencia, la vía es la impugnación judicial de la denegatoria (ver nodo bloqueante de habilitación de instancia, más abajo), no un reclamo administrativo repetido.
 
 ### Acceso sin 30 años de aportes
 
@@ -264,12 +366,13 @@ No prometer una jubilación ordinaria por moratoria sin verificar que los perío
 
 ### Ganancias sobre el haber previsional - módulo opcional
 
-Activar solo si el haber del cliente sufre retención de impuesto a las ganancias y el planteo es pertinente. La doctrina de la CSJN sobre la inconstitucionalidad de la retención del impuesto sobre haberes previsionales en situaciones de vulnerabilidad se identifica con el precedente "García, María Isabel", y fue seguida de la reforma de la Ley 27.617. Como referencia doctrinal; en el escrito:
+Activar solo si el haber del cliente sufre retención de impuesto a las ganancias y el planteo es pertinente. La doctrina de la CSJN sobre la inconstitucionalidad de la retención del impuesto sobre el haber previsional del jubilado en situación de vulnerabilidad se identifica con el precedente "García, María Isabel". El régimen legal del impuesto sobre los haberes se modificó varias veces y hay que ubicarse en la norma vigente al período: la Ley 27.617 (2021) reformó la deducción específica; la Ley 27.725 (2023) creó el impuesto cedular sobre los mayores ingresos, que en los hechos sacó del gravamen a la mayoría de los jubilados; y la Ley 27.743 (Ley de Bases / Medidas Fiscales Paliativas y Relevantes, 2024) derogó el cedular (art. 75) y restableció el impuesto general sobre los haberes, con una deducción específica equivalente a ocho haberes mínimos (Decreto 652/2024). La doctrina "García" sobre el jubilado vulnerable sigue en pie pretorianamente; los mínimos no imponibles y las deducciones se actualizan y deben verificarse al período. Como referencia doctrinal; en el escrito:
 
 ```
-[INSERTAR FALLO VERIFICADO: CSJN - inconstitucionalidad de la retención de ganancias sobre el haber previsional en caso de vulnerabilidad - aportar carátula, Fallos y año]
-[VERIFICAR PRECEDENTE: línea "García" sobre ganancias del haber - confirmar vigencia y el estado de la Ley 27.617 antes de citar]
-[VERIFICAR VIGENCIA: Ley 27.617 - tratamiento del impuesto a las ganancias sobre haberes previsionales]
+[INSERTAR FALLO VERIFICADO: CSJN "García, María Isabel" - inconstitucionalidad de la retención de ganancias sobre el haber del jubilado vulnerable - aportar carátula, Fallos y año]
+[VERIFICAR PRECEDENTE: línea "García" - confirmar que sigue vigente al período del reclamo]
+[VERIFICAR VIGENCIA: régimen del impuesto a las ganancias sobre haberes al período - secuencia Ley 27.617 / Ley 27.725 (cedular) / Ley 27.743 (Ley de Bases, restablecimiento) y Decreto 652/2024]
+[VERIFICAR MONTO ACTUALIZADO: deducción específica (ocho haberes mínimos) y mínimo no imponible del período]
 ```
 
 ### Ejecución de sentencia contra ANSES
@@ -280,15 +383,36 @@ La sentencia de reajuste se ejecuta contra el organismo bajo el régimen de la L
 [REVISIÓN NORMATIVA REQUERIDA: régimen de ejecución y pago de sentencias previsionales contra ANSES - Ley 24.463 y normas presupuestarias vigentes]
 ```
 
+### Costas y honorarios
+
+Dos reglas condicionan de entrada la rentabilidad del caso y hay que transmitírselas al cliente antes de tomarlo.
+
+**Costas por su orden.** El art. 21 Ley 24.463 [VERIFICAR VIGENCIA] dispone, en el Capítulo del procedimiento de impugnación judicial de actos de ANSES, que "en todos los casos las costas serán por su orden". Gane o pierda, ANSES no carga con los honorarios del letrado del jubilado: cada parte afronta los propios. La CSJN interpretó la norma con el máximo alcance compatible con la Constitución, en la idea de que busca una regla más benigna de distribución de costas para proteger los fondos públicos que administra ANSES. Consecuencia práctica: el honorario del profesional del actor lo paga el propio actor, con cargo al retroactivo obtenido, no ANSES.
+
+```
+[INSERTAR FALLO VERIFICADO: CSJN - alcance del art. 21 Ley 24.463 (costas por su orden) - aportar carátula, Fallos y año]
+```
+
+**Pacto de cuota litis: prohibido, no limitado a un porcentaje.** El art. 6 inc. c) Ley 27.423 [VERIFICAR VIGENCIA] establece expresamente que "en los asuntos previsionales... los honorarios del profesional pactado no podrán ser objeto de cuotalitis". No hay un tope legal del 20% ni de ningún otro porcentaje aplicable al pacto de cuota litis en materia previsional: directamente no se admite ningún pacto de cuota litis en esta materia. El art. 5 de la misma ley sanciona con nulidad absoluta cualquier convenio que reduzca las proporciones del arancel legal, con excepciones taxativas ajenas al caso (ascendientes, descendientes, cónyuge, conviviente o hermanos del profesional; actividad pro bono). Un acuerdo informal de cuota litis con el jubilado -aunque se lo llame "convenio de honorarios"- queda expuesto a esa nulidad y a la falta de ética que sanciona el propio art. 5.
+
+Lo que sí ocurre en la práctica es que el honorario se fija por regulación judicial, conforme la escala arancelaria de la Ley 27.423, y lo termina pagando el cliente porque las costas van por su orden. La cifra que a veces circula en la práctica del fuero como "20%" no es un tope legal de cuota litis sino una referencia empírica a lo que suele representar la regulación judicial sobre el retroactivo en casos concretos: no corresponde ofrecerla al cliente como porcentaje pactado ni como tope normativo, y no debe consignarse en un convenio de honorarios como si lo fuera.
+
+**Unidad de Medida Arancelaria (UMA).** La regulación judicial de honorarios en el fuero federal no se expresa en pesos ni en jus: la Ley 27.423 (art. 19 [VERIFICAR VIGENCIA]) instituyó la UMA, equivalente al 3% de la remuneración básica del cargo de juez federal de primera instancia. La CSJN publica y actualiza mensualmente su valor. Toda regulación de honorarios debe contener, bajo pena de nulidad, el monto en moneda de curso legal y la cantidad de UMA que representa a la fecha de la resolución (art. 51 Ley 27.423); el pago es cancelatorio si se abona el equivalente en pesos a esa cantidad de UMA según su valor vigente al momento del pago, no al de la regulación. Esto es relevante para el asesoramiento sobre honorarios en un contexto de licuación por inflación: la deuda por honorarios está fijada en UMA, no en el monto nominal originalmente expresado.
+
+```
+[VERIFICAR MONTO ACTUALIZADO: valor de la UMA - acordada de la CSJN vigente al momento de la consulta]
+[VERIFICAR CRITERIO DEL FUERO: escala arancelaria y base regulatoria de honorarios en juicios de reajuste de la seguridad social - CFSS al momento del cálculo]
+```
+
 ---
 
 ## Bucle de fundamentación - previsional
 
 El armado de una demanda de reajuste corre bajo `bucles-SKILL.md`, rama Previsional. Resumen del criterio de cierre propio de la rama:
 
-- **Nodo bloqueante:** habilitación de instancia (reclamo administrativo previo y plazo de impugnación) y prescripción del retroactivo. Van antes del fondo.
-- **Criterio de salida:** fórmula de movilidad identificada y verificada por cada período reclamado; índice de actualización del haber inicial con el criterio del fuero marcado; precedentes de movilidad y de haber inicial con su marcador de vigencia (B5); retroactivo con el corte de prescripción calculado; intereses con la tasa del fuero marcada.
-- **Conectores del hub:** `infoleg__` (Ley 24.241, Ley 24.463, Ley 26.417, leyes y DNU de movilidad), `csjn__` (línea de movilidad y haber inicial), `saij__`, `pjnjuris__` (jurisprudencia del fuero).
+- **Nodo bloqueante:** habilitación de instancia (reclamo administrativo previo y plazo de impugnación) y prescripción del retroactivo. Van antes del fondo. En pensión derivada sin matrimonio, se suma un nodo bloqueante propio: la prueba de convivencia por el plazo legal (cinco años, o dos con descendencia común).
+- **Criterio de salida:** fórmula de movilidad identificada y verificada por cada período reclamado, o prorrateo de servicios mixtos (art. 24 inc. c) aplicado; índice de actualización del haber inicial con el criterio del fuero marcado; precedentes de movilidad y de haber inicial con su marcador de vigencia (B5); retroactivo con el corte de prescripción calculado; intereses con la tasa del fuero marcada; régimen de honorarios advertido al cliente (sin cuota litis).
+- **Conectores del hub:** `infoleg__` (Ley 24.241, Ley 24.463, Ley 26.417, Ley 27.423, leyes y DNU de movilidad), `csjn__` (línea de movilidad y haber inicial), `saij__`, `pjnjuris__` (jurisprudencia del fuero).
 
 ---
 
@@ -310,19 +434,30 @@ El cálculo del retroactivo de reajuste -recomposición del haber + diferencias 
 - Nodo bloqueante antes del fondo: habilitación de instancia (denegatorias) y prescripción del retroactivo (reajustes). Reportarlos al inicio del análisis, no al final.
 - Honestidad sobre acceso: la moratoria amplia de la Ley 27.705 venció en marzo de 2025; no ofrecer la jubilación por moratoria en cuotas como si siguiera disponible para quien ya cumplió la edad.
 - Frontera con discapacidad: PNC por invalidez se deriva a `discapacidad-CLAUDE.md`; retiro por invalidez del SIPA se trata acá con pericia ruteada a `especialidades/medicina-legal-CLAUDE.md`.
+- Honorarios: no ofrecer ni redactar un pacto de cuota litis en materia previsional. El art. 6 inc. c) Ley 27.423 lo prohíbe expresamente; un acuerdo informal con el mismo efecto es nulo (art. 5) y expone al profesional a sanción disciplinaria. El cobro se asienta en la regulación judicial, a cargo del cliente por la regla de costas por su orden (art. 21 Ley 24.463).
+- Pensión derivada sin matrimonio: no avanzar el reclamo sin el checklist de prueba de convivencia (domicilio, información sumaria, servicios, obra social) y sin verificar si corresponde el plazo de cinco años o el de dos años por descendencia común (art. 53 Ley 24.241).
+- Servicios mixtos: el cálculo del haber no es un promedio informal entre dependencia y autónomo. Aplicar el prorrateo por años de servicio del art. 24 inc. c) Ley 24.241 y verificar el estado de la deuda autónoma (liquidación SICAM) antes de dar por computables esos períodos.
+- Punto de partida operativo: antes de proyectar cualquier cálculo, confirmar que el cliente cuenta con Clave de la Seguridad Social y que la historia laboral de "Mi ANSES" es consistente con lo que relata; no asumir que un trámite se resuelve por Atención Virtual sin confirmarlo, porque la modalidad cambia con frecuencia.
 - Todo escrito previsional cierra con el "Estado del escrito" estándar más este bloque:
-  1. Reclamo identificado (Haber inicial / Movilidad / Ambos / Acceso / Impugnación de denegatoria).
-  2. Fecha de adquisición del beneficio (consignada / a aportar).
+  1. Reclamo identificado (Haber inicial / Movilidad / Ambos / Acceso / Impugnación de denegatoria / Pensión derivada).
+  2. Fecha de adquisición del beneficio o de fallecimiento del causante, según el caso (consignada / a aportar).
   3. Material de respaldo (Historia previsional / Resoluciones / Recibos: aportado / a aportar).
   4. Nodo bloqueante (Habilitación de instancia: cumplida / a verificar; Prescripción del retroactivo: calculada / a calcular).
-  5. Fórmulas de movilidad por período (identificadas / a verificar).
+  5. Fórmulas de movilidad por período (identificadas / a verificar), o prorrateo de servicios mixtos (art. 24 inc. c) si corresponde.
   6. Índice del haber inicial (criterio del fuero marcado).
   7. Tasa de interés (marcada).
   8. Precedentes con marcador de vigencia (B5) consignado.
+  9. Si pensión derivada: prueba de convivencia y plazo aplicable (cinco años / dos años por descendencia) - completa / a completar.
+  10. Honorarios: régimen advertido (sin cuota litis; regulación judicial a cargo del cliente) - sí / no.
 
 ---
 
-*Última actualización: junio 2026*
-*Normativa base: art. 14 bis CN; Ley 24.241 (SIJP), Ley 24.463 (Solidaridad Previsional), Ley 26.417, Ley 27.260 (PUAM), Ley 27.705 y Ley 24.476 (moratorias), DNU 274/2024 (movilidad por IPC, vigente a junio 2026)*
+*Última actualización: julio 2026*
+*Normativa base: art. 14 bis CN; Ley 24.241 (SIJP, arts. 9, 24 y 53 en particular), Ley 24.463 (Solidaridad Previsional - arts. 15 y 21), Ley 26.417, Ley 27.260 (PUAM), Ley 27.705 y Ley 24.476 (moratorias), Ley 27.423 (honorarios - art. 6 inc. c, prohibición de cuota litis previsional), Ley 27.742 (reforma del art. 25 LNPA aplicable por remisión del art. 15 Ley 24.463), DNU 274/2024 (movilidad por IPC, vigente a junio 2026); Convención Interamericana sobre la Protección de los Derechos Humanos de las Personas Mayores (Ley 27.360, jerarquía constitucional Ley 27.700); competencia de alzada del interior: art. 18 Ley 24.463 inconstitucional ("Pedraza", Fallos 337:530); confiscatoriedad de topes: "Actis Caporale" (Fallos 323:4216) y "Tudor" (Fallos 327:3251); haber inicial - índice de actualización: "Elliff" (Fallos 332:1914) y "Blanco" (Fallos 341:1924)*
 *Verificación de tramo volátil (movilidad post-2024 y estado de moratorias) contra Boletín Oficial, resoluciones ANSES y fuentes de junio 2026. Verificar siempre la movilidad, los montos y el acceso al momento de cada consulta.*
+*Ampliación julio 2026 (primera tanda): costas por su orden (art. 21 Ley 24.463) y prohibición de cuota litis previsional (art. 6 inc. c Ley 27.423); prueba de convivencia en pensión derivada (art. 53 Ley 24.241, plazos de 5 y 2 años); servicios mixtos y prorrateo (art. 24 inc. c Ley 24.241) con referencia operativa al SICAM; vía administrativa previa y entorno digital de ANSES. Verbatim de los arts. 21, 24, 53 (Ley 24.241) y 5, 6 (Ley 27.423) confirmado contra InfoLEG.*
+*Ampliación julio 2026 (segunda tanda, revisión de un colega): plazo de impugnación de denegatoria corregido a 90/180 días hábiles judiciales según fecha de notificación (art. 25 LNPA reformado por Ley 27.742), con remisión a `administrativo-CLAUDE.md`; nota sobre el silencio positivo (Decreto 971/2024) y su falta de superposición automática con la doctrina "Biosystem"; cita directa de "Actis Caporale" (Fallos 323:4216, origen del límite del 15%) y "Tudor" (Fallos 327:3251, aplicación en ejecución de sentencia), verificados vía conector CSJN; precisión sobre la UCAP (Ley 27.705): el art. 4 (plazo de dos años prorrogable) rige solo para la UPDP (Capítulo II), no para la UCAP (Capítulo III), que no tiene cláusula de vigencia temporal propia en el texto legal - se descarta el ajuste de estatus a "vencida" sugerido por el revisor, por no surgir del texto de la ley.*
+*Ampliación julio 2026 (tercera tanda, revisión de un colega): incorporados "Elliff" (Fallos 332:1914, 11/8/2009) y "Blanco" (Fallos 341:1924, 18/12/2018), verificados vía conector CSJN, a la sección de haber inicial. Corregido expresamente un dato que no se pudo verificar: "Blanco" no fija un corte del ISBIC al 11/8/2018 ni remite a un "índice SIPA" por una "Resolución SSS N° 2/2018" - esa fecha corresponde a "Elliff" (11/8/2009), no a un límite dentro de "Blanco". Agregada la nota sobre el tope de la base imponible máxima (art. 9, segundo párrafo, Ley 24.241) como segunda causa de diferencia en el promedio, con el argumento de inconstitucionalidad por analogía con "Actis Caporale" planteado como argumento, no como doctrina consolidada (no se verificó un precedente que aplique ese 15% a este tope en particular). En pensión derivada, precisado que la regla de concurrencia cónyuge/conviviente en caso de separación de hecho surge directamente del texto del art. 53 y no requiere apoyo jurisprudencial; no se pudieron verificar como precedentes de la CSJN "Avila, María" ni "Deidda" (0 resultados en los conectores CSJN y SAIJ) y no se incorporaron.*
+*Ampliación julio 2026 (cuarta tanda, revisión de un colega): agregada la UMA como unidad de regulación de honorarios (art. 19 y art. 51 Ley 27.423, verificado verbatim), con marcador de monto vigente por acordada CSJN. Rechazadas dos citas no verificables: "art. 79 Ley 24.241" para el tope del haber máximo (ese artículo está derogado desde 2016 por art. 35 Ley 27.260; el tope vigente sigue siendo el art. 9 Ley 24.463, ya citado) y el precedente "Tual" (0 resultados en conector CSJN y en SAIJ). Rechazada también la reiteración de "art. 25 Ley 24.463" como fuente del plazo de caducidad de la impugnación -error ya corregido en una ronda anterior de este mismo perfil-, con nota explícita en el texto para que no se repita. No se incorporó la distinción de tasa de interés por "vulnerabilidad extrema" atribuida a un fallo "García": no se pudo verificar, y el único "García" con cita firme en este perfil es el de ganancias sobre haberes, ajeno a la tasa de interés de los retroactivos; usarlo para este punto sería una atribución errónea. El link de InfoLEG aportado para la Ley 27.423 (id 295984) corresponde a una norma distinta (aprobación de un convenio con Gran Bretaña sobre comercio de carnes); el id verificado de la Ley 27.423 sigue siendo 305057.*
+*Ampliación julio 2026 (quinta tanda, autoauditoría interna, sin revisor externo): corregido un error preexistente no detectado en las cuatro rondas anteriores: la sección de confiscatoriedad describía el art. 26 Ley 24.241 como "escala de deducciones" del tope al haber máximo. Verificado contra InfoLEG, el art. 26 fija el haber máximo de la prestación compensatoria en un MOPRE (ex AMPO) por año de servicios con aportes computados - una figura distinta de la escala de deducciones del art. 9, inc. 2, Ley 24.463. Corregido con distinción expresa de ambos topes y nuevo marcador `[REVISIÓN NORMATIVA REQUERIDA]` advirtiendo que no está verificada la extensión de la doctrina del 15% ("Actis Caporale") al tope del art. 26. Corregida también la fecha de última verificación de la sección "Alerta normativa" (estaba en junio 2026 pese a contener contenido de julio) y alineado el marcador `[ALERTA PLAZO FATAL]` de prescripción al formato canónico de cuatro campos de `marcadores-GLOSARIO.md`. Cotejados todos los marcadores del perfil contra el glosario: sin otras desviaciones. Revisado también `ejemplos-previsional.md`: no citaba el art. 26, no requirió corrección de fondo.*
 *Autor: Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*

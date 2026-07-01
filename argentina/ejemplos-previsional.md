@@ -57,6 +57,19 @@ La fecha de adquisición del beneficio determina qué normas de cálculo del hab
 [VERIFICAR CRITERIO DEL FUERO: índice de actualización de remuneraciones del haber inicial - CFSS / CSJN a la fecha del cálculo]
 ```
 
+**Paso 1 bis - Control de topes (base imponible y haber máximo), antes de recalcular las prestaciones**
+
+Antes de pasar a las fórmulas del Paso 2, revisar si algún tope recortó la base de cálculo o el haber resultante, porque son dos recortes distintos y no se corrigen con el mismo argumento:
+
+1. **Tope de la base imponible de aportes (art. 9, segundo párrafo, Ley 24.241):** si alguna remuneración mensual histórica superó el máximo de la base imponible vigente en ese mes, ANSES excluye el excedente del promedio por remisión del art. 25 de la misma ley. Es una causa de recorte distinta del índice de actualización (Paso 1): hay que revisar mes a mes, no asumir que toda la diferencia proviene del ISBIC.
+2. **Tope del haber máximo (art. 9 Ley 24.463):** una vez calculado el haber, si su monto supera el tope legal, ANSES aplica el recorte del art. 9 Ley 24.463 (no el art. 79 Ley 24.241, que está derogado desde 2016 por art. 35 Ley 27.260 y no regula esta materia). Si la quita resultante supera el 15%, corresponde plantear la inconstitucionalidad del tope por confiscatoriedad, con apoyo en "Actis Caporale" (Fallos 323:4216) y "Tudor" (Fallos 327:3251) -ver `previsional-CLAUDE.md`, sección "Confiscatoriedad por aplicación de topes"-. La extensión de ese mismo estándar del 15% al tope de la base imponible de aportes (punto 1) es un argumento por analogía, no una doctrina verificada con un precedente propio.
+
+```
+[VERIFICAR MONTO ACTUALIZADO: base imponible máxima de aportes (art. 9 Ley 24.241) - valor vigente en cada mes de la remuneración computada]
+[VERIFICAR MONTO ACTUALIZADO: tope del haber máximo (art. 9 Ley 24.463) - valor vigente a la fecha de adquisición del beneficio]
+[VERIFICAR PRECEDENTE: aplicación por analogía del límite de confiscatoriedad del 15% ("Actis Caporale") al tope de la base imponible de aportes - no verificado un precedente específico]
+```
+
 **Paso 2 - Recalcular las prestaciones del haber inicial**
 
 El haber inicial se integra con PBU + PC + PAP. La PC y la PAP se calculan como un porcentaje por año de servicio sobre el promedio actualizado (1,5% por año, arts. 24 y 30 Ley 24.241 [VERIFICAR VIGENCIA]). La PBU es un monto fijo que se actualiza por resolución.
@@ -82,11 +95,11 @@ Esta diferencia es la del día de adquisición. Para llevarla al presente hay qu
 
 **Notas:**
 - El reclamo de haber inicial no discute la movilidad; discute la base. Pero el retroactivo se calcula moviendo la diferencia de origen por la movilidad de cada año hasta hoy.
-- La doctrina que sostiene la actualización por ISBIC se identifica con "Elliff" y "Blanco". En el escrito:
+- La doctrina que sostiene la actualización por ISBIC se apoya en "Elliff, Alberto José c/ ANSeS" (CSJN, Fallos 332:1914, 11/8/2009) y "Blanco, Lucio Orlando c/ ANSeS" (CSJN, Fallos 341:1924, 18/12/2018 - declaró inconstitucionales las Res. ANSES 56/2018 y Res. SSS 1/2018 que pretendían reemplazar el ISBIC por el RIPTE). No hay, en ninguno de los dos, un corte temporal del ISBIC al 11/8/2018 ni una remisión a un "índice SIPA" por Resolución SSS 2/2018: esa cita no se pudo verificar y no debe usarse.
 ```
-[INSERTAR FALLO VERIFICADO: CSJN - actualización de remuneraciones del haber inicial por ISBIC - aportar carátula, Fallos y año]
-[VERIFICAR PRECEDENTE: línea "Elliff" / "Blanco" - confirmar que no fue dejada sin efecto ni superada antes de citar]
+[VERIFICAR PRECEDENTE: "Elliff" (Fallos 332:1914) y "Blanco" (Fallos 341:1924) - confirmar que la línea ISBIC no fue dejada sin efecto ni superada por norma o fallo posterior antes de citar]
 ```
+- El control de topes (base imponible y haber máximo) se hace en el Paso 1 bis, antes de recalcular las prestaciones: no atribuir toda la diferencia entre el promedio ANSES y el promedio ISBIC al índice sin descartar primero un recorte por tope.
 - Si el afiliado percibe el haber mínimo garantizado, parte del reajuste puede quedar absorbida por el mínimo. Verificar el impacto antes de proyectar el resultado.
 
 ---
@@ -147,7 +160,7 @@ Las diferencias devengadas más allá del plazo de prescripción bienal, contado
 
 ```
 [REVISIÓN NORMATIVA REQUERIDA: norma, plazo y hito de cómputo de la prescripción de los haberes devengados - confirmar artículo vigente antes de cortar el retroactivo]
-[ALERTA PLAZO FATAL: prescripción de haberes devengados - cómputo bienal por mensualidad - calcular el corte del retroactivo por período]
+[ALERTA PLAZO FATAL: prescripción bienal de haberes devengados (art. 82 Ley 18.037, por reenvío) - 2 años - desde que cada mensualidad fue exigible - vencimiento: calcular el corte del retroactivo por período]
 ```
 
 Esquema del corte (con el bienio a modo ilustrativo; confirmar el hito real):
@@ -192,6 +205,8 @@ Usar como control antes de cerrar cualquier liquidación. Marcar cada ítem: apl
 - [ ] Historia previsional completa aportada (remuneraciones históricas)
 - [ ] Promedio de las remuneraciones reconstruido
 - [ ] Índice de actualización: criterio del fuero marcado (administrativo vs. ISBIC judicial)
+- [ ] Control de topes hecho antes de recalcular: base imponible de aportes (art. 9, segundo párrafo, Ley 24.241) y haber máximo (art. 9 Ley 24.463), cada uno con su monto marcado
+- [ ] Si corresponde por confiscatoriedad (quita > 15%): planteo de inconstitucionalidad del tope identificado y fundado en "Actis Caporale" / "Tudor"
 - [ ] PBU verificada a la fecha de adquisición
 - [ ] PC y PAP recalculadas sobre el promedio actualizado
 - [ ] Diferencia mensual de origen determinada
@@ -219,7 +234,10 @@ Usar como control antes de cerrar cualquier liquidación. Marcar cada ítem: apl
 
 ---
 
-*Última actualización: junio 2026*
+*Última actualización: julio 2026*
 *Los montos, índices y coeficientes de estos ejemplos son orientativos e hipotéticos. Verificar el índice de actualización del haber inicial (criterio del fuero), las fórmulas de movilidad de cada período, la PBU, el haber mínimo y la tasa de interés antes de usar en cada caso concreto.*
-*Normativa base: art. 14 bis CN; Ley 24.241 (SIJP), Ley 24.463 (Solidaridad Previsional), Ley 26.417, leyes y DNU de movilidad (secuencia 24.241 / 26.417 / 27.426 / 27.541 / 27.609 / DNU 274/2024)*
+*Normativa base: art. 14 bis CN; Ley 24.241 (SIJP, arts. 9, 24 y 25), Ley 24.463 (Solidaridad Previsional), Ley 26.417, leyes y DNU de movilidad (secuencia 24.241 / 26.417 / 27.426 / 27.541 / 27.609 / DNU 274/2024); haber inicial - índice de actualización: "Elliff" (Fallos 332:1914) y "Blanco" (Fallos 341:1924)*
+*Ampliación julio 2026 (segunda tanda): Ejemplo 1 actualizado con la cita verificada de "Elliff" y "Blanco" (vía conector CSJN) en lugar del marcador B1 anterior, con corrección expresa de un dato no verificable (corte del ISBIC al 11/8/2018 e "índice SIPA" por Resolución SSS 2/2018, no encontrados en el sumario oficial de "Blanco"); agregada la nota sobre el tope de la base imponible máxima (art. 9, segundo párrafo, Ley 24.241) como causa adicional de un promedio ANSES más bajo.*
+*Ampliación julio 2026 (tercera tanda): agregado el Paso 1 bis - Control de topes, con el tope de base imponible (art. 9, segundo párrafo, Ley 24.241) y el tope del haber máximo (art. 9 Ley 24.463, no art. 79 Ley 24.241 -derogado desde 2016- como se había sugerido) antes de recalcular las prestaciones; planteo de inconstitucionalidad por confiscatoriedad (> 15%) con apoyo en "Actis Caporale"/"Tudor" cuando corresponda; checklist ampliado en la misma línea. No se incorporó "Tual" como precedente adicional por no poder verificarlo.*
+*Ampliación julio 2026 (cuarta tanda, autoauditoría): revisado este archivo contra la corrección del art. 26 Ley 24.241 hecha en `previsional-CLAUDE.md` (ese artículo no aparece citado acá, no requirió cambios de fondo); alineado el marcador ALERTA PLAZO FATAL de prescripción de haberes devengados al formato de cuatro campos usado en el perfil general (norma, plazo, hito de cómputo, vencimiento).*
 *Autor: Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*

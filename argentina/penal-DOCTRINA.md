@@ -93,7 +93,7 @@ Cita completa: CSJN, "Arriola, Sebastián y otros", Fallos 332:1963 (25/8/2009).
 
 ### Antecedente - "Bazterrica"
 
-CSJN, "Bazterrica, Gustavo Mario", Fallos 308:1392 (29/8/1986). Es el precedente que "Arriola" retoma: declaró inconstitucional la criminalización de la tenencia de estupefacientes para consumo personal (entonces art. 6 de la Ley 20.771) por invadir la esfera de privacidad del art. 19 CN. Entre "Bazterrica" y "Arriola" rigió el criterio inverso de "Montalvo" (1990). Útil para mostrar que la doctrina del art. 19 CN en la materia no es novedosa ni aislada.
+CSJN, "Bazterrica, Gustavo Mario", Fallos 308:1392 (29/8/1986). Es el precedente que "Arriola" retoma: declaró inconstitucional la criminalización de la tenencia de estupefacientes para consumo personal (entonces art. 6 de la Ley 20.771) por invadir la esfera de privacidad del art. 19 CN. Entre "Bazterrica" y "Arriola" rigió el criterio inverso de "Montalvo" (Fallos 313:1333, 11/12/1990). Útil para mostrar que la doctrina del art. 19 CN en la materia no es novedosa ni aislada.
 
 Cita completa: CSJN, "Bazterrica, Gustavo Mario", Fallos 308:1392 (29/8/1986).
 

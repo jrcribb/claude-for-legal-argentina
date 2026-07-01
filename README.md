@@ -110,6 +110,7 @@ argentina/
       modelos/                      # Excarcelación, probation, hábeas corpus, nulidad de allanamiento, casación
   societario-CLAUDE.md              # Perfil derecho societario (LGS)
   tributario-CLAUDE.md              # Perfil derecho tributario
+  previsional-CLAUDE.md             # Perfil derecho previsional (SIPA - Fuero Federal de la Seguridad Social)
   transito-CLAUDE.md                # Perfil infracciones y multas de tránsito
   transito/
     descargos/
@@ -119,6 +120,7 @@ argentina/
   ejemplos-laboral.md               # Casos laborales
   ejemplos-societario.md            # Due diligence y pactos de accionistas
   ejemplos-penal.md                 # Escenarios de práctica penal anotados
+  ejemplos-previsional.md           # Casos modelo de liquidación de reajuste (haber inicial, movilidad, retroactivo)
   fuentes.md                        # Conectores MCP y fuentes primarias
   legal.local.md.template           # Template de configuración local del estudio (por rama del derecho)
   evals/                            # Casos de control para verificar perfiles de área
@@ -143,6 +145,7 @@ argentina/
 - Ley 17.801 y CCCN para actos registrales y compliance notarial (Res. UIF 242/2023)
 - Ley 25.326, Decreto 1558/01 y disposiciones AAIP para protección de datos e informes crediticios (hábeas data, derecho al olvido, Veraz/Nosis)
 - Ley 24.901 + CDPCD (Ley 27.044) para derecho de la discapacidad
+- Ley 24.241 (SIJP) y Ley 24.463 (Solidaridad Previsional) para derecho previsional, ante el Fuero Federal de la Seguridad Social
 
 **Reemplaza la lógica de common law en tres áreas críticas:**
 - Contratos: análisis bajo CCCN (no bajo consideration ni indemnification caps)
@@ -294,6 +297,7 @@ Después:
    - Administrativo PBA: `argentina/administrativo-CLAUDE.md` + `argentina/administrativo/administrativo-PBA-CLAUDE.md`
    - Administrativo Salta: `argentina/administrativo-CLAUDE.md` + `argentina/administrativo/administrativo-SALTA-CLAUDE.md`
    - Notarial: `argentina/especialidades/notarial/notarial-CLAUDE.md` + `argentina/especialidades/notarial/notarial-clausulas.md`
+   - Previsional: `argentina/previsional-CLAUDE.md` + `argentina/ejemplos-previsional.md` (para liquidaciones de reajuste)
    - También subís tu `argentina/legal.local.md` con los datos del estudio.
    - Archivos transversales que el `CLAUDE.md` referencia internamente: subí también `argentina/fuentes.md` (conectores y ruteo por pieza de demanda), `argentina/bucles-SKILL.md` (bucle de fundamentación), `argentina/marcadores-GLOSARIO.md`, `argentina/diagnostico-SKILL.md` y `argentina/plazos-SKILL.md`. En un Project no hay acceso al disco: los punteros del `CLAUDE.md` (por ejemplo "ver argentina/fuentes.md") solo resuelven si el archivo está subido como conocimiento del Project (Configuración del proyecto → subir archivos).
 4. Guardás. Cada conversación nueva dentro del Project arranca con todos esos archivos activos.
@@ -371,6 +375,7 @@ Los plugins disponibles corresponden a las áreas de práctica cubiertas por est
 | `familia-DOCTRINA.md` | Holdings verificados vía SAIJ por instituto (anclados a sumario, tribunal y fecha; carátulas anonimizadas por minoridad): interés superior y autonomía progresiva (art. 26 CCCN), restitución internacional (CSJN, excepción de grave riesgo), compensación económica (no automática, arts. 441-442), gestación por sustitución, cuidado personal compartido; marcadores para institutos sin precedente cargado | - | - |
 | `societario-CLAUDE.md` | Societario y M&A | `ejemplos-societario.md` | Resoluciones IGJ/DPPJ, capital mínimo |
 | `tributario-CLAUDE.md` | Derecho tributario | - | Alícuotas, MNI, umbrales de punibilidad |
+| `previsional-CLAUDE.md` | Derecho previsional (SIPA) ante el Fuero Federal de la Seguridad Social · acción insignia: reajuste de haberes (haber inicial + movilidad); acceso al beneficio sin 30 años de aportes (moratorias, PUAM), pensión derivada con prueba de convivencia, servicios mixtos (dependencia + autónomo, SICAM), impugnación de denegatoria, costas por su orden y honorarios en UMA (sin cuota litis) | `ejemplos-previsional.md` | Movilidad post-DNU 274/2024 (fuente reglamentaria, no legal), vencimiento de la UPDP (Ley 27.705, marzo 2025) y vigencia de la UCAP, plazo de impugnación 90/180 días (art. 25 LNPA reformado por Ley 27.742), tasa de interés del fuero |
 | `concursos-CLAUDE.md` | Concursos y quiebras (LCQ) | - | Tasas post-concursales, reformas LCQ |
 | `transito-CLAUDE.md` | Infracciones y multas de tránsito (Nacional/ANSV-SINAI, CABA, PBA y 22 provincias) | `transito/descargos/` (skill + 7 modelos por causal) | Valor de la UF, % de pago voluntario, plazos por jurisdicción, art. 71 (defensa a distancia) |
 | `contratos/CLAUDE.md` | Revisión y redacción de contratos | `contratos/red-flags.md` | Régimen cambiario, locaciones, intertemporalidad |
@@ -395,6 +400,7 @@ de cada perfil para que el sistema la procese con prioridad.
 | `administrativo-CLAUDE.md` | `## Alerta normativa - normas de vigencia variable` | Plazos de caducidad art. 25 LNPA, contratación pública, normativa provincial |
 | `concursos-CLAUDE.md` | `## Alerta normativa - normas de vigencia variable` | Tasas post-concursales, período de sospecha, reformas LCQ |
 | `tributario-CLAUDE.md` | `## Alerta normativa - normas de vigencia variable` | Ganancias/MNI, Bienes Personales, umbrales penales Ley 27.430, monto mínimo TFN |
+| `previsional-CLAUDE.md` | `## Alerta normativa - normas de vigencia variable` | Movilidad (DNU 274/2024, IPC mensual, no ratificado por ley), bono/refuerzo congelado desde marzo 2024, índice de actualización del haber inicial (ISBIC vs. administrativo), tasa de interés del retroactivo, estado de las moratorias (UPDP vencida marzo 2025, UCAP vigente, Ley 24.476, PUAM, Decreto 475/2021) |
 | `familia-CLAUDE.md` | `## Alerta normativa - normas de vigencia variable` | Cuotas alimentarias (SMVM e IC-INDEC), criterio de cuidado personal compartido por fuero, traspaso de competencias de familia a CABA, Ley 26.485 (mod. Ley 27.736 Olimpia), Ley 12.569 PBA (texto Ley 14.509 y 14.657) |
 | `penal-CLAUDE.md` | `## Alerta normativa - normas de vigencia variable` | Umbrales de punibilidad, códigos procesales en transición |
 | `societario-CLAUDE.md` | `## Alerta normativa - normas de vigencia variable` | Resoluciones IGJ/DPPJ, capital mínimo, sindicatura |
@@ -570,6 +576,14 @@ Accedé directamente y pegá el texto en la sesión. Son la fuente de verdad ant
 - Analizar recursos ante el TFN y la CNACAF
 - Revisar compliance bajo Ley 25.326 (habeas data) con vocabulario argentino nativo
 
+**Previsional:**
+- Armar y liquidar la demanda de reajuste de haberes (haber inicial + movilidad) ante el Fuero Federal de la Seguridad Social, con control de topes (base imponible de aportes y haber máximo) antes de recalcular las prestaciones
+- Verificar el índice de actualización aplicable al haber inicial (ISBIC vs. administrativo) con la jurisprudencia de la CSJN ("Elliff", "Blanco") y plantear la inconstitucionalidad de los topes por confiscatoriedad cuando la quita supera el 15% ("Actis Caporale", "Tudor")
+- Calcular el prorrateo de servicios mixtos (relación de dependencia + autónomo) y verificar la deuda autónoma vía SICAM
+- Diagnosticar el acceso al beneficio sin 30 años de aportes (estado de la UPDP y la UCAP, Ley 24.476, PUAM, tareas de cuidado) y armar el checklist probatorio de convivencia en pensión derivada (plazos de 5 y 2 años, art. 53 Ley 24.241)
+- Controlar el nodo bloqueante de habilitación de instancia (plazo de caducidad de la impugnación, hoy 90 o 180 días hábiles judiciales según la reforma de la Ley 27.742) y la prescripción bienal del retroactivo
+- Asesorar sobre costas (por su orden, art. 21 Ley 24.463) y honorarios (prohibición de cuota litis, art. 6 inc. c Ley 27.423; regulación en UMA)
+
 **Concursal:**
 - Verificar privilegios de créditos y estrategia de verificación
 - Analizar acciones de recomposición patrimonial (período de sospecha, arts. 118-119 LCQ)
@@ -682,4 +696,4 @@ Ese contenido se publica bajo licencia dual: uso no comercial libre con atribuci
 Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)  
 Abogado (CPACF) · CABA y GBA · Legal tech & IA aplicada a práctica jurídica argentina
 
-*Última actualización: junio 2026*
+*Última actualización: julio 2026*
