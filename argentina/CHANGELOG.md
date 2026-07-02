@@ -28,6 +28,64 @@ No esperar a la revisión periódica.
  
 ## 2026
 
+### Julio 2026 - README.md actualizado con las dos últimas rondas del perfil previsional
+
+**Archivos modificados:** `README.md` (raíz) - agregadas dos bullets a la sección "Previsional" de `## Lo que podés hacer desde el día uno`: reserva de Ganancias (con la cita verificada "García, María Isabel", Fallos 342:411) y la distinción entre impugnación judicial, amparo por mora y denuncia de ilegitimidad; y tasa de interés por Sala de la CFSS más validación de datos personales en SICAM/UDAI. No requirió cambios en la tabla `## Perfiles por área` ni en `## Alertas de normas inestables`, ya actualizadas cuando se agregó la capa de escritos.
+
+**Verificación:** no introduce citas nuevas; resume contenido ya verificado en las dos entradas anteriores de este changelog.
+
+### Julio 2026 - Completitud operativa del perfil previsional (plazos, liquidación de sentencia, SICAM, tasa por sala)
+
+**Motivo:** un colega revisó el perfil ya ampliado y sugirió cuatro puntos de "completitud para la práctica diaria": (1) tabla comparativa de plazos entre impugnación de denegatoria y amparo por mora; (2) alertar sobre la tasa de interés vigente al momento de aprobarse la liquidación de sentencia; (3) validación de datos personales en ANSES/UDAI antes de tramitar la moratoria vía SICAM; (4) verificar el criterio de cada Sala de la CFSS (I, II, III) sobre tasa de interés, no asumirlo uniforme. Instrucción del usuario: verificar y borrar lo que no se pudiera verificar.
+
+Los cuatro puntos son, en su mayoría, de sistematización y método antes que de citas normativas o jurisprudenciales nuevas, así que no requirieron una nueva ronda de verificación vía conectores más allá de confirmar que el contenido de base ya estaba correcto:
+
+- **Punto 1 (tabla de plazos):** no introduce ningún dato nuevo. Se construyó con las cuatro vías ya verificadas en la ronda anterior (impugnación judicial - art. 15 Ley 24.463 + art. 25 inc. a LNPA; amparo por mora - art. 28 LNPA texto Ley 27.742; denuncia de ilegitimidad - art. 1° bis inc. h LNPA; prescripción bienal) en una única tabla comparativa dentro de `previsional-CLAUDE.md`, sección "Impugnación de denegatoria de beneficio".
+- **Punto 2 (tasa al momento de la liquidación):** no se encontró una regla fija verificable sobre qué tasa corresponde cuando hubo más de un criterio vigente durante el período reclamado (si se recalcula todo a la tasa vigente al momento de aprobar la liquidación o se respeta la tasa de cada tramo). Se incorporó como alerta de método con marcador `[VERIFICAR CRITERIO DEL FUERO]`, no como regla asentada, en `previsional-CLAUDE.md` (sección "Ejecución de sentencia contra ANSES") y en `demanda-reajuste-haberes.md`.
+- **Punto 3 (SICAM y datos personales):** es una práctica operativa (UDAI), no un punto normativo verificable por los conectores de jurisprudencia o legislación. Se incorporó como paso operativo previo a la liquidación SICAM en `previsional-CLAUDE.md`, en el modelo `demanda-reajuste-haberes.md` y en el checklist del skill.
+- **Punto 4 (tasa por Sala de la CFSS):** la existencia de tres salas (I, II, III) es estructura conocida del fuero, pero no se verificó -ni se afirma en el perfil- que exista hoy una divergencia concreta de criterio entre ellas sobre la tasa de interés: se incorporó como alerta de método (identificar la sala interviniente antes de fijar la tasa), no como constatación fáctica de una divergencia puntual no verificada.
+
+**Archivos modificados:**
+- `previsional-CLAUDE.md`: cuadro comparativo de las cuatro vías en la sección de impugnación; nuevo párrafo sobre tasa por Sala en "Intereses"; nuevo párrafo sobre liquidación de sentencia en "Ejecución de sentencia contra ANSES"; paso operativo de validación de datos en "Servicios mixtos y SICAM"; footer con nota de séptima tanda.
+- `previsional/escritos/modelos/demanda-reajuste-haberes.md`: marcador de datos personales en el tramo SICAM; párrafo y marcador de tasa por sala y liquidación de sentencia en la sección V; Estado del escrito actualizado.
+- `previsional/escritos/escritos-previsional-SKILL.md`: Paso 2 ampliado con las cuatro vías, la tasa por sala y SICAM; dos ítems nuevos en el checklist de cierre.
+
+**Verificación:** ningún punto de esta ronda requirió una nueva búsqueda en conectores de jurisprudencia o normativa: son reorganización de contenido ya verificado (punto 1), alertas de método sin afirmación fáctica no verificada (puntos 2 y 4), y práctica operativa ajena a los conectores legales (punto 3).
+
+### Julio 2026 - Verificación de propuestas de un colega sobre los escritos previsionales (Ganancias, LNPA, bono)
+
+**Motivo:** un colega revisó los tres modelos de la capa de escritos recién agregada y sugirió tres incorporaciones: (A) reserva de no retención de Ganancias sobre retroactivos, con cita al fallo "García"; (B) planteo de inconstitucionalidad por exclusión del bono/refuerzo de la base de movilidad; (C) precisiones sobre el plazo de silencio administrativo, citando "Biosystem" (Fallos 337:1044) y afirmando que la Ley 27.742 modificó sustancialmente la denuncia de ilegitimidad y el amparo por mora. Instrucción del usuario: verificar cada punto y borrar lo que no se pudiera verificar.
+
+**Punto A - verificado e incorporado.** "García, María Isabel c/ AFIP s/ acción meramente declarativa de inconstitucionalidad" (CSJN, Fallos 342:411, 26/3/2019) confirmado vía conector CSJN por carátula exacta: 10 sumarios coincidentes, con fallo destacado sobre inconstitucionalidad de la retención de Ganancias a jubilados vulnerables. Se corrige de paso la caratulación que había circulado ("s/ acción de amparo"): es "acción meramente declarativa de inconstitucionalidad". Se actualizó la cita en `previsional-CLAUDE.md` (antes con marcador `[INSERTAR FALLO VERIFICADO]`, ahora con Fallos y fecha) y se agregó la reserva sobre Ganancias, condicionada a evaluar vulnerabilidad del cliente, al petitorio de `demanda-reajuste-haberes.md` y `demanda-impugnacion-denegatoria.md`.
+
+**Punto B - parcialmente incorporado, sin precedente.** No se encontró jurisprudencia de la CSJN ni de la CFSS sobre la exclusión del bono de la base de movilidad (0 resultados en SAIJ). Se incorporó el argumento a `previsional-CLAUDE.md` y a `demanda-reajuste-haberes.md` (sección IV.4 bis, opcional), pero marcado en todo momento como planteo autónomo sin doctrina consolidada, con `[REVISIÓN NORMATIVA REQUERIDA]` y `[VERIFICAR PRECEDENTE]`, no como aplicación de un fallo.
+
+**Punto C - dividido: cita rechazada, contenido normativo verificado e incorporado por otra vía.** La cita "Biosystem" (Fallos 337:1044) se buscó por carátula, por texto libre y por tomo/página en el conector CSJN: 0 resultados en los tres casos. No se incorpora esa cita puntual; se dejó nota expresa en `previsional-CLAUDE.md` y en el modelo de impugnación para que no se reintroduzca sin material real. Sí se verificó, contra el texto completo de la Ley 27.742 (InfoLEG, id 401266), que la reforma modificó dos institutos generales de la LNPA no desarrollados hasta ahora en el perfil: el amparo por mora (art. 28 Ley 19.549, texto íntegramente sustituido por el art. 47 de la Ley 27.742) y la denuncia de ilegitimidad (art. 1° bis, inc. h, incorporado por el art. 25 de la Ley 27.742, con tope de 180 días desde la notificación del acto). También se verificó el art. 1° bis, inc. i) de la misma reforma: la sola presentación de un reclamo o recurso administrativo interrumpe los plazos de caducidad y prescripción, aunque esté mal calificado o se haya presentado ante órgano incompetente - dato relevante para la práctica de documentar la fecha exacta del trámite, que ya estaba recomendada en el perfil sin este respaldo normativo explícito.
+
+**Archivos modificados:**
+- `previsional-CLAUDE.md`: cita verificada de "García" (Fallos 342:411) en la sección de Ganancias; nuevo párrafo de "reserva sobre retroactivos"; ampliación de la sección de bono/refuerzo con el argumento marcado como no verificado; nuevos puntos en "Vía administrativa previa" sobre interrupción de plazos y amparo por mora; nota de rechazo de la cita "Biosystem" (Fallos 337:1044) y nuevo párrafo sobre denuncia de ilegitimidad; footer con nota de sexta tanda.
+- `previsional/escritos/modelos/demanda-reajuste-haberes.md`: sección IV.4 bis (bono, opcional) y reserva sobre Ganancias en el petitorio; Estado del escrito actualizado.
+- `previsional/escritos/modelos/demanda-impugnacion-denegatoria.md`: párrafos sobre amparo por mora y denuncia de ilegitimidad; reserva sobre Ganancias en el petitorio; rechazo explícito de "Fallos 337:1044"; Estado del escrito actualizado.
+- `previsional/escritos/escritos-previsional-SKILL.md`: Paso 2 ampliado con los cinco puntos de esta verificación; dos racionalizaciones comunes nuevas; ítem nuevo en el checklist de cierre; footer con las normas y el fallo agregados.
+
+**Verificación:** "García, María Isabel" confirmado vía conector CSJN (10 sumarios, Fallos 342:411). Arts. 25 y 47 de la Ley 27.742 confirmados vía InfoLEG (id 401266, texto completo leído). "Biosystem" (Fallos 337:1044) no verificado - rechazado. Argumento del bono sin precedente - incorporado solo como planteo, no como doctrina.
+
+### Julio 2026 - Capa de escritos para el perfil previsional (nuevo)
+
+**Motivo:** el perfil previsional tenía perfil de fondo (`previsional-CLAUDE.md`) y casos de liquidación (`ejemplos-previsional.md`), pero no la capa de escritos que sí tienen laboral, familia, consumidor, penal y civil (skill orquestador + carpeta de modelos). Se agregó siguiendo el mismo patrón.
+
+**Archivos nuevos:**
+- `previsional/escritos/escritos-previsional-SKILL.md`: skill orquestador. Define cuándo activar, el encuadre previo (fuero, reclamo identificado, fecha de adquisición del beneficio), la verificación normativa obligatoria antes de redactar (control de los tres topes sin confundirlos, plazo de impugnación 90/180 días, prescripción bienal, ISBIC, confiscatoriedad), la tabla de ruteo hacia los tres modelos, reglas de integridad, restricciones absolutas, racionalizaciones comunes, señales de alerta y checklist de cierre.
+- `previsional/escritos/modelos/demanda-reajuste-haberes.md`: demanda de reajuste de haberes (haber inicial, movilidad, o ambos), con secciones condicionales para control de topes (distinguiendo expresamente art. 9 segundo párrafo Ley 24.241, art. 9 Ley 24.463 y art. 26 Ley 24.241) y confiscatoriedad, remitida a `ejemplos-previsional.md` para la liquidación numérica.
+- `previsional/escritos/modelos/demanda-impugnacion-denegatoria.md`: demanda de impugnación judicial de una denegatoria de ANSES (otorgamiento, reajuste o retiro por invalidez), con el nodo de habilitación de instancia y el cálculo del plazo de caducidad (90 o 180 días según la fecha de notificación) como sección obligatoria antes del fondo.
+- `previsional/escritos/modelos/demanda-pension-derivada.md`: demanda de pensión por fallecimiento para conviviente sin matrimonio, con el checklist probatorio de convivencia (plazos de 5 y 2 años, art. 53 Ley 24.241) y la regla de concurrencia con cónyuge supérstite.
+
+**Archivos modificados:**
+- `previsional-CLAUDE.md`: agregada una referencia a la nueva capa de escritos en la sección "Identidad y alcance".
+- `README.md`: agregada la carpeta `previsional/escritos/` al árbol de `## Estructura`, a la columna de complementos de la tabla `## Perfiles por área`, al Paso 4 de instalación, y una nueva capacidad en `## Lo que podés hacer desde el día uno`.
+
+**Verificación:** los tres modelos reutilizan únicamente citas y marcadores ya verificados en rondas anteriores de `previsional-CLAUDE.md` (Elliff, Blanco, Actis Caporale, Tudor, Pedraza, arts. 9, 24, 26 y 53 Ley 24.241, arts. 15 y 21 Ley 24.463, art. 25 inc. a Ley 19.549 reformado por Ley 27.742, art. 6 inc. c Ley 27.423). No se incorporó ninguna cita nueva sin verificar.
+
 ### Julio 2026 - Autoauditoría integral del perfil previsional (previsional-CLAUDE.md, ejemplos-previsional.md, README.md)
 
 **Motivo:** después de cuatro rondas de correcciones a partir de revisiones externas, se hizo una auditoría propia de los tres archivos para detectar errores no señalados por ningún revisor externo, así como fechas o marcadores desactualizados por ediciones sucesivas.

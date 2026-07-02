@@ -111,6 +111,13 @@ argentina/
   societario-CLAUDE.md              # Perfil derecho societario (LGS)
   tributario-CLAUDE.md              # Perfil derecho tributario
   previsional-CLAUDE.md             # Perfil derecho previsional (SIPA - Fuero Federal de la Seguridad Social)
+  previsional/
+    escritos/
+      escritos-previsional-SKILL.md   # Skill orquestador de escritos previsionales
+      modelos/
+        demanda-reajuste-haberes.md       # Reajuste de haberes (haber inicial + movilidad + control de topes)
+        demanda-impugnacion-denegatoria.md # Impugnación judicial de denegatoria de ANSES
+        demanda-pension-derivada.md       # Pensión por fallecimiento - conviviente sin matrimonio
   transito-CLAUDE.md                # Perfil infracciones y multas de tránsito
   transito/
     descargos/
@@ -297,7 +304,7 @@ Después:
    - Administrativo PBA: `argentina/administrativo-CLAUDE.md` + `argentina/administrativo/administrativo-PBA-CLAUDE.md`
    - Administrativo Salta: `argentina/administrativo-CLAUDE.md` + `argentina/administrativo/administrativo-SALTA-CLAUDE.md`
    - Notarial: `argentina/especialidades/notarial/notarial-CLAUDE.md` + `argentina/especialidades/notarial/notarial-clausulas.md`
-   - Previsional: `argentina/previsional-CLAUDE.md` + `argentina/ejemplos-previsional.md` (para liquidaciones de reajuste)
+   - Previsional: `argentina/previsional-CLAUDE.md` + `argentina/ejemplos-previsional.md` (para liquidaciones de reajuste). Para redactar, subí también el skill y los modelos de `argentina/previsional/escritos/` (demanda de reajuste de haberes, demanda de impugnación de denegatoria, demanda de pensión derivada) cuando los necesites.
    - También subís tu `argentina/legal.local.md` con los datos del estudio.
    - Archivos transversales que el `CLAUDE.md` referencia internamente: subí también `argentina/fuentes.md` (conectores y ruteo por pieza de demanda), `argentina/bucles-SKILL.md` (bucle de fundamentación), `argentina/marcadores-GLOSARIO.md`, `argentina/diagnostico-SKILL.md` y `argentina/plazos-SKILL.md`. En un Project no hay acceso al disco: los punteros del `CLAUDE.md` (por ejemplo "ver argentina/fuentes.md") solo resuelven si el archivo está subido como conocimiento del Project (Configuración del proyecto → subir archivos).
 4. Guardás. Cada conversación nueva dentro del Project arranca con todos esos archivos activos.
@@ -375,7 +382,7 @@ Los plugins disponibles corresponden a las áreas de práctica cubiertas por est
 | `familia-DOCTRINA.md` | Holdings verificados vía SAIJ por instituto (anclados a sumario, tribunal y fecha; carátulas anonimizadas por minoridad): interés superior y autonomía progresiva (art. 26 CCCN), restitución internacional (CSJN, excepción de grave riesgo), compensación económica (no automática, arts. 441-442), gestación por sustitución, cuidado personal compartido; marcadores para institutos sin precedente cargado | - | - |
 | `societario-CLAUDE.md` | Societario y M&A | `ejemplos-societario.md` | Resoluciones IGJ/DPPJ, capital mínimo |
 | `tributario-CLAUDE.md` | Derecho tributario | - | Alícuotas, MNI, umbrales de punibilidad |
-| `previsional-CLAUDE.md` | Derecho previsional (SIPA) ante el Fuero Federal de la Seguridad Social · acción insignia: reajuste de haberes (haber inicial + movilidad); acceso al beneficio sin 30 años de aportes (moratorias, PUAM), pensión derivada con prueba de convivencia, servicios mixtos (dependencia + autónomo, SICAM), impugnación de denegatoria, costas por su orden y honorarios en UMA (sin cuota litis) | `ejemplos-previsional.md` | Movilidad post-DNU 274/2024 (fuente reglamentaria, no legal), vencimiento de la UPDP (Ley 27.705, marzo 2025) y vigencia de la UCAP, plazo de impugnación 90/180 días (art. 25 LNPA reformado por Ley 27.742), tasa de interés del fuero |
+| `previsional-CLAUDE.md` | Derecho previsional (SIPA) ante el Fuero Federal de la Seguridad Social · acción insignia: reajuste de haberes (haber inicial + movilidad); acceso al beneficio sin 30 años de aportes (moratorias, PUAM), pensión derivada con prueba de convivencia, servicios mixtos (dependencia + autónomo, SICAM), impugnación de denegatoria, costas por su orden y honorarios en UMA (sin cuota litis) | `ejemplos-previsional.md` + `previsional/escritos/` (skill orquestador + modelos: demanda de reajuste de haberes, demanda de impugnación de denegatoria, demanda de pensión derivada) | Movilidad post-DNU 274/2024 (fuente reglamentaria, no legal), vencimiento de la UPDP (Ley 27.705, marzo 2025) y vigencia de la UCAP, plazo de impugnación 90/180 días (art. 25 LNPA reformado por Ley 27.742), tasa de interés del fuero |
 | `concursos-CLAUDE.md` | Concursos y quiebras (LCQ) | - | Tasas post-concursales, reformas LCQ |
 | `transito-CLAUDE.md` | Infracciones y multas de tránsito (Nacional/ANSV-SINAI, CABA, PBA y 22 provincias) | `transito/descargos/` (skill + 7 modelos por causal) | Valor de la UF, % de pago voluntario, plazos por jurisdicción, art. 71 (defensa a distancia) |
 | `contratos/CLAUDE.md` | Revisión y redacción de contratos | `contratos/red-flags.md` | Régimen cambiario, locaciones, intertemporalidad |
@@ -583,6 +590,9 @@ Accedé directamente y pegá el texto en la sesión. Son la fuente de verdad ant
 - Diagnosticar el acceso al beneficio sin 30 años de aportes (estado de la UPDP y la UCAP, Ley 24.476, PUAM, tareas de cuidado) y armar el checklist probatorio de convivencia en pensión derivada (plazos de 5 y 2 años, art. 53 Ley 24.241)
 - Controlar el nodo bloqueante de habilitación de instancia (plazo de caducidad de la impugnación, hoy 90 o 180 días hábiles judiciales según la reforma de la Ley 27.742) y la prescripción bienal del retroactivo
 - Asesorar sobre costas (por su orden, art. 21 Ley 24.463) y honorarios (prohibición de cuota litis, art. 6 inc. c Ley 27.423; regulación en UMA)
+- Redactar demanda de reajuste de haberes, demanda de impugnación judicial de denegatoria de ANSES y demanda de pensión derivada por conviviente, con el skill orquestador y los modelos de `previsional/escritos/`
+- Incluir la reserva de no retención de Impuesto a las Ganancias sobre retroactivos cuando el cliente está en situación de vulnerabilidad ("García, María Isabel c/ AFIP", Fallos 342:411), y distinguir cuándo corresponde impugnación judicial, amparo por mora (art. 28 LNPA) o denuncia de ilegitimidad (art. 1° bis inc. h LNPA) frente a la demora o el silencio de ANSES
+- Verificar la tasa de interés del retroactivo por Sala interviniente de la CFSS (I, II o III), no por un criterio genérico del fuero, y validar la consistencia de datos personales del afiliado en ANSES/UDAI antes de tramitar una moratoria o una liquidación de deuda SICAM
 
 **Concursal:**
 - Verificar privilegios de créditos y estrategia de verificación
